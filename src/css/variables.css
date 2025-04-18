@@ -3,16 +3,16 @@
  */
 
 :root {
-  --colors-primary: #3b82f6;
-  --colors-secondary: #10b981;
-  --colors-background: #ffffff;
-  --colors-text-primary: #1f2937;
-  --colors-text-secondary: #6b7280;
-  --input-0: 0;
-  --input-16: 16;
-  --input-24: 24;
-  --input-40: 40;
-  --output-typography-large: 900 40px Inter;
-  --output-typography-medium: 600 24px Inter;
-  --output-typography-small: 400 16px Inter;
+  --colorsPrimary: #1a56db;
+  --colorsSecondary: #10b981;
+  --colorsBackground: #ffffff;
+  --colorsTextPrimary: #1f2937;
+  --colorsTextSecondary: #6b7280;
+  --input0: 0;
+  --input16: 16;
+  --input24: 24;
+  --input40: 40;
+  --outputTypographyLarge: 900 var(--input40)px Inter;
+  --outputTypographyMedium: 600 var(--input24)px Inter;
+  --outputTypographySmall: 400 var(--input16)px Inter;
 }
