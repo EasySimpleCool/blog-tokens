@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "primary": {
+      "value": "#3B82F6",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#10B981",
+      "type": "color"
+    },
+    "background": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "text": {
+      "primary": {
+        "value": "#1F2937",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#6B7280",
+        "type": "color"
+      }
+    }
+  }
+}
