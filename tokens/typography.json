@@ -1,6 +1,6 @@
 {
   "typography": {
-    "big": {
+    "large": {
       "fontSize": "40px",
       "fontWeight": "700",
       "lineHeight": "1.2",
