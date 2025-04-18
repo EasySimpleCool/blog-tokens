@@ -15,16 +15,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@tokens-studio/sd-transforms": "^0.16.0",
-    "style-dictionary": "^3.8.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EasySimpleCool/blog-tokens.git"
-  },
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/EasySimpleCool/blog-tokens/issues"
-  },
-  "homepage": "https://github.com/EasySimpleCool/blog-tokens#readme"
+    "@tokens-studio/sd-transform": "^0.16.1",
+    "style-dictionary": "^3.9.0"
+  }
 }
