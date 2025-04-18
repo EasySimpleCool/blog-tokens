@@ -1,1 +1,18 @@
- 
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --colors-primary: #3b82f6;
+  --colors-secondary: #10b981;
+  --colors-background: #ffffff;
+  --colors-text-primary: #1f2937;
+  --colors-text-secondary: #6b7280;
+  --input-0: 0;
+  --input-16: 16;
+  --input-24: 24;
+  --input-40: 40;
+  --output-typography-large: 900 40px Inter;
+  --output-typography-medium: 600 24px Inter;
+  --output-typography-small: 400 16px Inter;
+}

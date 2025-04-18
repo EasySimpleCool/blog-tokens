@@ -1,11 +1,16 @@
-const { transform } = require("@tokens-studio/sd-transform");
+import { register } from "@tokens-studio/sd-transforms";
+import StyleDictionary from "style-dictionary";
 
-module.exports = {
+// Register the transforms
+register(StyleDictionary);
+
+export default {
   source: ["tokens/**/*.json"],
+  preprocessors: ["tokens-studio"], // Required for DTCG tokens
   platforms: {
     css: {
-      transformGroup: "css",
-      transforms: ["attribute/cti", "name/cti/kebab", "color/css"],
+      transformGroup: "tokens-studio",
+      transforms: ["name/kebab"], // Use kebab case for CSS variables
       buildPath: "src/css/",
       files: [
         {
@@ -18,13 +23,4 @@ module.exports = {
       ],
     },
   },
-  // Use TokenStudio transformer
-  parsers: [
-    {
-      pattern: /\.json$/,
-      parse: ({ contents }) => {
-        return transform({ tokens: JSON.parse(contents) });
-      },
-    },
-  ],
 };
