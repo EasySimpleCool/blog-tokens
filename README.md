@@ -61,7 +61,8 @@ This project is configured to preserve the exact token naming structure from Fig
 - **NEVER modify the token structure or naming** that comes from Figma + Tokens Studio
 - Figma + Tokens Studio is the **single source of truth** for token naming
 - The Style Dictionary configuration preserves original token references
-- Do not add manual name transformations to the Style Dictionary config
+- When using W3C DTCG format, token values will use `$type` and `$value` properties
+- References must be updated to include the appropriate path and `$value` (e.g., `{input.40.$value}`)
 
 ## Project Structure
 
@@ -83,7 +84,26 @@ blog-tokens/
 
 - Node.js v18 or higher
 - Style Dictionary v4.3+
-- @tokens-studio/sd-transforms v2.0+
+- @tokens-studio/sd-transforms v1.3.0+
+
+## Troubleshooting
+
+### Common Issues
+
+#### Token References Not Resolving
+
+- When using W3C DTCG format, make sure references include the `$value` suffix
+- Example: Change `{40}` to `{input.40.$value}`
+
+#### Missing Typography Values
+
+- Typography tokens are composite tokens and require proper expansion
+- The `transformGroup: "tokens-studio"` handles this automatically
+
+#### GitHub Action Failures
+
+- Ensure package.json has the correct version of @tokens-studio/sd-transforms
+- Use compatible versions of Style Dictionary and @tokens-studio/sd-transforms
 
 ## License
 

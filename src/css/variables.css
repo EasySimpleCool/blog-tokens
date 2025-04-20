@@ -3,16 +3,16 @@
  */
 
 :root {
+  --input0: 0;
+  --input16: 16;
+  --input24: 24;
+  --input40: 40;
   --colorsPrimary: #1a56db;
   --colorsSecondary: #10b981;
   --colorsBackground: #ffffff;
   --colorsTextPrimary: #1f2937;
   --colorsTextSecondary: #6b7280;
-  --input0: 0;
-  --input16: 16;
-  --input24: 24;
-  --input40: 40;
-  --outputTypographyLarge: 900 var(--input40)px Inter;
-  --outputTypographyMedium: 600 var(--input24)px Inter;
-  --outputTypographySmall: 400 var(--input16)px Inter;
+  --outputTypographyLarge: 900 40px Inter;
+  --outputTypographyMedium: 600 24px Inter;
+  --outputTypographySmall: 400 16px Inter;
 }
