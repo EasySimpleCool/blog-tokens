@@ -10,16 +10,13 @@ export default {
   source: ["tokens/tokens.json"],
   platforms: {
     css: {
-      transformGroup: "tokens-studio", // Use the predefined transform group
-      buildPath: "src/css/",
+      transformGroup: "tokens-studio",
+      transforms: ["name/kebab"],
+      buildPath: "build/css/",
       files: [
         {
-          destination: "variables.css",
+          destination: "_variables.css",
           format: "css/variables",
-          options: {
-            selector: ":root",
-            outputReferences: true,
-          },
         },
       ],
     },
