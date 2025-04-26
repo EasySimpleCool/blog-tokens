@@ -8,14 +8,20 @@ register(StyleDictionary);
 // Export the configuration
 export default {
   source: ["tokens/tokens.json"],
+  // Add the preprocessors configuration
+  preprocessors: ["tokens-studio"],
+  // Add verbosity logging for better debugging
+  log: {
+    verbosity: "default",
+  },
   platforms: {
     css: {
       transformGroup: "tokens-studio",
       transforms: ["name/kebab"],
-      buildPath: "build/css/",
+      buildPath: "src/css/",
       files: [
         {
-          destination: "_variables.css",
+          destination: "variables.css",
           format: "css/variables",
         },
       ],
