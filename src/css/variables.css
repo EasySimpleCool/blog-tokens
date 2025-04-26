@@ -3,25 +3,30 @@
  */
 
 :root {
-  --inputNumber0: 0;
-  --inputNumber16: 16;
-  --inputNumber24: 24;
-  --inputNumber40: 40;
-  --inputColorBlue250: #5da6d7;
-  --inputColorBlue500: #0a91cc;
-  --inputColorLight250: #f7f9fb;
-  --inputColorLight500: #e8edf4;
-  --inputColorLight750: #d9e1ec;
-  --inputColorDark250: #545f6d;
-  --inputColorDark500: #343a41;
-  --outputOutputTypographyLarge: 900 $number.40 Inter;
-  --outputOutputTypographyMedium: 600 $number.24 Inter;
-  --outputOutputTypographySmall: 400 $number.16 Inter;
-  --outputOutputColorAccentPrimary: $color.blue.500;
-  --outputOutputColorAccentLighter: $color.blue.250;
-  --outputOutputColorFgPrimary: $color.dark.500;
-  --outputOutputColorFgSecondary: $color.dark.250;
-  --outputOutputColorBgAbove: $color.light.250;
-  --outputOutputColorBgMiddle: $color.light.500;
-  --outputOutputColorBgBelow: $color.light.750;
+  --inputInputNumber0: 0;
+  --inputInputNumber16: 16;
+  --inputInputNumber24: 24;
+  --inputInputNumber40: 40;
+  --inputInputColorBlue250: #5da6d7;
+  --inputInputColorBlue500: #0a91cc;
+  --inputInputColorLight250: #f7f9fb;
+  --inputInputColorLight500: #e8edf4;
+  --inputInputColorLight750: #d9e1ec;
+  --inputInputColorDark250: #545f6d;
+  --inputInputColorDark500: #343a41;
+  --outputOutputTypographyLarge: 900 $input.number.40 Inter;
+  --outputOutputTypographyMedium: 600 $input.number.24 Inter;
+  --outputOutputTypographySmall: 400 $input.number.16 Inter;
+  --outputOutputColorAccentPrimary: $input.color.blue.500;
+  --outputOutputColorAccentLighter: $input.color.blue.250;
+  --outputOutputColorFgPrimary: $input.color.dark.500;
+  --outputOutputColorFgSecondary: $input.color.dark.250;
+  --outputOutputColorBgAbove: $input.color.light.250;
+  --outputOutputColorBgMiddle: $input.color.light.500;
+  --outputOutputColorBgBelow: $input.color.light.750;
+  --compSectionCompSectionHPad: $input.number.40;
+  --compSectionCompSectionBg: $output.color.bg.middle;
+  --compStackCompStackGap: $input.number.40;
+  --compImageCompImageAspectRatio: 1:1;
+  --compContainerCompContainerMaxW: 800px;
 }
