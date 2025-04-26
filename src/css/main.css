@@ -11,8 +11,8 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: var(--colors-background);
-  color: var(--colors-text-primary);
+  background-color: var(--colorsBackground);
+  color: var(--colorsTextPrimary);
   line-height: 1.5;
   max-width: 800px;
   margin: 0 auto;
@@ -20,35 +20,29 @@ body {
 }
 
 /* Typography styles */
-.text-big {
-  font-size: var(--typography-big-font-size);
-  font-weight: var(--typography-big-font-weight);
-  line-height: var(--typography-big-line-height);
+.text-large {
+  font: var(--outputTypographyLarge);
 }
 
 .text-medium {
-  font-size: var(--typography-medium-font-size);
-  font-weight: var(--typography-medium-font-weight);
-  line-height: var(--typography-medium-line-height);
+  font: var(--outputTypographyMedium);
 }
 
 .text-small {
-  font-size: var(--typography-small-font-size);
-  font-weight: var(--typography-small-font-weight);
-  line-height: var(--typography-small-line-height);
+  font: var(--outputTypographySmall);
 }
 
 /* Color utilities */
 .text-primary {
-  color: var(--colors-primary);
+  color: var(--colorsPrimary);
 }
 
 .text-secondary {
-  color: var(--colors-secondary);
+  color: var(--colorsSecondary);
 }
 
 .text-muted {
-  color: var(--colors-text-secondary);
+  color: var(--colorsTextSecondary);
 }
 
 /* Blog post styles */
