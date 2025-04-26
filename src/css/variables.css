@@ -17,9 +17,9 @@
   --modify-modify-number-small: $input.number.16;
   --modify-modify-number-medium: $input.number.24;
   --modify-modify-number-large: $input.number.40;
-  --output-output-typography-small: 400 $input.number.16 Inter;
-  --output-output-typography-medium: 600 $input.number.24 Inter;
-  --output-output-typography-large: 900 $input.number.40 Inter;
+  --output-output-typography-small: 400 $modify.number.16 Inter;
+  --output-output-typography-medium: 600 $modify.number.24 Inter;
+  --output-output-typography-large: 900 $modify.number.40 Inter;
   --output-output-color-accent-primary: $input.color.blue.500;
   --output-output-color-accent-lighter: $input.color.blue.250;
   --output-output-color-fg-primary: $input.color.dark.500;
@@ -30,9 +30,9 @@
   --output-output-number-small: $modify.number.small;
   --output-output-number-medium: $modify.number.medium;
   --output-output-number-large: $modify.number.large;
-  --comp-comp-section-h-pad: $output.number.large;
+  --comp-comp-section-h-pad: $output.dimension.large;
   --comp-comp-section-bg: $output.color.bg.middle;
-  --comp-comp-stack-gap: $output.number.large;
+  --comp-comp-stack-gap: $output.dimension.large;
   --comp-comp-image-aspect-ratio: 1px;
   --comp-comp-container-max-w: 800px;
 }
