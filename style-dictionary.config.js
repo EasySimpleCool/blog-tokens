@@ -8,9 +8,9 @@ register(StyleDictionary);
 // Export the configuration
 export default {
   source: ["tokens/tokens.json"],
-  // Add the preprocessors configuration
+  // Add the preprocessor explicitly as mentioned in the docs
   preprocessors: ["tokens-studio"],
-  // Add verbosity logging for better debugging
+  // Add logging for better debugging
   log: {
     verbosity: "default",
   },
@@ -23,6 +23,10 @@ export default {
         {
           destination: "variables.css",
           format: "css/variables",
+          options: {
+            selector: ":root",
+            outputReferences: true,
+          },
         },
       ],
     },
