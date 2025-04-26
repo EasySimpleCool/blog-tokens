@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "process-tokens": "style-dictionary build --config style-dictionary.config.js",
+    "process-tokens": "style-dictionary build --config style-dictionary.config.js --verbose",
     "dev": "browser-sync start --server 'src' --files 'src/**/*.html, src/**/*.css' --port 3000 --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
