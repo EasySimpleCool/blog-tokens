@@ -1,7 +1,12 @@
 /* Import the generated variables */
 @import "variables.css";
 
-/* Reset and base styles */
+/* 
+ * Streamlined CSS using Design Tokens
+ * Focuses on typography, images, and layout components
+ */
+
+/* Reset styles */
 * {
   margin: 0;
   padding: 0;
@@ -9,49 +14,140 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: var(--colorsBackground);
-  color: var(--colorsTextPrimary);
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: var(--outputOutputColorBgMiddle);
+  color: var(--outputOutputColorFgPrimary);
   line-height: 1.5;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
-/* Typography styles */
+/* -----------------------------
+ * Typography styles - using your 3 token definitions
+ * ----------------------------- */
+
 .text-large {
-  font: var(--outputTypographyLarge);
+  font-family: "Inter", sans-serif;
+  font-size: var(--inputNumber40);
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--outputOutputColorFgPrimary);
 }
 
 .text-medium {
-  font: var(--outputTypographyMedium);
+  font-family: "Inter", sans-serif;
+  font-size: var(--inputNumber24);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--outputOutputColorFgPrimary);
 }
 
 .text-small {
-  font: var(--outputTypographySmall);
+  font-family: "Inter", sans-serif;
+  font-size: var(--inputNumber16);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--outputOutputColorFgPrimary);
 }
 
-/* Color utilities */
+/* Utility text color classes */
 .text-primary {
-  color: var(--colorsPrimary);
+  color: var(--outputOutputColorFgPrimary);
 }
 
 .text-secondary {
-  color: var(--colorsSecondary);
+  color: var(--outputOutputColorFgSecondary);
 }
 
-.text-muted {
-  color: var(--colorsTextSecondary);
+.text-accent {
+  color: var(--outputOutputColorAccentPrimary);
 }
 
-/* Blog post styles */
-.blog-post {
-  margin-bottom: 2rem;
-}
+/* -----------------------------
+ * Image styling - with aspect ratio support
+ * ----------------------------- */
 
-.blog-post img {
+.image {
   max-width: 100%;
   height: auto;
-  margin: 1rem 0;
+  display: block;
+  border-radius: 4px;
+}
+
+/* For when you add an aspect ratio token */
+.image-container {
+  position: relative;
+  width: 100%;
+  /* Uncomment when you add the token
+  aspect-ratio: var(--tokenAspectRatio, 16/9);
+  */
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-caption {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  color: var(--outputOutputColorFgSecondary);
+}
+
+/* -----------------------------
+ * Layout Components - connected to tokens
+ * ----------------------------- */
+
+/* Section - For backgrounds and padding */
+.section {
+  padding: var(--inputNumber24);
+  width: 100%;
+  background-color: var(--outputOutputColorBgMiddle);
+}
+
+/* Container - For max-width constraints */
+.container {
+  width: 100%;
+  max-width: 800px; /* Could be a token in future */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Stack - For controlling vertical spacing between elements */
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Stack spacing variations */
+.stack-small {
+  gap: var(--inputNumber16);
+}
+
+.stack-medium {
+  gap: var(--inputNumber24);
+}
+
+.stack-large {
+  gap: var(--inputNumber40);
+}
+
+/* Basic styling for standard HTML elements to use typography tokens */
+h1 {
+  font-size: var(--inputNumber40);
+  font-weight: 900;
+  margin-bottom: var(--inputNumber24);
+}
+
+h2 {
+  font-size: var(--inputNumber24);
+  font-weight: 600;
+  margin-bottom: var(--inputNumber16);
+}
+
+p {
+  font-size: var(--inputNumber16);
+  margin-bottom: var(--inputNumber16);
 }
