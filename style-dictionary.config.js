@@ -1,31 +1,16 @@
+// style-dictionary.config.js
 import { register } from "@tokens-studio/sd-transforms";
 import StyleDictionary from "style-dictionary";
 
-// Register the Token Studio transforms
+// Register the Token Studio transforms properly
 register(StyleDictionary);
 
-// Add custom formats, transforms, or parsers if needed
-StyleDictionary.registerTransform({
-  name: "fixReferences",
-  type: "value",
-  transitive: true,
-  matcher: (token) =>
-    token.original.value &&
-    typeof token.original.value === "string" &&
-    token.original.value.includes("{"),
-  transformer: (token) => {
-    // This helps fix reference issues by ensuring they point to the right path
-    return token.original.value;
-  },
-});
-
+// Export the configuration
 export default {
   source: ["tokens/tokens.json"],
   platforms: {
     css: {
-      transformGroup: "tokens-studio",
-      // Add extra transforms if needed
-      transforms: ["fixReferences"],
+      transformGroup: "tokens-studio", // Use the predefined transform group
       buildPath: "src/css/",
       files: [
         {
@@ -34,21 +19,9 @@ export default {
           options: {
             selector: ":root",
             outputReferences: true,
-            // These options help with W3C format handling
-            tokenFormat: "w3c",
-            showFileHeader: false,
           },
         },
       ],
     },
   },
-  // Better handling of references
-  parsers: [
-    {
-      pattern: /\.json$/,
-      parse: ({ contents }) => {
-        return JSON.parse(contents);
-      },
-    },
-  ],
 };
