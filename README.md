@@ -31,7 +31,13 @@ npm install
 npm run process-tokens
 ```
 
-4. Open `src/index.html` in your browser to view the site
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+This will open your default browser with the site and automatically refresh when you make changes.
 
 ## Working with Design Tokens
 
@@ -39,7 +45,8 @@ npm run process-tokens
 
 1. Edit token files in the `tokens` directory
 2. Run `npm run process-tokens` to update CSS variables
-3. View changes in the browser
+3. Run `npm run dev` to start the local development server with auto-reload
+4. Make changes to HTML or CSS files and see them update in real-time
 
 ### Using Tokens Studio for Figma
 
