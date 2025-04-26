@@ -22,8 +22,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Process tokens
-        run: npm run process-tokens
+      - name: Process tokens with verbose output
+        run: npm run process-tokens -- --verbose
+        # This assumes your package.json has a script like:
+        # "process-tokens": "style-dictionary build --config style-dictionary.config.js"
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
