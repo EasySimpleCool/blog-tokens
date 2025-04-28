@@ -3,10 +3,10 @@
  */
 
 :root {
-  --input-number-0: 0;
-  --input-number-16: 16;
-  --input-number-24: 24;
-  --input-number-40: 40;
+  --input-dimension-0: 0;
+  --input-dimension-16: 16px;
+  --input-dimension-24: 24px;
+  --input-dimension-40: 40px;
   --input-color-blue-250: #5da6d7;
   --input-color-blue-500: #0a91cc;
   --input-color-light-250: #f7f9fb;
@@ -16,9 +16,9 @@
   --input-color-dark-500: #343a41;
   --comp-image-aspect-ratio: 1:1;
   --comp-container-max-w: 800px;
-  --modify-number-small: var(--input-number-16);
-  --modify-number-medium: var(--input-number-24);
-  --modify-number-large: var(--input-number-40);
+  --modify-number-small: var(--input-dimension-16);
+  --modify-number-medium: var(--input-dimension-24);
+  --modify-number-large: var(--input-dimension-40);
   --output-color-accent-primary: var(--input-color-blue-500);
   --output-color-accent-lighter: var(--input-color-blue-250);
   --output-color-accent-on-accent: var(--input-color-light-250);
@@ -27,9 +27,9 @@
   --output-color-bg-above: var(--input-color-light-250);
   --output-color-bg-middle: var(--input-color-light-500);
   --output-color-bg-below: var(--input-color-light-750);
-  --output-typography-small: 400 var(--modify-number-small)px Inter;
-  --output-typography-medium: 600 var(--modify-number-medium)px Inter;
-  --output-typography-large: 900 var(--modify-number-large)px Inter;
+  --output-typography-small: 400 var(--modify-number-small) Inter;
+  --output-typography-medium: 600 var(--modify-number-medium) Inter;
+  --output-typography-large: 900 var(--modify-number-large) Inter;
   --output-number-small: var(--modify-number-small);
   --output-number-medium: var(--modify-number-medium);
   --output-number-large: var(--modify-number-large);
