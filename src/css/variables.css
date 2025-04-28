@@ -14,9 +14,9 @@
   --input-color-light-750: #d9e1ec;
   --input-color-dark-250: #545f6d;
   --input-color-dark-500: #343a41;
-  --modify-number-small: $input.number.16;
-  --modify-number-medium: $input.number.24;
-  --modify-number-large: $input.number.40;
+  --modify-number-small: 16;
+  --modify-number-medium: 24;
+  --modify-number-large: 40;
   --output-typography-small: 400 $modify.number.small Inter;
   --output-typography-medium: 600 $modify.number.medium Inter;
   --output-typography-large: 900 $modify.number.large Inter;
