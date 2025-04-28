@@ -30,9 +30,9 @@
   --output-output-number-small: $modify.number.small;
   --output-output-number-medium: $modify.number.medium;
   --output-output-number-large: $modify.number.large;
-  --comp-comp-section-h-pad: $output.dimension.large;
+  --comp-comp-section-h-pad: $output.number.large;
   --comp-comp-section-bg: $output.color.bg.middle;
-  --comp-comp-stack-gap: $output.dimension.large;
+  --comp-comp-stack-gap: $output.number.large;
   --comp-comp-image-aspect-ratio: 1px;
   --comp-comp-container-max-w: 800px;
 }
