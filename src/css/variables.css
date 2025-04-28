@@ -34,7 +34,7 @@
   --comp-section-h-pad: $output.number.large;
   --comp-section-bg: $output.color.bg.middle;
   --comp-stack-gap: $output.number.large;
-  --comp-image-aspect-ratio: 1: 1;
+  --comp-image-aspect-ratio: 1:1;
   --comp-container-max-w: 800px;
   --comp-button-primary-bg: $output.color.accent.primary;
   --comp-button-primary-fg: $output.color.accent.on-accent;
