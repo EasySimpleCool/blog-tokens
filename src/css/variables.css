@@ -4,9 +4,9 @@
 
 :root {
   --input-input-number-0: 0px;
-  --input-input-number-16: 16px;
-  --input-input-number-24: 24px;
-  --input-input-number-40: 40px;
+  --input-input-number-16: 16;
+  --input-input-number-24: 24;
+  --input-input-number-40: 40;
   --input-input-color-blue-250: #5da6d7;
   --input-input-color-blue-500: #0a91cc;
   --input-input-color-light-250: #f7f9fb;
@@ -14,12 +14,12 @@
   --input-input-color-light-750: #d9e1ec;
   --input-input-color-dark-250: #545f6d;
   --input-input-color-dark-500: #343a41;
-  --modify-modify-number-small: $input.number.16;
-  --modify-modify-number-medium: $input.number.24;
-  --modify-modify-number-large: $input.number.40;
-  --output-output-typography-small: 400 $modify.number.16 Inter;
-  --output-output-typography-medium: 600 $modify.number.24 Inter;
-  --output-output-typography-large: 900 $modify.number.40 Inter;
+  --modify-modify-number-small: $input.16;
+  --modify-modify-number-medium: $input.24;
+  --modify-modify-number-large: $input.40;
+  --output-output-typography-small: 400 $modify.number.small Inter;
+  --output-output-typography-medium: 600 $modify.number.medium Inter;
+  --output-output-typography-large: 900 $modify.number.large Inter;
   --output-output-color-accent-primary: $input.color.blue.500;
   --output-output-color-accent-lighter: $input.color.blue.250;
   --output-output-color-accent-on-accent: $input.color.light.250;
@@ -30,7 +30,7 @@
   --output-output-color-bg-below: $input.color.light.750;
   --output-output-number-small: $modify.number.small;
   --output-output-number-medium: $modify.number.medium;
-  --output-output-number-large: $modify.number.large;
+  --output-output-number-large: $modify.number.large 0px;
   --comp-comp-section-h-pad: $output.number.large;
   --comp-comp-section-bg: $output.color.bg.middle;
   --comp-comp-stack-gap: $output.number.large;
