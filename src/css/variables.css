@@ -32,12 +32,12 @@
   --output-number-medium: $modify.number.medium;
   --output-number-large: $modify.number.large;
   --comp-section-h-pad: $output.number.large;
-  --comp-section-bg: $output.color.bg.middle;
+  --comp-section-bg: $input.color.light.500;
   --comp-stack-gap: $output.number.large;
   --comp-image-aspect-ratio: 1:1;
   --comp-container-max-w: 800px;
-  --comp-button-primary-bg: $output.color.accent.primary;
-  --comp-button-primary-fg: $output.color.accent.on-accent;
-  --comp-button-secondary-border: $output.color.accent.lighter;
-  --comp-button-secondary-fg: $output.color.accent.primary;
+  --comp-button-primary-bg: $input.color.blue.500;
+  --comp-button-primary-fg: $input.color.light.250;
+  --comp-button-secondary-border: $input.color.blue.250;
+  --comp-button-secondary-fg: $input.color.blue.500;
 }
