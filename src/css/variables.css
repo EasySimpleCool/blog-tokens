@@ -22,6 +22,7 @@
   --output-output-typography-large: 900 $modify.number.40 Inter;
   --output-output-color-accent-primary: $input.color.blue.500;
   --output-output-color-accent-lighter: $input.color.blue.250;
+  --output-output-color-accent-on-accent: $input.color.light.250;
   --output-output-color-fg-primary: $input.color.dark.500;
   --output-output-color-fg-secondary: $input.color.dark.250;
   --output-output-color-bg-above: $input.color.light.250;
@@ -33,6 +34,10 @@
   --comp-comp-section-h-pad: $output.number.large;
   --comp-comp-section-bg: $output.color.bg.middle;
   --comp-comp-stack-gap: $output.number.large;
-  --comp-comp-image-aspect-ratio: 1px;
+  --comp-comp-image-aspect-ratio: 1:1;
   --comp-comp-container-max-w: 800px;
+  --comp-comp-button-primary-bg: $output.color.accent.primary;
+  --comp-comp-button-primary-fg: $output.color.accent.on-accent;
+  --comp-comp-button-secondary-border: $output.color.accent.lighter;
+  --comp-comp-button-secondary-fg: $output.color.accent.primary;
 }
