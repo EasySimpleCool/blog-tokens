@@ -3,7 +3,7 @@ import { register } from "@tokens-studio/sd-transforms";
 import StyleDictionary from "style-dictionary";
 
 // Register the Token Studio transforms properly
-register(StyleDictionary);
+register(StyleDictionary, { excludeParentKeys: true });
 
 // Export the configuration
 export default {
@@ -23,10 +23,6 @@ export default {
         {
           destination: "variables.css",
           format: "css/variables",
-          options: {
-            selector: ":root",
-            outputReferences: true,
-          },
         },
       ],
     },
