@@ -4,6 +4,8 @@
 
 :root {
   --input-dimension-0: 0px;
+  --input-dimension-4: 4px;
+  --input-dimension-8: 8px;
   --input-dimension-16: 16px;
   --input-dimension-24: 24px;
   --input-dimension-40: 40px;
@@ -15,7 +17,7 @@
   --input-color-light-750: #d9e1ec;
   --input-color-dark-250: #545f6d;
   --input-color-dark-500: #343a41;
-  --comp-stack-max-w-default: 800px;
+  --comp-container-max-w-default: 640px;
   --comp-image-aspect-ratio: 1:1;
   --modify-dimension-small: var(--input-dimension-16);
   --modify-dimension-medium: var(--input-dimension-24);
@@ -29,6 +31,8 @@
   --output-color-bg-above: var(--input-color-light-250);
   --output-color-bg-middle: var(--input-color-light-500);
   --output-color-bg-below: var(--input-color-light-750);
+  --output-border-radius-small: var(--input-dimension-4);
+  --output-border-radius-default: var(--input-dimension-8);
   --output-typography-small: 400 var(--modify-dimension-small) Inter;
   --output-typography-medium: 600 var(--modify-dimension-medium) Inter;
   --output-typography-large: 900 var(--modify-dimension-large) Inter;
@@ -45,6 +49,9 @@
   --comp-section-h-pad-default: var(--output-dimension-large);
   --comp-section-v-pad-default: var(--output-dimension-xlarge); /** Use: Body sections  */
   --comp-section-v-pad-less: var(--output-dimension-medium); /** Use: Header, Footer */
+  --comp-box-pad-less: var(--output-dimension-small);
+  --comp-box-pad-default: var(--output-dimension-medium);
+  --comp-box-pad-more: var(--output-dimension-large);
   --comp-stack-gap-less: var(--output-dimension-small);
   --comp-stack-gap-default: var(--output-dimension-medium);
   --comp-stack-gap-more: var(--output-dimension-large);
