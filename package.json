@@ -7,7 +7,11 @@
   "scripts": {
     "process-tokens": "style-dictionary build --config style-dictionary.config.js --verbose",
     "dev": "browser-sync start --server --files 'src/**/*.css, *.html' --port 3000 --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eleventy": "eleventy",
+    "eleventy:dev": "eleventy --serve",
+    "build": "npm run process-tokens && eleventy",
+    "start": "npm run process-tokens && eleventy --serve"
   },
   "keywords": [
     "design-tokens",
@@ -20,6 +24,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
     "@tokens-studio/sd-transforms": "^1.3.0",
     "browser-sync": "^2.29.3",
     "style-dictionary": "^4.4.0"

@@ -1,66 +1,23 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Tokens</title>
-    <link rel="stylesheet" href="css/variables.css" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <!-- Header section with darker background -->
-    <section class="section section-middle">
-      <div class="container">
-        <h1 class="text-large text-accent">Blog Tokens</h1>
-        <p class="text-small text-secondary">
-          A minimalist blog implementation using design tokens
-        </p>
+---
+layout: base
+---
+<h1>Welcome to Blog Tokens</h1>
+<p>A minimalist blog implementation using design tokens</p>
+
+<div class="featured-posts">
+  <h2>Latest Posts</h2>
+  
+  {% set recentPosts = collections.posts %}
+  {% if recentPosts.length > 0 %}
+    {% for post in recentPosts %}
+      <div class="post-preview">
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p class="post-date">{{ post.date }}</p>
+        <p>{{ post.data.excerpt }}</p>
       </div>
-    </section>
-
-    <!-- Main content section with lighter background -->
-    <section class="section section-above">
-      <div class="container">
-        <main class="stack stack-large">
-          <article class="stack stack-medium">
-            <h2 class="text-medium">Welcome to Blog Tokens</h2>
-            <p class="text-small">
-              This is a simple blog that demonstrates the use of design tokens
-              for consistent styling. The entire site is built with only HTML
-              and CSS - no JavaScript!
-            </p>
-
-            <!-- Example of image with container -->
-            <div class="image-container">
-              <img
-                src="https://via.placeholder.com/800x400"
-                alt="Placeholder image"
-                class="image"
-              />
-              <p class="image-caption">A sample image with caption</p>
-            </div>
-
-            <div class="stack stack-small">
-              <h3 class="text-medium">Key Features</h3>
-              <ul class="text-small stack stack-small">
-                <li>Pure HTML and CSS implementation</li>
-                <li>Design tokens integration via Tokens Studio</li>
-                <li>Consistent typography and color systems</li>
-                <li>CSS variable-based styling</li>
-              </ul>
-            </div>
-          </article>
-        </main>
-      </div>
-    </section>
-
-    <!-- Footer section with middle background -->
-    <section class="section section-below">
-      <div class="container">
-        <footer class="stack-medium">
-          <p>&copy; 2023 Blog Tokens Project</p>
-        </footer>
-      </div>
-    </section>
-  </body>
-</html>
+    {% endfor %}
+  {% else %}
+    <p>No posts found.</p>
+  {% endif %}
+  
+</div>

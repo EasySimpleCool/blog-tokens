@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} - {% endif %}Blog Tokens</title>
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header>
+    <a href="/"><h1>Blog Tokens</h1></a>
+    <nav>
+      
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+</body>
+</html>

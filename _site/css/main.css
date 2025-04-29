@@ -1,0 +1,112 @@
+/* Import the generated variables */
+@import "variables.css";
+
+/* 
+ * Streamlined CSS using Design Tokens
+ * Focuses on typography, images, and layout components
+ */
+
+/* Reset the styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: var(--comp-section-bg);
+  color: var(--output-color-fg-primary);
+  line-height: 1.5;
+}
+
+/* -----------------------------
+ * Image styling - with aspect ratio support
+ * ----------------------------- */
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* For when you add an aspect ratio token */
+.image-container {
+  position: relative;
+  width: 100%;
+  /* Uncomment when you add the token
+  aspect-ratio: var(--tokenAspectRatio, 16/9);
+  */
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-caption {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  color: var(--output-color-fg-secondary);
+}
+
+/* -----------------------------
+ * Layout Components - connected to tokens
+ * ----------------------------- */
+
+/* Section - For backgrounds and padding */
+.section {
+  padding: var(--comp-section-h-pad);
+  width: 100%;
+  background-color: var(--comp-section-bg);
+}
+
+/* Container - For max-width constraints */
+.container {
+  width: 100%;
+  max-width: 800px; /* Could be a token in future */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Stack - For controlling vertical spacing between elements */
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Stack spacing variations */
+.stack-small {
+  gap: var(--output-dimension-small);
+}
+
+.stack-medium {
+  gap: var(--output-dimension-medium);
+}
+
+.stack-large {
+  gap: var(--output-dimension-large);
+}
+
+/* Basic styling for standard HTML elements to use typography tokens */
+h1 {
+  font-size: var(--modify-dimension-large);
+  font-weight: 900;
+  color: var(--output-color-fg-primary);
+}
+
+h2 {
+  font-size: var(--modify-dimension-medium);
+  font-weight: 600;
+  color: var(--output-color-fg-primary);
+}
+
+p {
+  font-size: var(--modify-dimension-small);
+  color: var(--output-color-fg-secondary);
+}

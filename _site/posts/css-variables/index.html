@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Variables in Practice - Blog Tokens</title>
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header>
+    <a href="/"><h1>Blog Tokens</h1></a>
+    <nav>
+      
+    </nav>
+  </header>
+
+  <main>
+    <div class="post-navigation">
+  <a href="/">← Back to home</a>
+</div>
+<article class="post">
+  <header class="post-header">
+    <h1>CSS Variables in Practice</h1>
+    <p class="post-date">Tue Apr 22 2025 10:00:00 GMT+1000 (Australian Eastern Standard Time)</p>
+  </header>
+
+  <div class="post-content">
+    <p>CSS custom properties (also known as CSS variables) have transformed how we write and maintain CSS. They allow us to define reusable values that can be referenced throughout our stylesheets.</p>
+<p><img src="/images/image.png" alt="Design Tokens Visualization"></p>
+<h2>Basic Syntax</h2>
+<p>CSS variables are defined using the following syntax:</p>
+<pre><code class="language-css">:root {
+  --primary-color: #0a91cc;
+  --font-size-base: 16px;
+}
+
+.button {
+  background-color: var(--primary-color);
+  font-size: var(--font-size-base);
+}
+</code></pre>
+
+  </div>
+</article>
+
+
+  </main>
+
+  
+</body>
+</html>
