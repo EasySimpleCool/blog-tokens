@@ -43,6 +43,8 @@
   --comp-button-secondary-fg: var(--output-color-accent-primary);
   --comp-section-gap-default: var(--output-dimension-xlarge);
   --comp-section-h-pad-default: var(--output-dimension-large);
+  --comp-section-v-pad-default: var(--output-dimension-xlarge); /** Use: Body sections  */
+  --comp-section-v-pad-less: var(--output-dimension-medium); /** Use: Header, Footer */
   --comp-stack-gap-less: var(--output-dimension-small);
   --comp-stack-gap-default: var(--output-dimension-medium);
   --comp-stack-gap-more: var(--output-dimension-large);
