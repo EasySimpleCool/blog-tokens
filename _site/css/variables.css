@@ -4,9 +4,14 @@
 
 :root {
   --input-dimension-0: 0px;
+  --input-dimension-4: 4px;
+  --input-dimension-8: 8px;
+  --input-dimension-12: 12px;
   --input-dimension-16: 16px;
+  --input-dimension-18: 18px;
   --input-dimension-24: 24px;
   --input-dimension-40: 40px;
+  --input-dimension-80: 80px;
   --input-color-blue-250: #5da6d7;
   --input-color-blue-500: #0a91cc;
   --input-color-light-250: #f7f9fb;
@@ -14,11 +19,15 @@
   --input-color-light-750: #d9e1ec;
   --input-color-dark-250: #545f6d;
   --input-color-dark-500: #343a41;
-  --comp-image-aspect-ratio: 1:1;
-  --comp-container-max-w: 800px;
-  --modify-dimension-small: var(--input-dimension-16);
+  --comp-container-max-w-default: 640px;
+  --modify-dimension-small: var(--input-dimension-18);
   --modify-dimension-medium: var(--input-dimension-24);
   --modify-dimension-large: var(--input-dimension-40);
+  --modify-dimension-xlarge: var(--input-dimension-80);
+  --output-typography-tiny: 400 var(--input-dimension-12) Inter;
+  --output-typography-small: 400 var(--input-dimension-18) Inter;
+  --output-typography-medium: 600 var(--input-dimension-24) Inter;
+  --output-typography-large: 900 var(--input-dimension-40) Inter;
   --output-color-accent-primary: var(--input-color-blue-500);
   --output-color-accent-lighter: var(--input-color-blue-250);
   --output-color-accent-on-accent: var(--input-color-light-250);
@@ -27,17 +36,41 @@
   --output-color-bg-above: var(--input-color-light-250);
   --output-color-bg-middle: var(--input-color-light-500);
   --output-color-bg-below: var(--input-color-light-750);
-  --output-typography-small: 400 var(--modify-dimension-small) Inter;
-  --output-typography-medium: 600 var(--modify-dimension-medium) Inter;
-  --output-typography-large: 900 var(--modify-dimension-large) Inter;
-  --output-dimension-small: var(--modify-dimension-small);
-  --output-dimension-medium: var(--modify-dimension-medium);
-  --output-dimension-large: var(--modify-dimension-large);
-  --comp-section-bg: var(--output-color-bg-middle);
+  --output-color-border-default: var(--input-color-light-250);
+  --output-dimension-fixed-0: var(--input-dimension-0);
+  --output-dimension-fixed-4: var(--input-dimension-4);
+  --output-dimension-fixed-8: var(--input-dimension-8);
+  --output-dimension-fixed-16: var(--input-dimension-16);
+  --output-dimension-fixed-24: var(--input-dimension-24);
+  --output-dimension-fixed-40: var(--input-dimension-40);
+  --output-dimension-fixed-80: var(--input-dimension-80);
+  --output-border-radius-small: var(--input-dimension-4);
+  --output-border-radius-default: var(--input-dimension-8);
+  --comp-box-stack-pad-gap-least: var(--input-dimension-4);
+  --comp-box-stack-pad-gap-even-less: var(--input-dimension-8);
+  --comp-post-preview-border-default: var(--input-color-dark-250);
+  --comp-tag-border-default: var(--input-color-dark-250);
+  --comp-post-detail-border-default: var(--input-color-dark-250);
+  --comp-section-h-pad-default: var(--output-dimension-fixed-40);
+  --comp-section-bg-default: var(--output-color-bg-middle);
+  --comp-section-v-pad-default: var(--output-dimension-fixed-80); /** Use: Body sections  */
+  --comp-section-v-pad-less: var(--output-dimension-fixed-24); /** Use: Header, Footer */
+  --comp-box-stack-pad-gap-less: var(--output-dimension-fixed-16);
+  --comp-box-stack-pad-gap-default: var(--output-dimension-fixed-24);
+  --comp-box-stack-pad-gap-more: var(--output-dimension-fixed-40);
+  --comp-box-stack-pad-gap-even-more: var(--output-dimension-fixed-80);
+  --comp-post-preview-bg-default: var(--output-color-bg-above);
+  --comp-post-preview-b-rad: var(--output-border-radius-default);
+  --comp-post-preview-pad: var(--output-dimension-fixed-24);
+  --comp-image-b-rad: var(--output-border-radius-small);
   --comp-button-primary-bg: var(--output-color-accent-primary);
   --comp-button-primary-fg: var(--output-color-accent-on-accent);
   --comp-button-secondary-border: var(--output-color-accent-lighter);
   --comp-button-secondary-fg: var(--output-color-accent-primary);
-  --comp-section-h-pad: var(--output-dimension-large);
-  --comp-stack-gap: var(--output-dimension-large);
+  --comp-tag-b-rad: var(--output-border-radius-small);
+  --comp-tag-h-pad: var(--output-dimension-fixed-8);
+  --comp-tag-v-pad: var(--output-dimension-fixed-4);
+  --comp-post-detail-b-rad: var(--output-border-radius-default);
+  --comp-post-detail-pad: var(--output-dimension-fixed-40);
+  --comp-post-detail-bg-default: var(--output-color-bg-above);
 }
