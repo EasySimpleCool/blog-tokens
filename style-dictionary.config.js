@@ -24,6 +24,7 @@ export default {
           destination: "variables.css",
           format: "css/variables",
           options: {
+            outputReferences: true,
             usesDtcg: true,
           },
         },

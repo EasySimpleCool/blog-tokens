@@ -134,18 +134,19 @@ tiny {
  * ----------------------------- */
 
 .button {
-  padding: var(--comp-button-v-pad-default) var(--comp-button-h-pad-default);
-  border-radius: var(--comp-button-border-radius-default);
-  background-color: var(--comp-button-bg-default);
-  color: var(--comp-button-fg-default);
+  padding: var(--comp-button-pad);
+  border-radius: var(--comp-button-b-rad);
+  min-height: var(--comp-button-min-h);
+  background-color: var(--comp-button-primary-bg);
+  color: var(--comp-button-primary-fg);
 }
 
 .button--primary {
-  background-color: var(--comp-button-bg-primary);
-  color: var(--comp-button-fg-primary);
+  background-color: var(--comp-button-primary-bg);
+  color: var(--comp-button-primary-fg);
 }
 
 .button--secondary {
-  background-color: var(--comp-button-bg-secondary);
-  color: var(--comp-button-fg-secondary);
+  border: var(--comp-button-secondary-border);
+  color: var(--comp-button-secondary-fg);
 }
