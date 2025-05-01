@@ -66,8 +66,10 @@
   --comp-box-stack-pad-gap-even-more: 80px;
   --comp-button-primary-bg: #0a91cc;
   --comp-button-primary-fg: #f7f9fb;
-  --comp-button-secondary-border: #5da6d7;
   --comp-button-secondary-fg: #0a91cc;
+  --comp-button-secondary-border-color: #5da6d7;
+  --comp-button-secondary-border-width: 4px;
+  --comp-button-secondary-border-style: solid;
   --comp-button-min-h: 80px;
   --comp-button-b-rad: 4px;
   --comp-button-pad: 16px;
