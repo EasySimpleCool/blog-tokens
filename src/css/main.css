@@ -136,6 +136,7 @@ tiny {
 .button {
   padding: var(--comp-button-pad);
   border-radius: var(--comp-button-b-rad);
+  min-height: var(--comp-button-min-h);
   background-color: var(--comp-button-primary-bg);
   color: var(--comp-button-primary-fg);
 }
@@ -146,6 +147,6 @@ tiny {
 }
 
 .button--secondary {
-  border: var(--comp-button-secondary-border);
+  border: var(--comp-button-secondary-border-width) var(--comp-button-secondary-border-style) var(--comp-button-secondary-border);
   color: var(--comp-button-secondary-fg);
 }

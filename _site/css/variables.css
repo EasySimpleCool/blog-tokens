@@ -28,6 +28,7 @@
   --output-typography-large-font-family: Inter;
   --output-typography-large-font-weight: 900;
   --comp-container-max-w-default: 640px;
+  --comp-button-secondary-border-style: solid;
   --modify-dimension-small: var(--input-dimension-18);
   --modify-dimension-medium: var(--input-dimension-24);
   --modify-dimension-large: var(--input-dimension-40);
@@ -69,8 +70,9 @@
   --comp-box-stack-pad-gap-even-more: var(--output-dimension-fixed-80);
   --comp-button-primary-bg: var(--output-color-accent-primary);
   --comp-button-primary-fg: var(--output-color-accent-on-accent);
-  --comp-button-secondary-border: var(--output-color-accent-lighter);
   --comp-button-secondary-fg: var(--output-color-accent-primary);
+  --comp-button-secondary-border-color: var(--output-color-accent-lighter);
+  --comp-button-secondary-border-width: var(--output-dimension-fixed-4);
   --comp-button-b-rad: var(--output-border-radius-small);
   --comp-button-pad: var(--output-dimension-fixed-16);
   --comp-image-b-rad: var(--output-border-radius-default);
