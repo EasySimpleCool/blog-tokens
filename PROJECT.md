@@ -1,214 +1,98 @@
-# Blog Tokens Project - Product Requirements Document
-
-## 1. Project Overview
-
-### Goals and Objectives
-
-- Create a minimalist blog implementation using design tokens for styling
-- Maintain a lean tech stack with HTML and CSS only (no JavaScript)
-- Establish a streamlined workflow from Figma design to production code
-- Automate the token transformation process using GitHub Actions
-- Demonstrate design system principles with minimal technical overhead
-
-### Key Features
-
-- Pure HTML and CSS implementation (zero JavaScript)
-- Design tokens integration via Tokens Studio for Figma
-- Automated token processing pipeline
-- Consistent typography and color systems
-- CSS variable-based styling
-
-### Core Philosophy
-
-This project embraces simplicity and efficiency by using only HTML and CSS. The design token system provides design consistency without adding complexity or performance overhead. By avoiding frameworks, build tools (beyond token processing), and JavaScript, we create a lean codebase that's easy to maintain and performs optimally.
-
-## 2. Technical Stack
-
-### Lean Implementation
-
-- **HTML**: Semantic markup only
-- **CSS**: Modern CSS with variables (custom properties)
-- **No JavaScript**: Zero client-side scripting
-
-### Design Tools
-
-- **Figma**: Primary design tool
-- **Tokens Studio for Figma**: Plugin for managing design tokens
-- **GitHub**: Version control and automation
-
-### Token Processing
-
-- **Style Dictionary**: Transform tokens from Figma format to CSS variables
-- **GitHub Actions**: Automate the token transformation process
-- **CSS Variables**: Implementation method for using tokens in code
-
-## 3. Design Tokens Implementation
-
-### Token Structure
-
-- **Colors**: Primary, secondary, background, and text colors
-- **Typography**: Text styles for different sizes (large, medium, small)
-- **Spacing/Sizing**: Basic spacing and sizing values
-
-### Figma to GitHub Workflow
-
-1. Designer updates tokens in Figma using Tokens Studio plugin
-2. Tokens are pushed directly from Figma to GitHub repository
-3. GitHub Actions detects changes in token files
-4. Style Dictionary processes tokens into CSS variables
-5. Updated CSS is committed back to the repository
-
-### Token Naming Preservation (CRITICAL)
-
-- **NEVER MODIFY TOKEN NAMING**: Always preserve the exact token naming structure that comes from Figma + Tokens Studio
-- **Single Source of Truth**: Figma + Tokens Studio is the only authority on token naming and structure
-- **Style Dictionary Configuration**: Must be set up to respect original token naming without transformation
-- **Version Compatibility**: Ensure dependencies are compatible with the W3C DTCG format used by Tokens Studio
-
-### Token Processing Details
-
-- Style Dictionary transforms the Tokens Studio JSON format
-- Tokens are compiled into a single CSS variables file
-- Variables are scoped to the `:root` selector
-- Original token references and structure must be preserved through the transformation
-- Token processing must use the official `@tokens-studio/sd-transforms` package
-
-### CSS Variable Usage
-
-- CSS variables are imported into the main stylesheet
-- Variables are referenced using `var(--token-name)` syntax
-- Fallback values are provided where appropriate
-
-## 4. Development Workflow
-
-### Designer Workflow
-
-1. Update designs in Figma
-2. Modify tokens in Tokens Studio plugin
-3. Push token changes directly to GitHub
-
-### Developer Workflow
-
-1. Pull latest changes from GitHub
-2. Use pre-processed CSS variables in stylesheets
-3. Test implementation against designs
-4. Commit code changes to GitHub
-
-### Automation with GitHub Actions
-
-- **Trigger**: Changes to files in the tokens directory
-- **Process**: Run npm script to build tokens
-- **Output**: Updated CSS variables file
-- **Commit**: Automated commit with updated CSS
-
-## 5. Common Issues and Solutions
-
-### Known Errors
-
-#### Tokens Studio GitHub Sync Issues
-
-- **Error**: Tokens Studio unable to push to GitHub
-- **Solution**: Verify GitHub access token has correct permissions and hasn't expired
-- **Prevention**: Regularly rotate GitHub tokens and check sync settings
-
-#### Style Dictionary Transformation Errors
-
-- **Error**: Malformed token JSON causing build failures
-- **Solution**: Validate token JSON format before pushing
-- **Prevention**: Use Tokens Studio's validation features
-
-#### GitHub Actions Workflow Failures
-
-- **Error**: Process-tokens workflow failing
-- **Solution**: Check workflow logs for specific errors
-- **Prevention**: Test token changes locally before pushing
-
-#### Style Dictionary Version Compatibility Issues
-
-- **Error**: Incompatibility between Style Dictionary and Tokens Studio transforms package
-- **Solution**: Use compatible versions (Style Dictionary v4.3.x with @tokens-studio/sd-transforms v2.x)
-- **Prevention**: Lock dependency versions in package.json and test locally before deployment
-
-#### Token Reference Resolution Failures
-
-- **Error**: Token references not being properly resolved ({token.reference} remains in output)
-- **Solution**: Enable outputReferences in Style Dictionary configuration
-- **Prevention**: Use proper configuration and test token resolution locally
-
-### Avoiding Bloat in Token Processing
-
-#### Minimalist Token Structure
-
-- Use flat token hierarchies where possible
-- Avoid unnecessary nesting in JSON files
-- Keep token sets focused and well-organized
-
-#### Efficient Transformation Process
-
-- Use targeted Style Dictionary configurations
-- Process only what's needed (no excess transformations)
-- Minimize dependencies in the build process
-
-#### Clean Output
-
-- Generate only the CSS variables actually used in the project
-- Avoid duplicate or redundant variable definitions
-- Keep the variables.css file compact and readable
-
-#### Optimized GitHub Actions Workflow
-
-- Trigger builds only when token files change
-- Streamlined build process with minimal steps
-- Fast execution without unnecessary tasks
-
-#### Maintenance Considerations
-
-- Regular cleanup of unused tokens
-- Consolidate similar tokens to avoid duplication
-- Follow naming conventions consistently
-
-### Best Practices
-
-- Maintain a single source of truth for tokens (Figma)
-- Use descriptive token names that communicate intent
-- Document the token system for team reference
-- Test token changes visually before finalizing
-
-### Technical Learnings
-
-#### Style Dictionary 4.x Migration
-
-- Updated from Style Dictionary 3.x to 4.x requires ES Modules format
-- Package should be imported as `import StyleDictionary from "style-dictionary"`
-- Configuration file must use export default pattern
-- Node.js 18+ required for compatibility
-
-#### Tokens Studio Integration
-
-- Use `@tokens-studio/sd-transforms` package v2.x for W3C DTCG format compatibility
-- The package must be registered with Style Dictionary before use
-- Avoid name transformations to preserve original token structure
-- Use the `tokens-studio` transformGroup for proper token processing
-
-## 6. Future Improvements
-
-### Potential Enhancements
-
-- Add basic token documentation site
-- Implement theme switching capability (light/dark mode)
-- Create simple component examples using the tokens
-- Add visual regression testing
-
-### Scaling Considerations
-
-- Structure tokens for multi-brand support
-- Establish token versioning strategy
-- Create component-specific token subsets
-
-### Guidelines for Maintaining Minimalism
-
-- Question every new dependency before adding
-- Prioritize browser-native solutions over libraries
-- Regularly audit and remove unused tokens and styles
-- Keep the build process as simple as possible
-- Avoid feature creep by referring back to core objectives
+# Focused Product Requirements Document (PRD) - Q's Tokens: Phase 2
+
+**Version:** 1.2
+**Date:** [Insert Current Date]
+
+## 1. Introduction & Vision
+
+**Project:** Q's Blog - A minimalist blog demonstrating a pure HTML/CSS, design token-driven workflow using Eleventy.
+
+**Current State:** A functional static blog generated by Eleventy, styled using CSS variables derived from design tokens managed in `tokens/**/*.json` via Style Dictionary and `@tokens-studio/sd-transforms`. An automated GitHub Actions workflow processes tokens. Basic layout and typography tokens are implemented. Component-level (`comp`) tokens are defined but not fully utilized in CSS.
+
+**Phase 2 Vision:** To formalize a small, reusable set of core UI components by implementing them directly within the Eleventy site, styled purely using the existing design tokens. This phase focuses on bridging the gap between defined tokens and tangible UI elements within the live site context, enhancing design consistency. The core philosophy of minimalism (HTML/CSS only, token-driven) remains paramount.
+
+## 2. Phase 2 Goals
+
+*   **Implement Core UI Components:** Build and style a defined set of essential UI components using the existing (`comp`) design tokens within the Eleventy site's CSS and HTML templates.
+*   **Refine Component Tokens:** Review and adjust the `comp` tokens in the source `.json` files as needed based on real-world component implementation, ensuring they effectively capture component styling requirements.
+*   **Strengthen Token-CSS Link:** Ensure the core components rendered by Eleventy are styled correctly and exclusively via the processed token variables.
+*   **Maintain Minimalism:** Achieve the above goals without introducing JavaScript frameworks for rendering or deviating from the HTML/CSS-only principle for the blog itself.
+
+## 3. Scope
+
+**In Scope for Phase 2:**
+
+1.  **Component Implementation:**
+    *   **Button:** Primary and Secondary variations (using `comp.button` tokens).
+    *   **Tag:** Basic tag style (using `comp.tag` tokens).
+    *   **Post Preview Card:** Styling for the preview element on the home page (using `comp.post-preview` tokens).
+    *   **Image:** Basic styled image container/element (using `comp.image` tokens).
+    *   **Section/Layout Primitives:** Ensure `.section`, `.container`, `.stack-*` classes robustly use `comp.section`, `comp.container`, and `comp.box-stack` tokens where applicable within Eleventy templates.
+2.  **CSS Refinement:**
+    *   Update `src/css/main.css` (or potentially introduce component-specific CSS files imported into `main.css`) to define styles for the core components using the corresponding `--comp-*` CSS variables.
+    *   Remove any hardcoded styles for these components that should be controlled by tokens.
+3.  **Token Refinement:**
+    *   Review `comp` tokens during implementation. Add missing tokens (e.g., hover/active states for buttons) or adjust existing ones if necessary, maintaining the established structure.
+4.  **Documentation (Minimal):**
+    *   (Optional) Add comments in `main.css` explaining component styles.
+    *   (Optional) Add basic usage examples in HTML templates or Markdown files where components are used.
+
+**Out of Scope for Phase 2:**
+
+*   Implementing JavaScript for *any* component interactivity within the blog itself.
+*   Adding complex components beyond the core set defined above.
+*   Full light/dark mode theme switching (unless trivially supported by existing token structure).
+*   Visual regression testing tools (e.g., Chromatic).
+*   Major refactoring of `input`, `modify`, or `output` token sets (Phase 2 focus is on implementing `comp` tokens).
+*   Adding a dedicated visual component documentation site or tool.
+
+## 4. Requirements
+
+**4.1. Core Component Implementation:**
+
+*   **R1.1 (Button):**
+    *   Create CSS classes `.button`, `.button--primary`, `.button--secondary` in `src/css/main.css`.
+    *   Styles must use variables derived from `comp.button.primary` and `comp.button.secondary` tokens (e.g., `--comp-button-primary-bg`, `--comp-button-primary-fg`, `--comp-button-secondary-border`, etc.).
+    *   Define basic hover/focus states (consider adding tokens for these, e.g., `comp.button.primary.bg-hover`).
+    *   Ensure buttons are usable within Eleventy templates (e.g., `src/_includes`, `src/posts/*.md`).
+*   **R1.2 (Tag):**
+    *   Create CSS class `.tag` in `src/css/main.css`.
+    *   Styles must use variables derived from `comp.tag` tokens (e.g., `--comp-tag-b-rad`, `--comp-tag-border-default`, `--comp-tag-h-pad`, `--comp-tag-v-pad`).
+    *   Define text color (potentially add a `fg` token to `comp.tag` and use `--comp-tag-fg`).
+    *   Ensure tags can be applied within Eleventy templates.
+*   **R1.3 (Post Preview):**
+    *   Refine CSS class `.post-preview` in `src/css/main.css`.
+    *   Ensure styles strictly use variables derived from `comp.post-preview` tokens (e.g., `--comp-post-preview-bg-default`, `--comp-post-preview-border-default`, `--comp-post-preview-b-rad`, `--comp-post-preview-pad`).
+    *   Verify layout and typography within the preview use appropriate `output` tokens (e.g., `--output-typography-medium-font-size`).
+*   **R1.4 (Image):**
+    *   Refine CSS class `.image` in `src/css/main.css`.
+    *   Ensure styles use variables from `comp.image` (e.g., `--comp-image-b-rad`).
+    *   Consider adding tokens/styles for aspect ratio container (`.image-container`) if desired.
+*   **R1.5 (Layout):**
+    *   Review `.section`, `.container`, `.stack-*` classes in `src/css/main.css`.
+    *   Ensure padding, max-width, gap strictly use variables derived from `comp.section`, `comp.container`, `comp.box-stack` tokens (e.g., `--comp-section-v-pad-default`, `--comp-container-max-w-default`, `--comp-box-stack-pad-gap-default`).
+
+**4.2. Token & CSS Refinement:**
+
+*   **R2.1:** All CSS for the core components MUST use `var(--comp-...)` or relevant `var(--output-...)` variables. No magic numbers or hardcoded hex values for tokenized properties.
+*   **R2.2:** Any necessary additions/modifications to `comp` tokens in the source `.json` files must follow the existing structure and naming conventions.
+*   **R2.3:** Run `npm run process-tokens` after any token changes and commit the updated source token files and the generated `src/css/variables.css`. The GitHub Action should handle subsequent updates.
+
+## 5. Technical Considerations
+
+*   **Token Granularity:** Decide if new states (hover, focus) require new tokens in the source `.json` files or can be handled via CSS adjustments (e.g., `filter: brightness(0.9)`). Favor tokens for clarity if the design requires specific values.
+*   **Eleventy Templating:** Use Nunjucks (or chosen engine) effectively to apply component CSS classes in `src/_layouts` or included partials. Ensure generated HTML uses the correct classes.
+*   **CSS Specificity/Structure:** Ensure CSS rules in `main.css` are structured logically and don't have unintended specificity conflicts.
+
+## 6. Future Considerations (Post-Phase 2)
+
+*   **More Components:** Expand the component library (e.g., Input fields, Modals - *warning: may require JS*).
+*   **Theming:** Explore token structures for light/dark mode switching.
+
+## 7. Success Metrics
+
+*   Core components (Button, Tag, PostPreview, Image, Layout) are implemented purely in HTML/CSS using design tokens within the Eleventy site.
+*   CSS for components primarily uses `--comp-*` or `--output-*` variables derived from tokens.
+*   The Eleventy development server (`npm run start`) correctly renders the site with components styled by tokens.
+*   The main blog site (`_site` output) is functional and visually consistent with the implemented component styles.
+*   Running `npm run process-tokens` successfully generates `src/css/variables.css` without errors.
