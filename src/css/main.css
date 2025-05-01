@@ -107,24 +107,24 @@ body {
 
 /* Basic styling for standard HTML elements to use typography tokens */
 h1 {
-  font-size: var(--input-dimension-40);
+  font-size: var(--output-typography-large-font-size);
   font-weight: 900;
   color: var(--output-color-fg-primary);
 }
 
 h2 {
-  font-size: var(--input-dimension-24);
+  font-size: var(--output-typography-medium-font-size);
   font-weight: 600;
   color: var(--output-color-fg-primary);
 }
 
 p {
-  font-size: var(--input-dimension-18);
+  font-size: var(--output-typography-small-font-size);
   color: var(--output-color-fg-secondary);
 }
 
 tiny {
-  font-size: var(--input-dimension-12);
+  font-size: var(--output-typography-tiny-font-size);
   font-weight: 400;
   color: var(--output-color-fg-secondary);
 }
