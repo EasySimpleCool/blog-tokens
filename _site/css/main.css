@@ -128,3 +128,24 @@ tiny {
   font-weight: 400;
   color: var(--output-color-fg-secondary);
 }
+
+/* -----------------------------
+ * Button - connected to tokens
+ * ----------------------------- */
+
+.button {
+  padding: var(--comp-button-v-pad-default) var(--comp-button-h-pad-default);
+  border-radius: var(--comp-button-border-radius-default);
+  background-color: var(--comp-button-bg-default);
+  color: var(--comp-button-fg-default);
+}
+
+.button--primary {
+  background-color: var(--comp-button-bg-primary);
+  color: var(--comp-button-fg-primary);
+}
+
+.button--secondary {
+  background-color: var(--comp-button-bg-secondary);
+  color: var(--comp-button-fg-secondary);
+}
