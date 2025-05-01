@@ -60,15 +60,15 @@ body {
 
 /* Section - For backgrounds and padding */
 .section {
-  padding: var(--comp-section-h-pad);
+  padding: var(--comp-section-v-pad-default) var(--comp-section-h-pad-default);
   width: 100%;
-  background-color: var(--comp-section-bg);
+  background-color: var(--comp-section-bg-default);
 }
 
 /* Container - For max-width constraints */
 .container {
   width: 100%;
-  max-width: 800px; /* Could be a token in future */
+  max-width: var(--comp-container-max-w-default); /* Could be a token in future */
   margin-left: auto;
   margin-right: auto;
 }
@@ -81,32 +81,50 @@ body {
 }
 
 /* Stack spacing variations */
-.stack-small {
-  gap: var(--output-dimension-small);
+.stack-least {
+  gap: var(--comp-box-stack-pad-gap-least);
 }
 
-.stack-medium {
-  gap: var(--output-dimension-medium);
+.stack-even-less {
+  gap: var(--comp-box-stack-pad-gap-even-less);
 }
 
-.stack-large {
-  gap: var(--output-dimension-large);
+.stack-less {
+  gap: var(--comp-box-stack-pad-gap-less);
+}
+
+.stack-default {
+  gap: var(--comp-box-stack-pad-gap-default);
+}
+
+.stack-more {
+  gap: var(--comp-box-stack-pad-gap-more);
+}
+
+.stack-even-more {
+  gap: var(--comp-box-stack-pad-gap-even-more);
 }
 
 /* Basic styling for standard HTML elements to use typography tokens */
 h1 {
-  font-size: var(--modify-dimension-large);
+  font-size: var(--input-dimension-40);
   font-weight: 900;
   color: var(--output-color-fg-primary);
 }
 
 h2 {
-  font-size: var(--modify-dimension-medium);
+  font-size: var(--input-dimension-24);
   font-weight: 600;
   color: var(--output-color-fg-primary);
 }
 
 p {
-  font-size: var(--modify-dimension-small);
+  font-size: var(--input-dimension-18);
+  color: var(--output-color-fg-secondary);
+}
+
+tiny {
+  font-size: var(--input-dimension-12);
+  font-weight: 400;
   color: var(--output-color-fg-secondary);
 }

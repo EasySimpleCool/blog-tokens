@@ -12,7 +12,7 @@ export default {
   preprocessors: ["tokens-studio"],
   // Add logging for better debugging
   log: {
-    verbosity: "default",
+    verbosity: "verbose",
   },
   platforms: {
     css: {
