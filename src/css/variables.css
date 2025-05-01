@@ -68,6 +68,8 @@
   --comp-button-primary-fg: #f7f9fb;
   --comp-button-secondary-border: #5da6d7;
   --comp-button-secondary-fg: #0a91cc;
+  --comp-button-min-h: 80px;
+  --comp-button-b-rad: 4px;
   --comp-image-b-rad: 8px;
   --comp-tag-b-rad: 4px;
   --comp-tag-border-default: #545f6d;
