@@ -136,7 +136,6 @@ tiny {
 .button {
   padding: var(--comp-button-pad);
   border-radius: var(--comp-button-b-rad);
-  min-height: var(--comp-button-min-h);
   background-color: var(--comp-button-primary-bg);
   color: var(--comp-button-primary-fg);
 }
