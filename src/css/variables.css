@@ -29,6 +29,8 @@
   --output-typography-large-font-weight: 900;
   --comp-container-max-w-default: 640px;
   --comp-button-min-h: 64px;
+  --comp-tag-border-default-width: 1px;
+  --comp-tag-border-default-style: solid;
   --modify-dimension-small: var(--input-dimension-18);
   --modify-dimension-medium: var(--input-dimension-24);
   --modify-dimension-large: var(--input-dimension-40);
@@ -58,7 +60,7 @@
   --output-border-radius-default: var(--input-dimension-8);
   --comp-box-stack-pad-gap-least: var(--input-dimension-4);
   --comp-box-stack-pad-gap-even-less: var(--input-dimension-8);
-  --comp-tag-border-default: var(--input-color-dark-250);
+  --comp-tag-border-default-color: var(--input-color-dark-250);
   --comp-post-preview-border-default: var(--input-color-dark-250);
   --comp-post-detail-border-default: var(--input-color-dark-250);
   --comp-section-h-pad-default: var(--output-dimension-fixed-40);
