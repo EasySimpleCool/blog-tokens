@@ -9,7 +9,7 @@ tags: posts
 
 CSS custom properties (also known as CSS variables) have transformed how we write and maintain CSS. They allow us to define reusable values that can be referenced throughout our stylesheets.
 
-![Design Tokens Visualization](/images/image.png){.image}
+![Design Tokens Visualization](/images/image.png)
 
 ## Basic Syntax
 

@@ -28,13 +28,14 @@
   --output-typography-large-font-family: Inter;
   --output-typography-large-font-weight: 900;
   --comp-container-max-w-default: 640px;
-  --comp-button-secondary-border-style: solid;
+  --comp-button-min-h: 64px;
   --modify-dimension-small: var(--input-dimension-18);
   --modify-dimension-medium: var(--input-dimension-24);
   --modify-dimension-large: var(--input-dimension-40);
   --modify-dimension-xlarge: var(--input-dimension-80);
   --output-typography-tiny-font-size: var(--input-dimension-12);
   --output-typography-small-font-size: var(--input-dimension-18);
+  --output-typography-small-paragraph-spacing: var(--input-dimension-24);
   --output-typography-medium-font-size: var(--input-dimension-24);
   --output-typography-large-font-size: var(--input-dimension-40);
   --output-color-accent-primary: var(--input-color-blue-500);
@@ -68,11 +69,9 @@
   --comp-box-stack-pad-gap-default: var(--output-dimension-fixed-24);
   --comp-box-stack-pad-gap-more: var(--output-dimension-fixed-40);
   --comp-box-stack-pad-gap-even-more: var(--output-dimension-fixed-80);
-  --comp-button-primary-bg: var(--output-color-accent-primary);
+  --comp-button-primary-bg-default: var(--output-color-accent-primary);
+  --comp-button-primary-bg-hover: var(--output-color-accent-lighter);
   --comp-button-primary-fg: var(--output-color-accent-on-accent);
-  --comp-button-secondary-fg: var(--output-color-accent-primary);
-  --comp-button-secondary-border-color: var(--output-color-accent-lighter);
-  --comp-button-secondary-border-width: var(--output-dimension-fixed-4);
   --comp-button-b-rad: var(--output-border-radius-small);
   --comp-button-pad: var(--output-dimension-fixed-16);
   --comp-image-b-rad: var(--output-border-radius-default);
@@ -85,5 +84,4 @@
   --comp-post-detail-b-rad: var(--output-border-radius-default);
   --comp-post-detail-pad: var(--output-dimension-fixed-40);
   --comp-post-detail-bg-default: var(--output-color-bg-above);
-  --comp-button-min-h: var(--comp-box-stack-pad-gap-even-more);
 }

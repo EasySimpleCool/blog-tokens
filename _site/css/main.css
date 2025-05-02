@@ -31,39 +31,22 @@ img {
   border-radius: 4px;
 }
 
-/* For when you add an aspect ratio token */
-.image-container {
-  position: relative;
-  width: 100%;
-  /* Uncomment when you add the token
-  aspect-ratio: var(--tokenAspectRatio, 16/9);
-  */
-  overflow: hidden;
-}
-
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.image-caption {
-  margin-top: 0.5rem;
-  font-size: 14px;
-  color: var(--output-color-fg-secondary);
-}
-
 /* -----------------------------
  * Layout Components - connected to tokens
  * ----------------------------- */
 
 /* Section - For backgrounds and padding */
 .section {
-  padding: var(--comp-section-v-pad-default) var(--comp-section-h-pad-default);
+  padding: var(--comp-section-v-pad-less) var(--comp-section-h-pad-default) var(--comp-section-v-pad-default) var(--comp-section-h-pad-default);
   width: 100%;
   background-color: var(--comp-section-bg-default);
+  border: 1px solid green;
 }
+
+.section-less {
+  padding: var(--comp-section-v-pad-less) var(--comp-section-h-pad-default);
+}
+
 
 /* Container - For max-width constraints */
 .container {
@@ -71,6 +54,10 @@ img {
   max-width: var(--comp-container-max-w-default); /* Could be a token in future */
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Stack - For controlling vertical spacing between elements */
@@ -94,7 +81,7 @@ img {
 }
 
 .stack-default {
-  gap: var(--comp-box-stack-pad-gap-default);
+  gap: var(--output-dimension-fixed-24);
 }
 
 .stack-more {
@@ -133,15 +120,17 @@ tiny {
  * Button - connected to tokens
  * ----------------------------- */
 
-.button {
+button {
   padding: var(--comp-button-pad);
   border-radius: var(--comp-button-b-rad);
   min-height: var(--comp-button-min-h);
-  background-color: var(--comp-button-primary-bg);
+  background-color: var(--comp-button-primary-bg-default);
   color: var(--comp-button-primary-fg);
+  width: 100%;
+  border: none;
+  font-size: var(--output-typography-medium-font-size);
 }
-.button:hover {
+button:hover {
   background-color: var(--output-color-accent-lighter);
-  color: var(--comp-button-primary-fg);
 }
 

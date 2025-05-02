@@ -9,24 +9,25 @@
 </head>
 <body>
   
-  <header>
-    <a href="/"><h1>Blog Tokens</h1></a>
-  </header>
+  <section class="section section-less"> 
+    <div class="container">
+      <a href="/"><img src="/images/logo-q.svg" alt="Blog Tokens"></a>
+    </div>
+  </section>
 
   <main>
     
 <section class="section">
   <div class="container">
-    <article class="post">
-      <a href="/" class="button">Back to home</a>
-      <header class="post-header">
-    <h1>CSS Variables in Practice</h1>
-    <p class="post-date">Tue Apr 22 2025 10:00:00 GMT+1000 (Australian Eastern Standard Time)</p>
-  </header>
+    <div class="stack stack-default">
 
-      <div class="post-content">
+      <header class="post-header">
+        <h1>CSS Variables in Practice</h1>
+      </header>
+
+      <div class="stack stack-default">
         <p>CSS custom properties (also known as CSS variables) have transformed how we write and maintain CSS. They allow us to define reusable values that can be referenced throughout our stylesheets.</p>
-<p><img src="/images/image.png" alt="Design Tokens Visualization">{.image}</p>
+<p><img src="/images/image.png" alt="Design Tokens Visualization"></p>
 <h2>Basic Syntax</h2>
 <p>CSS variables are defined using the following syntax:</p>
 <pre><code class="language-css">:root {
@@ -41,7 +42,10 @@
 </code></pre>
 
       </div>
-    </article>
+
+      <button class="button" onclick="window.location.href='/'" aria-label="Back to home">Back to home</button>
+      
+    </div>
   </div>
 </section>
 

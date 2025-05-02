@@ -9,22 +9,23 @@
 </head>
 <body>
   
-  <header>
-    <a href="/"><h1>Blog Tokens</h1></a>
-  </header>
+  <section class="section section-less"> 
+    <div class="container">
+      <a href="/"><img src="/images/logo-q.svg" alt="Blog Tokens"></a>
+    </div>
+  </section>
 
   <main>
     
 <section class="section">
   <div class="container">
-    <article class="post">
-      <a href="/" class="button">Back to home</a>
-      <header class="post-header">
-    <h1>Design Tokens 101</h1>
-    <p class="post-date">Fri Apr 25 2025 10:00:00 GMT+1000 (Australian Eastern Standard Time)</p>
-  </header>
+    <div class="stack stack-default">
 
-      <div class="post-content">
+      <header class="post-header">
+        <h1>Design Tokens 101</h1>
+      </header>
+
+      <div class="stack stack-default">
         <p>Design tokens are the atoms of the design system—the visual design attributes that construct all the components of your digital product.</p>
 <h2>Why Design Tokens Matter</h2>
 <p>When you're building any digital product, consistency is key. Design tokens help maintain that consistency by creating a shared language between designers and developers.</p>
@@ -33,7 +34,10 @@
 <p>The easiest way to implement design tokens is through CSS variables, as we've done in this blog. Start by categorizing your visual attributes: colors, typography, spacing, etc.</p>
 
       </div>
-    </article>
+
+      <button class="button" onclick="window.location.href='/'" aria-label="Back to home">Back to home</button>
+      
+    </div>
   </div>
 </section>
 
