@@ -134,3 +134,12 @@ button:hover {
   background-color: var(--output-color-accent-lighter);
 }
 
+/* -----------------------------
+ * Tag - connected to tokens
+ * ----------------------------- */
+
+.tag {
+  padding: var(--comp-tag-pad);
+  border-radius: var(--comp-tag-b-rad);
+  background-color: var(--comp-tag-bg);
+}
