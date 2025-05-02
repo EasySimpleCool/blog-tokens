@@ -5,6 +5,7 @@ date: 2025-04-22
 excerpt: How to use CSS custom properties effectively.
 thumbnail: /images/css-vars-thumb.jpg
 tags: posts
+tag: CSS
 ---
 
 CSS custom properties (also known as CSS variables) have transformed how we write and maintain CSS. They allow us to define reusable values that can be referenced throughout our stylesheets.

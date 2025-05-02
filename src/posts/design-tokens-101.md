@@ -3,7 +3,10 @@ layout: post
 title: Design Tokens 101
 date: 2025-04-25
 excerpt: Learn the basics of design tokens and why they matter.
-tags: posts
+tags: #
+    - posts 
+    - css 
+    - this
 ---
 
 Design tokens are the atoms of the design system—the visual design attributes that construct all the components of your digital product.
