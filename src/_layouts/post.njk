@@ -1,18 +1,20 @@
 ---
 layout: base
 ---
-<div class="post-navigation">
-  <a href="/">← Back to home</a>
-  <a href="/" class="button button--primary">Back to home</a>
-</div>
-<article class="post">
-  <header class="post-header">
+
+<section class="section">
+  <div class="container">
+    <article class="post">
+      <a href="/" class="button">Back to home</a>
+      <header class="post-header">
     <h1>{{ title }}</h1>
     <p class="post-date">{{ page.date }}</p>
   </header>
 
-  <div class="post-content">
-    {{ content | safe }}
+      <div class="post-content">
+        {{ content | safe }}
+      </div>
+    </article>
   </div>
-</article>
+</section>
 

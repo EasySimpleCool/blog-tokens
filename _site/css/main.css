@@ -24,7 +24,7 @@ body {
  * Image styling - with aspect ratio support
  * ----------------------------- */
 
-.image {
+img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -140,13 +140,8 @@ tiny {
   background-color: var(--comp-button-primary-bg);
   color: var(--comp-button-primary-fg);
 }
-
-.button--primary {
-  background-color: var(--comp-button-primary-bg);
+.button:hover {
+  background-color: var(--output-color-accent-lighter);
   color: var(--comp-button-primary-fg);
 }
 
-.button--secondary {
-  border: var(--comp-button-secondary-border-width) var(--comp-button-secondary-border-style) var(--comp-button-secondary-border);
-  color: var(--comp-button-secondary-fg);
-}
