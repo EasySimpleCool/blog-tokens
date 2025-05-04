@@ -96,7 +96,9 @@
   --comp-post-preview-bg-default: var(--output-color-bg-above);
   --comp-post-preview-b-rad: var(--output-border-radius-default);
   --comp-post-preview-pad: var(--output-dimension-fixed-24);
+  --comp-post-preview-gap: var(--output-dimension-fixed-16);
   --comp-post-detail-b-rad: var(--output-border-radius-default);
   --comp-post-detail-pad: var(--output-dimension-fixed-24);
+  --comp-post-detail-gap: var(--output-dimension-fixed-24);
   --comp-post-detail-bg-default: var(--output-color-bg-above);
 }
