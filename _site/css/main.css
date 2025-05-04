@@ -194,7 +194,7 @@ button:hover {
   width: 100%;
   min-width: 203px;
   flex-direction: column;
-  gap: var(--comp-box-stack-pad-gap-least);
+  gap: var(--comp-post-preview-gap);
   background-color: var(--comp-post-preview-bg-default);
   border-radius: var(--comp-post-preview-b-rad);
   padding: var(--comp-post-preview-pad);
@@ -205,7 +205,7 @@ button:hover {
   display: flex;
   width: 100%;
   flex-direction: column;
-  gap: var(--comp-box-stack-pad-gap-least);
+  gap: var(--comp-post-detail-gap);
   background-color: var(--comp-post-detail-bg-default);
   border-radius: var(--comp-post-detail-b-rad);
   padding: var(--comp-post-detail-pad);
