@@ -19,6 +19,8 @@
   --input-color-light-750: #d9e1ec;
   --input-color-dark-250: #545f6d;
   --input-color-dark-500: #343a41;
+  --input-line-height-headings: 1.15;
+  --input-line-height-body: 1.5;
   --output-typography-tiny-font-family: Inter;
   --output-typography-tiny-font-weight: 400;
   --output-typography-small-font-family: Inter;
@@ -42,10 +44,14 @@
   --modify-dimension-large: var(--input-dimension-40);
   --modify-dimension-xlarge: var(--input-dimension-80);
   --output-typography-tiny-font-size: var(--input-dimension-12);
+  --output-typography-tiny-line-height: var(--input-line-height-body);
   --output-typography-small-font-size: var(--input-dimension-18);
   --output-typography-small-paragraph-spacing: var(--input-dimension-24);
+  --output-typography-small-line-height: var(--input-line-height-body);
   --output-typography-medium-font-size: var(--input-dimension-24);
+  --output-typography-medium-line-height: var(--input-line-height-headings);
   --output-typography-large-font-size: var(--input-dimension-40);
+  --output-typography-large-line-height: var(--input-line-height-headings);
   --output-color-accent-primary: var(--input-color-blue-500);
   --output-color-accent-lighter: var(--input-color-blue-250);
   --output-color-accent-on-accent: var(--input-color-light-250);
