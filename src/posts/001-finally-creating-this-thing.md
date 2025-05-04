@@ -1,8 +1,8 @@
 ---
 layout: post
-title: CSS Variables in Practice
+title: Finally creating this thing
 date: 2025-04-22
-excerpt: How to use CSS custom properties effectively.
+excerpt: First post of my website
 thumbnail: /images/css-vars-thumb.jpg
 tags:
   - posts

@@ -151,9 +151,21 @@ button:hover {
 }
 
 .tags-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: var(--comp-box-stack-pad-gap-least) var(--comp-box-stack-pad-gap-least);
-  row-gap: var(--comp-box-stack-pad-gap-least);
-  column-gap: var(--comp-box-stack-pad-gap-least);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--comp-box-stack-pad-gap-least);
+}
+
+/* -----------------------------
+ * Post preview - connected to tokens
+ * ----------------------------- */
+
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  gap: var(--comp-box-stack-pad-gap-least);
+  background-color: var(--comp-post-preview-bg-default);
+  border-radius: var(--comp-post-preview-b-rad);
+  padding: var(--comp-post-preview-pad);
+  border: var(--comp-post-preview-border-default) var(--comp-post-preview-border-style) var(--comp-post-preview-border-color);
 }
