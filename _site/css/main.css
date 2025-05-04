@@ -52,6 +52,7 @@ img {
 .container {
   width: 100%;
   max-width: var(--comp-container-max-w-default); /* Could be a token in future */
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid red;
@@ -63,6 +64,7 @@ img {
 /* Stack - For controlling vertical spacing between elements */
 .stack {
   width: 100%;
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -140,8 +142,18 @@ button:hover {
  * ----------------------------- */
 
 .tag {
-  padding: var(--comp-tag-pad);
+  padding: var(--comp-tag-v-pad) var(--comp-tag-h-pad);
   border-radius: var(--comp-tag-b-rad);
   border: var(--comp-tag-border-default-width) var(--comp-tag-border-default-style) var(--comp-tag-border-default-color);
   color: var(--comp-tag-fg);
+  font-size: var(--output-typography-tiny-font-size);
+  font-weight: 400;
+}
+
+.tags-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: var(--comp-box-stack-pad-gap-least) var(--comp-box-stack-pad-gap-least);
+  row-gap: var(--comp-box-stack-pad-gap-least);
+  column-gap: var(--comp-box-stack-pad-gap-least);
 }

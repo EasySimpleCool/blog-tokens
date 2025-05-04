@@ -3,10 +3,17 @@ layout: post
 title: Design Tokens 101
 date: 2025-04-25
 excerpt: Learn the basics of design tokens and why they matter.
-tags: #
-    - posts 
-    - css 
-    - this
+tags:
+  - posts # <<< Ensure this exact string is present
+  - ✏️ Design
+  - 🎨 Design tokens
+  - 🧩 Design systems
+  - 🤖 Code
+  - 🎷 Vibe
+  - 👕 Screenprinting
+  - 🖨️ 3D printing
+  - 🔬 3D modelling
+  - 🎥 Video
 ---
 
 Design tokens are the atoms of the design system—the visual design attributes that construct all the components of your digital product.
