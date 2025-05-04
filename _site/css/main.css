@@ -167,5 +167,5 @@ button:hover {
   background-color: var(--comp-post-preview-bg-default);
   border-radius: var(--comp-post-preview-b-rad);
   padding: var(--comp-post-preview-pad);
-  border: var(--comp-post-preview-border-default) var(--comp-post-preview-border-style) var(--comp-post-preview-border-color);
+  border: var(--comp-post-preview-border-width) var(--comp-post-preview-border-style) var(--comp-post-preview-border-color);
 }
