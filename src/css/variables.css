@@ -70,7 +70,7 @@
   --comp-tag-border-default-color: var(--input-color-dark-250);
   --comp-post-preview-border-color: var(--input-color-dark-250);
   --comp-post-detail-border-color: var(--input-color-dark-250);
-  --comp-section-h-pad-default: var(--output-dimension-fixed-40);
+  --comp-section-h-pad-default: var(--output-dimension-fixed-24);
   --comp-section-bg-default: var(--output-color-bg-middle);
   --comp-section-v-pad-default: var(--output-dimension-fixed-80); /** Use: Body sections  */
   --comp-section-v-pad-less: var(--output-dimension-fixed-24); /** Use: Header, Footer */
