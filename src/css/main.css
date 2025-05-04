@@ -163,7 +163,7 @@ button {
   font-size: var(--output-typography-medium-font-size);
 }
 button:hover {
-  background-color: var(--output-color-accent-darker);
+  background-color: var(--output-color-accent-lighter);
 }
 
 /* -----------------------------
