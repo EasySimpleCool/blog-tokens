@@ -11,13 +11,31 @@ tags:
   - 🤖 Code
 ---
 
-CSS custom properties (also known as CSS variables) have transformed how we write and maintain CSS. They allow us to define reusable values that can be referenced throughout our stylesheets.
+I've been wanting to redo my folio for ages, just never got to it.
+
+The goal of this site is to be able to post small snippets of my work, it could be finished work, explorations, tips, random findings/learnings or whatever really.
+
+This is me first post.
+
+I’v had this idea of creating a barebones design system with only the basic set of components. The list is:
+
+- Layout components (Section, Container, Box and Stack)
+- 4 Text styles (Large, Medium, Small, Tiny)
+- Image (Aspect ratio locked 4:3)
+- Tags
+- Button
+- PostPreview and PostDetail (Pretty much cards)
 
 ![Design Tokens Visualization](/images/image.png)
 
-## Basic Syntax
+I tried to keep the stack as lightweight as possible (to my knowledge, prolly learn more about speed as I go). Stuff I used:
 
-CSS variables are defined using the following syntax:
+- Figma + Tokens Studio (Push JSON tokens to git)
+- Style Dictionary (Converts JSON tokens into usable css variables)
+- Pure HTML & CSS
+- 11ty (Static site generator uses markdown to create posts)
+
+There was a whole bunch of stuff that I wanted to learn from building this thing, the main one was controlling Figma Variables, Design Tokens, CSS Variables. Having full control of how variables from Figma can be processed and turned into usable css variables.
 
 ```css
 :root {

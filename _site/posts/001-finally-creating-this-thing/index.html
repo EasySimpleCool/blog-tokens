@@ -19,7 +19,7 @@
     
 <section class="section">
   <div class="container">
-    <div class="stack stack-default">
+    <div class="post-detail">
       
         <div class="tags-container ...">
            
@@ -44,10 +44,27 @@
       </header>
       
       <div class="stack stack-default">
-        <p>CSS custom properties (also known as CSS variables) have transformed how we write and maintain CSS. They allow us to define reusable values that can be referenced throughout our stylesheets.</p>
+        <p>I've been wanting to redo my folio for ages, just never got to it.</p>
+<p>The goal of this site is to be able to post small snippets of my work, it could be finished work, explorations, tips, random findings/learnings or whatever really.</p>
+<p>This is me first post.</p>
+<p>I’v had this idea of creating a barebones design system with only the basic set of components. The list is:</p>
+<ul>
+<li>Layout components (Section, Container, Box and Stack)</li>
+<li>4 Text styles (Large, Medium, Small, Tiny)</li>
+<li>Image (Aspect ratio locked 4:3)</li>
+<li>Tags</li>
+<li>Button</li>
+<li>PostPreview and PostDetail (Pretty much cards)</li>
+</ul>
 <p><img src="/images/image.png" alt="Design Tokens Visualization"></p>
-<h2>Basic Syntax</h2>
-<p>CSS variables are defined using the following syntax:</p>
+<p>I tried to keep the stack as lightweight as possible (to my knowledge, prolly learn more about speed as I go). Stuff I used:</p>
+<ul>
+<li>Figma + Tokens Studio (Push JSON tokens to git)</li>
+<li>Style Dictionary (Converts JSON tokens into usable css variables)</li>
+<li>Pure HTML &amp; CSS</li>
+<li>11ty (Static site generator uses markdown to create posts)</li>
+</ul>
+<p>There was a whole bunch of stuff that I wanted to learn from building this thing, the main one was controlling Figma Variables, Design Tokens, CSS Variables. Having full control of how variables from Figma can be processed and turned into usable css variables.</p>
 <pre><code class="language-css">:root {
   --primary-color: #0a91cc;
   --font-size-base: 16px;
