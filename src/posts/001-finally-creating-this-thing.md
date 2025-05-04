@@ -43,6 +43,39 @@ There was a whole bunch of stuff that I wanted to learn from building this thing
   --font-size-base: 16px;
 }
 
+{
+  "comp": {
+    "button": {
+      "primary": {
+        "bg-default": {
+          "$type": "color",
+          "$value": "{output.color.accent.primary}"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{output.color.accent.lighter}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{output.color.accent.on-accent}"
+        }
+      },
+      "min-h": {
+        "$type": "dimension",
+        "$value": "64px"
+      },
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.border-radius.small}"
+      },
+      "pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-16}"
+      }
+    }
+  }
+}
+
 .button {
   background-color: var(--primary-color);
   font-size: var(--font-size-base);

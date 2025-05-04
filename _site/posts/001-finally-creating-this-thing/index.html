@@ -70,6 +70,39 @@
   --font-size-base: 16px;
 }
 
+{
+  &quot;comp&quot;: {
+    &quot;button&quot;: {
+      &quot;primary&quot;: {
+        &quot;bg-default&quot;: {
+          &quot;$type&quot;: &quot;color&quot;,
+          &quot;$value&quot;: &quot;{output.color.accent.primary}&quot;
+        },
+        &quot;bg-hover&quot;: {
+          &quot;$type&quot;: &quot;color&quot;,
+          &quot;$value&quot;: &quot;{output.color.accent.lighter}&quot;
+        },
+        &quot;fg&quot;: {
+          &quot;$type&quot;: &quot;color&quot;,
+          &quot;$value&quot;: &quot;{output.color.accent.on-accent}&quot;
+        }
+      },
+      &quot;min-h&quot;: {
+        &quot;$type&quot;: &quot;dimension&quot;,
+        &quot;$value&quot;: &quot;64px&quot;
+      },
+      &quot;b-rad&quot;: {
+        &quot;$type&quot;: &quot;dimension&quot;,
+        &quot;$value&quot;: &quot;{output.border-radius.small}&quot;
+      },
+      &quot;pad&quot;: {
+        &quot;$type&quot;: &quot;dimension&quot;,
+        &quot;$value&quot;: &quot;{output.dimension.fixed-16}&quot;
+      }
+    }
+  }
+}
+
 .button {
   background-color: var(--primary-color);
   font-size: var(--font-size-base);
