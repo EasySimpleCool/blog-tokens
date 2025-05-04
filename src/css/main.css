@@ -142,6 +142,9 @@ pre {
   border-radius: var(--output-border-radius-default);
   background-color: var(--output-color-bg-middle);
   padding: var(--output-dimension-fixed-24);
+  white-space: pre-wrap;     /* Allow wrapping while preserving whitespace */
+  word-wrap: break-word;     /* Break words to prevent overflow */
+      /* Break words at any character if needed */ 
 }
 
 /* -----------------------------

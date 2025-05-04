@@ -102,22 +102,26 @@ img {
 h1 {
   font-size: var(--output-typography-large-font-size);
   font-weight: 900;
+  line-height: var(--output-typography-large-line-height);
   color: var(--output-color-fg-primary);
 }
 
 h2 {
   font-size: var(--output-typography-medium-font-size);
   font-weight: 600;
+  line-height: var(--output-typography-medium-line-height);
   color: var(--output-color-fg-primary);
 }
 
 p {
   font-size: var(--output-typography-small-font-size);
+  line-height: var(--output-typography-small-line-height);
   color: var(--output-color-fg-secondary);
 }
 
 ul {
   font-size: var(--output-typography-small-font-size);
+  line-height: var(--output-typography-small-line-height);
   color: var(--output-color-fg-secondary);
   margin-left: 20px;
 }
@@ -125,6 +129,7 @@ ul {
 tiny {
   font-size: var(--output-typography-tiny-font-size);
   font-weight: 400;
+  line-height: var(--output-typography-tiny-line-height);
   color: var(--output-color-fg-secondary);
 }
 
@@ -137,6 +142,9 @@ pre {
   border-radius: var(--output-border-radius-default);
   background-color: var(--output-color-bg-middle);
   padding: var(--output-dimension-fixed-24);
+  white-space: pre-wrap;     /* Allow wrapping while preserving whitespace */
+  word-wrap: break-word;     /* Break words to prevent overflow */
+      /* Break words at any character if needed */ 
 }
 
 /* -----------------------------
