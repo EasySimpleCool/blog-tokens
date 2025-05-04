@@ -27,10 +27,16 @@
   --output-typography-medium-font-weight: 600;
   --output-typography-large-font-family: Inter;
   --output-typography-large-font-weight: 900;
+  --output-border-default-width: 1px;
+  --output-border-default-style: solid;
   --comp-container-max-w-default: 640px;
   --comp-button-min-h: 64px;
   --comp-tag-border-default-width: 1px;
   --comp-tag-border-default-style: solid;
+  --comp-post-preview-border-width: 1px;
+  --comp-post-preview-border-style: solid;
+  --comp-post-detail-border-width: 1px;
+  --comp-post-detail-border-style: solid;
   --modify-dimension-small: var(--input-dimension-18);
   --modify-dimension-medium: var(--input-dimension-24);
   --modify-dimension-large: var(--input-dimension-40);
@@ -58,11 +64,12 @@
   --output-dimension-fixed-80: var(--input-dimension-80);
   --output-border-radius-small: var(--input-dimension-4);
   --output-border-radius-default: var(--input-dimension-8);
+  --output-border-default-color: var(--input-color-dark-250);
   --comp-box-stack-pad-gap-least: var(--input-dimension-4);
   --comp-box-stack-pad-gap-even-less: var(--input-dimension-8);
   --comp-tag-border-default-color: var(--input-color-dark-250);
-  --comp-post-preview-border-default: var(--input-color-dark-250);
-  --comp-post-detail-border-default: var(--input-color-dark-250);
+  --comp-post-preview-border-color: var(--input-color-dark-250);
+  --comp-post-detail-border-color: var(--input-color-dark-250);
   --comp-section-h-pad-default: var(--output-dimension-fixed-40);
   --comp-section-bg-default: var(--output-color-bg-middle);
   --comp-section-v-pad-default: var(--output-dimension-fixed-80); /** Use: Body sections  */
