@@ -159,6 +159,7 @@ button {
   color: var(--comp-button-primary-fg);
   width: 100%;
   border: none;
+  cursor: pointer;
   font-size: var(--output-typography-medium-font-size);
 }
 button:hover {
