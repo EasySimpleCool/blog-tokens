@@ -26,7 +26,7 @@ I’v had this idea of creating a barebones design system with only the basic se
 - Button
 - PostPreview and PostDetail (Pretty much cards)
 
-![Design Tokens Visualization](/images/image.png)
+![Design Tokens Visualization](/images/1A-design-system.png)
 
 I tried to keep the stack as lightweight as possible (to my knowledge, prolly learn more about speed as I go). Stuff I used:
 
