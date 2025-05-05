@@ -10,8 +10,11 @@
   --input-dimension-16: 16px;
   --input-dimension-18: 18px;
   --input-dimension-24: 24px;
+  --input-dimension-32: 32px;
   --input-dimension-40: 40px;
+  --input-dimension-64: 64px;
   --input-dimension-80: 80px;
+  --input-dimension-120: 120px;
   --input-color-blue-250: #5da6d7;
   --input-color-blue-500: #0a91cc;
   --input-color-light-250: #f7f9fb;
@@ -39,9 +42,9 @@
   --comp-post-preview-border-style: solid;
   --comp-post-detail-border-width: 1px;
   --comp-post-detail-border-style: solid;
-  --modify-dimension-small: var(--input-dimension-18);
-  --modify-dimension-medium: var(--input-dimension-24);
-  --modify-dimension-large: var(--input-dimension-40);
+  --modify-dimension-small: var(--input-dimension-32);
+  --modify-dimension-medium: var(--input-dimension-40);
+  --modify-dimension-large: var(--input-dimension-64);
   --modify-dimension-xlarge: var(--input-dimension-80);
   --output-typography-tiny-font-size: var(--input-dimension-12);
   --output-typography-tiny-line-height: var(--input-line-height-body);
@@ -76,6 +79,10 @@
   --comp-tag-border-default-color: var(--input-color-dark-250);
   --comp-post-preview-border-color: var(--input-color-dark-250);
   --comp-post-detail-border-color: var(--input-color-dark-250);
+  --output-dimension-fluid-sm: var(--modify-dimension-small);
+  --output-dimension-fluid-md: var(--modify-dimension-medium);
+  --output-dimension-fluid-lg: var(--modify-dimension-large);
+  --output-dimension-fluid-xl: var(--modify-dimension-xlarge);
   --comp-section-h-pad-default: var(--output-dimension-fixed-16);
   --comp-section-bg-default: var(--output-color-bg-middle);
   --comp-section-v-pad-default: var(--output-dimension-fixed-80); /** Use: Body sections  */

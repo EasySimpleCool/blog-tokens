@@ -11,13 +11,23 @@ tags:
   - 🤖 Code
 ---
 
-I've been wanting to redo my folio for ages, just never got to it.
+I’ve been wanting to build a new personal site/folio for ages, I finally got to it 😳😂.
 
-The goal of this site is to be able to post small snippets of my work, it could be finished work, explorations, tips, random findings/learnings or whatever really.
+The goal of this thing is to be able to post small snippets of my work, it could be finished work, explorations, tips, random findings/learnings. Another reason is to learn end-to-end design → build and get a better idea of how to implement my designs in the real world.
 
-This is me first post.
+For zeece post ima go over the design and build.
 
-I’v had this idea of creating a barebones design system with only the basic set of components. The list is:
+## Design
+
+Starting with the design token structure, I went with a 4 tiered approach:
+- Input (dump of all basic tokens)
+- Modify (switchable sets eg screen for responsive spacing, displaymode for light/dark mode)
+- Output (usable theme)
+- Comp (components specific)
+
+The language is usually primitive/semantic etc buh i just wanted to be different and try out something different bahaha.
+
+Next was creating a design system with a basic set of components. The list is:
 
 - Layout components (Section, Container, Box and Stack)
 - 4 Text styles (Large, Medium, Small, Tiny)
@@ -28,56 +38,33 @@ I’v had this idea of creating a barebones design system with only the basic se
 
 ![Design Tokens Visualization](/images/1A-design-system.png)
 
-I tried to keep the stack as lightweight as possible (to my knowledge, prolly learn more about speed as I go). Stuff I used:
+Everything was designed in Figma with the intention of keeping a tight loop between design / translation / build and vice versa.
+
+I am a complete Figma nerd, so everything was built with all the best that it has to offer, Shift+A (Autolayout), Variables mixed with a layout system that ive refined and used over the last couple years.
+
+Figma Variables has always felt a bit jank, working with Tokens Studio is has been a way better experience. I set up my design tokens to make them export nicely into Figma Variables, which removed the need to even touch the Figma Variables UI for editing/changing. Simple “export to variables” button and let TS handle the rest.
+
+Shift+D (Devmode) now allows us to pretty much extract the css from any selected element. This is a massive improvement to the design → build process. The naming from TS is retained when translated to Figma Variables, and even from here in devmode the variables line up with the css variables created (in build)
+Design ✅
+
+I tried to keep the stack as lightweight as possible, and a free place to store it. Stuff I used:
 
 - Figma + Tokens Studio (Push JSON tokens to git)
 - Style Dictionary (Converts JSON tokens into usable css variables)
-- Pure HTML & CSS
+- HTML & CSS
 - 11ty (Static site generator uses markdown to create posts)
+- Netlify (Deploys from github repo)
 
-There was a whole bunch of stuff that I wanted to learn from building this thing, the main one was controlling Figma Variables, Design Tokens, CSS Variables. Having full control of how variables from Figma can be processed and turned into usable css variables.
+Biggest blocker here was getting the tokens to process properly (even with the help of claude and cursor AI). There was a lot of trial and error push tokens to git → automated action process the tokens → wait for green tick of success.
 
-```css
-:root {
-  --primary-color: #0a91cc;
-  --font-size-base: 16px;
-}
+Once the CSS variables got the green tick, it was just jumping into a fresh build of an 11ty site and applying the variables to create the pieces of UI.
 
-{
-  "comp": {
-    "button": {
-      "primary": {
-        "bg-default": {
-          "$type": "color",
-          "$value": "{output.color.accent.primary}"
-        },
-        "bg-hover": {
-          "$type": "color",
-          "$value": "{output.color.accent.lighter}"
-        },
-        "fg": {
-          "$type": "color",
-          "$value": "{output.color.accent.on-accent}"
-        }
-      },
-      "min-h": {
-        "$type": "dimension",
-        "$value": "64px"
-      },
-      "b-rad": {
-        "$type": "dimension",
-        "$value": "{output.border-radius.small}"
-      },
-      "pad": {
-        "$type": "dimension",
-        "$value": "{output.dimension.fixed-16}"
-      }
-    }
-  }
-}
+I chose 11ty because you can create posts with markdown files. So I can use my current notes app (Obsidian) to write a post, and then save it and drag the .md file into posts folder, then let 11ty handle the rest. Gameover mate.
 
-.button {
-  background-color: var(--primary-color);
-  font-size: var(--font-size-base);
-}
-```
+Theres prolly a markdown plugin in Figma that could streamline the process 🤷‍♂️ but ill look into it later. Next steps are:
+
+- Theming (Screen and Displaymode)
+- Storybook implementation (current team uses this so learning it wouldnt hurt)
+
+First post done.
+Chur.

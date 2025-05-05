@@ -102,6 +102,7 @@ img {
 h1 {
   font-size: var(--output-typography-large-font-size);
   font-weight: 900;
+  width: 100%;
   line-height: var(--output-typography-large-line-height);
   color: var(--output-color-fg-primary);
 }
@@ -109,6 +110,7 @@ h1 {
 h2 {
   font-size: var(--output-typography-medium-font-size);
   font-weight: 600;
+  width: 100%;
   line-height: var(--output-typography-medium-line-height);
   color: var(--output-color-fg-primary);
 }
@@ -159,6 +161,7 @@ button {
   color: var(--comp-button-primary-fg);
   width: 100%;
   border: none;
+  cursor: pointer;
   font-size: var(--output-typography-medium-font-size);
 }
 button:hover {
