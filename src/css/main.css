@@ -117,6 +117,7 @@ h2 {
 
 p {
   font-size: var(--output-typography-small-font-size);
+  width: 100%;
   line-height: var(--output-typography-small-line-height);
   color: var(--output-color-fg-secondary);
 }
