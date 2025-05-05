@@ -38,7 +38,7 @@ img {
  * ----------------------------- */
 
 /* Section - For backgrounds and padding */
-.section {
+section {
   padding: var(--comp-section-v-pad-less) var(--comp-section-h-pad-default) var(--comp-section-v-pad-default) var(--comp-section-h-pad-default);
   width: 100%;
   background-color: var(--comp-section-bg-default);
@@ -50,7 +50,7 @@ img {
 
 
 /* Container - For max-width constraints */
-.container {
+container {
   width: 100%;
   max-width: var(--comp-container-max-w-default); /* Could be a token in future */
   margin-top: 0;
@@ -117,6 +117,7 @@ h2 {
 
 p {
   font-size: var(--output-typography-small-font-size);
+  width: 100%;
   line-height: var(--output-typography-small-line-height);
   color: var(--output-color-fg-secondary);
 }
@@ -172,7 +173,7 @@ button:hover {
  * Tag - connected to tokens
  * ----------------------------- */
 
-.tag {
+tag {
   padding: var(--comp-tag-v-pad) var(--comp-tag-h-pad);
   border-radius: var(--comp-tag-b-rad);
   border: var(--comp-tag-border-default-width) var(--comp-tag-border-default-style) var(--comp-tag-border-default-color);
@@ -181,7 +182,7 @@ button:hover {
   font-weight: 400;
 }
 
-.tags-container {
+tags-container {
   display: flex;
   flex-wrap: wrap;
   gap: var(--comp-box-stack-pad-gap-least);
@@ -191,7 +192,7 @@ button:hover {
  * Post - connected to tokens
  * ----------------------------- */
 
-.post-preview {
+post-preview {
   display: flex;
   flex: 1 0 0;
   width: 100%;
@@ -204,7 +205,7 @@ button:hover {
   border: var(--comp-post-preview-border-width) var(--comp-post-preview-border-style) var(--comp-post-preview-border-color);
 }
 
-.post-detail {
+post-detail {
   display: flex;
   width: 100%;
   flex-direction: column;

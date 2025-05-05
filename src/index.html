@@ -3,26 +3,26 @@ layout: base
 ---
 
 <section class="section">
-  <div class="container">
+  <container>
     <div class="stack stack-default">
       {% set recentPosts = collections.posts %}
         {% if recentPosts.length > 0 %}
         {% for post in recentPosts %}
-        <div class="post-preview">
-          <div class="tags-container">
+        <post-preview>
+          <tags-container>
             {% for tag in post.data.tags %}
               {% if tag != 'posts' %}
-                <span class="tag">{{ tag }}</span>
+                <tag>{{ tag }}</tag>
               {% endif %}
             {% endfor %}
-          </div>
+          </tags-container>
           <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
           <p>{{ post.data.excerpt }}</p>
-        </div>
+        </post-preview>
       {% endfor %}
       {% else %}
         <p>No posts found.</p>
       {% endif %}
     </div>
-  </div>
+  </container>
 </section>
