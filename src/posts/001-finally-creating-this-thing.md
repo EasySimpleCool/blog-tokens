@@ -61,10 +61,18 @@ Once the CSS variables got the green tick, it was just jumping into a fresh buil
 
 I chose 11ty because you can create posts with markdown files. So I can use my current notes app (Obsidian) to write a post, and then save it and drag the .md file into posts folder, then let 11ty handle the rest. Gameover mate.
 
-Theres prolly a markdown plugin in Figma that could streamline the process 🤷‍♂️ but ill look into it later. Next steps are:
+Theres prolly a markdown plugin in Figma that could streamline the process 🤷‍♂️ but ill look into it later.
+
+## First post done.
+
+Pretty happy with this first version of the site, it lets me post stuff, and all the styling is driven by what I have within Figma + Tokens Studio. Make a change to section h-pad in Figma TS, it triggers an action that rebuilds the css variables, then netlify sees a new push and triggers a new build as well.
+
+Change in Tokens Studio -> Push to Git -> Rebuilds CSS -> Netlify rebuilds site
+
+Next steps are:
 
 - Theming (Screen and Displaymode)
 - Storybook implementation (current team uses this so learning it wouldnt hurt)
 
-First post done.
+
 Chur.
