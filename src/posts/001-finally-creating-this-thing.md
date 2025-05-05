@@ -11,7 +11,7 @@ tags:
   - 🤖 Code
 ---
 
-I’ve been wanting to build a new personal site/folio for ages, I finally got to it 😳😂.
+I’ve been wanting to build a new personal site/folio for ages, finally got to it 😳😂.
 
 The goal of this thing is to be able to post small snippets of my work, it could be finished work, explorations, tips, random findings/learnings. Another reason is to learn end-to-end design → build and get a better idea of how to implement my designs in the real world.
 
@@ -25,7 +25,7 @@ Starting with the design token structure, I went with a 4 tiered approach:
 - Output (usable theme)
 - Comp (components specific)
 
-The language is usually primitive/semantic etc buh i just wanted to be different and try out something different bahaha.
+The language is usually primitive/semantic etc buh i just wanted to be different and try out something new bahaha.
 
 Next was creating a design system with a basic set of components. The list is:
 
