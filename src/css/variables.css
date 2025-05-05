@@ -63,7 +63,7 @@
   --output-color-bg-above: var(--input-color-light-250);
   --output-color-bg-middle: var(--input-color-light-500);
   --output-color-bg-below: var(--input-color-light-750);
-  --output-color-border-default: var(--input-color-light-250);
+  --output-color-border-default: var(--input-color-dark-250);
   --output-dimension-fixed-0: var(--input-dimension-0);
   --output-dimension-fixed-4: var(--input-dimension-4);
   --output-dimension-fixed-8: var(--input-dimension-8);
@@ -73,16 +73,13 @@
   --output-dimension-fixed-80: var(--input-dimension-80);
   --output-border-radius-small: var(--input-dimension-4);
   --output-border-radius-default: var(--input-dimension-8);
-  --output-border-default-color: var(--input-color-dark-250);
   --comp-box-stack-pad-gap-least: var(--input-dimension-4);
   --comp-box-stack-pad-gap-even-less: var(--input-dimension-8);
-  --comp-tag-border-default-color: var(--input-color-dark-250);
-  --comp-post-preview-border-color: var(--input-color-dark-250);
-  --comp-post-detail-border-color: var(--input-color-dark-250);
   --output-dimension-fluid-sm: var(--modify-dimension-small);
   --output-dimension-fluid-md: var(--modify-dimension-medium);
   --output-dimension-fluid-lg: var(--modify-dimension-large);
   --output-dimension-fluid-xl: var(--modify-dimension-xlarge);
+  --output-border-default-color: var(--output-color-border-default);
   --comp-section-h-pad-default: var(--output-dimension-fixed-16);
   --comp-section-bg-default: var(--output-color-bg-middle);
   --comp-section-v-pad-default: var(--output-dimension-fixed-80); /** Use: Body sections  */
@@ -100,12 +97,15 @@
   --comp-tag-b-rad: var(--output-border-radius-small);
   --comp-tag-h-pad: var(--output-dimension-fixed-8);
   --comp-tag-v-pad: var(--output-dimension-fixed-4);
+  --comp-tag-border-default-color: var(--output-color-border-default);
   --comp-post-preview-bg-default: var(--output-color-bg-above);
   --comp-post-preview-b-rad: var(--output-border-radius-default);
   --comp-post-preview-pad: var(--output-dimension-fixed-24);
   --comp-post-preview-gap: var(--output-dimension-fixed-16);
+  --comp-post-preview-border-color: var(--output-color-border-default);
   --comp-post-detail-b-rad: var(--output-border-radius-default);
   --comp-post-detail-pad: var(--output-dimension-fixed-24);
   --comp-post-detail-gap: var(--output-dimension-fixed-24);
   --comp-post-detail-bg-default: var(--output-color-bg-above);
+  --comp-post-detail-border-color: var(--output-color-border-default);
 }
