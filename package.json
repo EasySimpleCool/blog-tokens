@@ -5,9 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "process-tokens": "style-dictionary build --config style-dictionary.config.js",
-    "dev": "browser-sync start --server --files 'src/**/*.css, *.html' --port 3000 --open",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "process-tokens": "node config.mjs",
     "eleventy": "eleventy",
     "eleventy:dev": "eleventy --serve",
     "build": "npm run process-tokens && eleventy",

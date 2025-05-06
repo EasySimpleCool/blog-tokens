@@ -4,11 +4,16 @@ import { register, permutateThemes } from '@tokens-studio/sd-transforms';
 
 // sd-transforms, 2nd parameter for options can be added
 // See docs: https://github.com/tokens-studio/sd-transforms
-register(StyleDictionary);
+register(StyleDictionary, { 
+  excludeParentKeys: true
+});
 
 const $themes = JSON.parse(readFileSync('./tokens/$themes.json', 'utf-8'));
 const themes = permutateThemes($themes, { seperator: '_' });
 const configs = Object.entries(themes).map(([name, tokensets]) => ({
+  log: {
+    verbosity: 'verbose',
+  },
   source: tokensets.map((tokenset) => `./tokens/${tokenset}.json`),
   platforms: {
     css: {
@@ -21,6 +26,7 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
           format: 'css/variables',
         },
       ],
+      "expand": true
     },
   },
 }));
