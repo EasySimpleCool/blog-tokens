@@ -89,17 +89,7 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/light": "enabled",
-      "input": "source",
-      "output": "source",
-      "comp/section": "source",
-      "comp/container": "source",
-      "comp/box-stack": "source",
-      "comp/button": "source",
-      "comp/image": "source",
-      "comp/tag": "source",
-      "comp/post-preview": "source",
-      "comp/post-detail": "source"
+      "displaymode/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:0",
@@ -118,17 +108,7 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/dark": "enabled",
-      "input": "source",
-      "output": "source",
-      "comp/section": "source",
-      "comp/container": "source",
-      "comp/box-stack": "source",
-      "comp/button": "source",
-      "comp/image": "source",
-      "comp/tag": "source",
-      "comp/post-preview": "source",
-      "comp/post-detail": "source"
+      "displaymode/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:1",
@@ -277,5 +257,43 @@
       "comp.post-detail.bg.default": "3b7eeb5101002cf4d284ef2eebaa360b9b0d99e8"
     },
     "group": "comp"
+  },
+  {
+    "id": "740555739a458754830d211f38e69eda6b8495fd",
+    "name": "displaymode-light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "input": "enabled",
+      "displaymode/light": "enabled",
+      "comp/section": "enabled",
+      "comp/container": "enabled",
+      "comp/box-stack": "enabled",
+      "comp/button": "enabled",
+      "comp/image": "enabled",
+      "comp/tag": "enabled",
+      "comp/post-preview": "enabled",
+      "comp/post-detail": "enabled",
+      "output": "enabled"
+    },
+    "group": "displaymode"
+  },
+  {
+    "id": "af6d3ab86fac3a73dd9a1a49749f1a2c77f6f03c",
+    "name": "displaymode-dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "input": "enabled",
+      "displaymode/dark": "enabled",
+      "output": "enabled",
+      "comp/section": "enabled",
+      "comp/container": "enabled",
+      "comp/box-stack": "enabled",
+      "comp/button": "enabled",
+      "comp/image": "enabled",
+      "comp/tag": "enabled",
+      "comp/post-preview": "enabled",
+      "comp/post-detail": "enabled"
+    },
+    "group": "displaymode"
   }
 ]
