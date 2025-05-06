@@ -8,17 +8,19 @@ layout: base
       {% set recentPosts = collections.posts %}
         {% if recentPosts.length > 0 %}
         {% for post in recentPosts %}
-        <post-preview>
-          <tags-container>
-            {% for tag in post.data.tags %}
-              {% if tag != 'posts' %}
-                <tag>{{ tag }}</tag>
-              {% endif %}
-            {% endfor %}
-          </tags-container>
-          <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-          <p>{{ post.data.excerpt }}</p>
-        </post-preview>
+        <a href="{{ post.url }}" class="post-preview-link">
+          <post-preview>
+            <tags-container>
+              {% for tag in post.data.tags %}
+                {% if tag != 'posts' %}
+                  <tag>{{ tag }}</tag>
+                {% endif %}
+              {% endfor %}
+            </tags-container>
+            <h2>{{ post.data.title }}</h2>
+            <p>{{ post.data.excerpt }}</p>
+          </post-preview>
+        </a>
       {% endfor %}
       {% else %}
         <p>No posts found.</p>

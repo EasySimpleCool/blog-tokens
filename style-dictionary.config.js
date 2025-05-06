@@ -4,8 +4,7 @@ import StyleDictionary from "style-dictionary";
 
 // Register the Token Studio transforms properly
 register(StyleDictionary, { 
-  excludeParentKeys: true,
-  'ts/color/modifiers': { format: 'hex' } 
+  excludeParentKeys: true
 });
 
 // Export the configuration
@@ -27,7 +26,6 @@ export default {
           destination: "variables.css",
           format: "css/variables",
           options: {
-            outputReferences: true,
             usesDtcg: true,
           },
         },
