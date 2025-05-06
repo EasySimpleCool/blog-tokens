@@ -1,0 +1,24 @@
+{
+  "comp": {
+    "tag": {
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.border-radius.small}"
+      },
+      "h-pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-8}"
+      },
+      "v-pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-4}"
+      },
+      "border": {
+        "default": {
+          "$type": "border",
+          "$value": "{output.border.default}"
+        }
+      }
+    }
+  }
+}

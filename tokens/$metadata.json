@@ -1,0 +1,19 @@
+{
+  "tokenSetOrder": [
+    "input",
+    "screen/mobile",
+    "screen/table",
+    "screen/desktop",
+    "displaymode/light",
+    "displaymode/dark",
+    "output",
+    "comp/section",
+    "comp/container",
+    "comp/box-stack",
+    "comp/button",
+    "comp/image",
+    "comp/tag",
+    "comp/post-preview",
+    "comp/post-detail"
+  ]
+}

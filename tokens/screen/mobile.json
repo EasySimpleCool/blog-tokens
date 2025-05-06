@@ -1,0 +1,22 @@
+{
+  "modify": {
+    "dimension": {
+      "small": {
+        "$type": "dimension",
+        "$value": "{input.dimension.16}"
+      },
+      "medium": {
+        "$type": "dimension",
+        "$value": "{input.dimension.24}"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{input.dimension.32}"
+      },
+      "xlarge": {
+        "$type": "dimension",
+        "$value": "{input.dimension.40}"
+      }
+    }
+  }
+}

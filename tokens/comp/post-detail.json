@@ -1,0 +1,28 @@
+{
+  "comp": {
+    "post-detail": {
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.border-radius.default}"
+      },
+      "pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-24}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-24}"
+      },
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "{modify.color.bg.above}"
+        }
+      },
+      "border": {
+        "$type": "border",
+        "$value": "{output.border.default}"
+      }
+    }
+  }
+}

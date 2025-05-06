@@ -1,0 +1,59 @@
+{
+  "modify": {
+    "color": {
+      "accent": {
+        "primary": {
+          "$type": "color",
+          "$value": "{input.color.blue.500}"
+        },
+        "lighter": {
+          "$type": "color",
+          "$value": "{input.color.blue.250}"
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{input.color.light.250}"
+        }
+      },
+      "fg": {
+        "primary": {
+          "$type": "color",
+          "$value": "{input.color.light.250}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{input.color.light.500}"
+        }
+      },
+      "bg": {
+        "above": {
+          "$type": "color",
+          "$value": "{input.color.dark.250}"
+        },
+        "middle": {
+          "$type": "color",
+          "$value": "{input.color.dark.500}"
+        },
+        "below": {
+          "$type": "color",
+          "$value": "{input.color.dark.750}"
+        }
+      },
+      "border": {
+        "default": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".15",
+                "space": "srgb"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.light.250}"
+        }
+      }
+    }
+  }
+}

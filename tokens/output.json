@@ -1,0 +1,155 @@
+{
+  "output": {
+    "typography": {
+      "tiny": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontSize": "{input.dimension.12}",
+          "fontWeight": "Regular",
+          "lineHeight": "{input.line-height.body}"
+        }
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontSize": "{input.dimension.18}",
+          "fontWeight": "Regular",
+          "paragraphSpacing": "{input.dimension.24}",
+          "lineHeight": "{input.line-height.body}"
+        }
+      },
+      "medium": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontSize": "{input.dimension.24}",
+          "fontWeight": "Semi Bold",
+          "lineHeight": "{input.line-height.headings}"
+        }
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontSize": "{input.dimension.40}",
+          "fontWeight": "Black",
+          "lineHeight": "{input.line-height.headings}"
+        }
+      }
+    },
+    "color": {
+      "accent": {
+        "primary": {
+          "$type": "color",
+          "$value": "{modify.color.accent.primary}"
+        },
+        "lighter": {
+          "$type": "color",
+          "$value": "{modify.color.accent.lighter}"
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{modify.color.accent.on-accent}"
+        }
+      },
+      "fg": {
+        "primary": {
+          "$type": "color",
+          "$value": "{modify.color.fg.primary}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{modify.color.fg.secondary}"
+        }
+      },
+      "bg": {
+        "above": {
+          "$type": "color",
+          "$value": "{modify.color.bg.above}"
+        },
+        "middle": {
+          "$type": "color",
+          "$value": "{modify.color.bg.middle}"
+        },
+        "below": {
+          "$type": "color",
+          "$value": "{modify.color.bg.below}"
+        }
+      },
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "{modify.color.border.default}"
+        }
+      }
+    },
+    "dimension": {
+      "fixed-0": {
+        "$type": "dimension",
+        "$value": "{input.dimension.0}"
+      },
+      "fixed-4": {
+        "$type": "dimension",
+        "$value": "{input.dimension.4}"
+      },
+      "fixed-8": {
+        "$type": "dimension",
+        "$value": "{input.dimension.8}"
+      },
+      "fixed-16": {
+        "$type": "dimension",
+        "$value": "{input.dimension.16}"
+      },
+      "fixed-24": {
+        "$type": "dimension",
+        "$value": "{input.dimension.24}"
+      },
+      "fixed-40": {
+        "$type": "dimension",
+        "$value": "{input.dimension.40}"
+      },
+      "fixed-80": {
+        "$type": "dimension",
+        "$value": "{input.dimension.80}"
+      },
+      "fluid-sm": {
+        "$type": "dimension",
+        "$value": "{modify.dimension.small}"
+      },
+      "fluid-md": {
+        "$type": "dimension",
+        "$value": "{modify.dimension.medium}"
+      },
+      "fluid-lg": {
+        "$type": "dimension",
+        "$value": "{modify.dimension.large}"
+      },
+      "fluid-xl": {
+        "$type": "dimension",
+        "$value": "{modify.dimension.xlarge}"
+      }
+    },
+    "border-radius": {
+      "small": {
+        "$type": "borderRadius",
+        "$value": "{input.dimension.4}"
+      },
+      "default": {
+        "$type": "borderRadius",
+        "$value": "{input.dimension.8}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "border",
+        "$value": {
+          "color": "{output.color.border.default}",
+          "width": "1px",
+          "style": "solid"
+        }
+      }
+    }
+  }
+}

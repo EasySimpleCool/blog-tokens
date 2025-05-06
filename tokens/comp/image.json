@@ -1,0 +1,10 @@
+{
+  "comp": {
+    "image": {
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.border-radius.default}"
+      }
+    }
+  }
+}

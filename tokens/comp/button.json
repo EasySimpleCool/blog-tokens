@@ -1,0 +1,32 @@
+{
+  "comp": {
+    "button": {
+      "primary": {
+        "bg-default": {
+          "$type": "color",
+          "$value": "{modify.color.accent.primary}"
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": "{modify.color.accent.lighter}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{modify.color.accent.on-accent}"
+        }
+      },
+      "min-h": {
+        "$type": "dimension",
+        "$value": "64px"
+      },
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.border-radius.small}"
+      },
+      "pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-16}"
+      }
+    }
+  }
+}
