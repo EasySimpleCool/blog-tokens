@@ -88,6 +88,26 @@
           "$type": "color",
           "$value": "#24282D"
         }
+      },
+      "purple": {
+        "250": {
+          "$type": "color",
+          "$value": "#AD7CE2"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#965CDA"
+        }
+      },
+      "yellow": {
+        "250": {
+          "$type": "color",
+          "$value": "#FFC865"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#FFBB38"
+        }
       }
     },
     "line-height": {

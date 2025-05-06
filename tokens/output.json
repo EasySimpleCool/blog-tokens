@@ -113,22 +113,6 @@
       "fixed-80": {
         "$type": "dimension",
         "$value": "{input.dimension.80}"
-      },
-      "fluid-sm": {
-        "$type": "dimension",
-        "$value": "{modify.dimension.small}"
-      },
-      "fluid-md": {
-        "$type": "dimension",
-        "$value": "{modify.dimension.medium}"
-      },
-      "fluid-lg": {
-        "$type": "dimension",
-        "$value": "{modify.dimension.large}"
-      },
-      "fluid-xl": {
-        "$type": "dimension",
-        "$value": "{modify.dimension.xlarge}"
       }
     },
     "border-radius": {

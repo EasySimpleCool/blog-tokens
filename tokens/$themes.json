@@ -28,9 +28,99 @@
       "input.color.light.750": "63210dd832e744e6178484430f6a18a4378c3f55",
       "input.color.dark.250": "1feebc35f64d4ba98aab3174184a1f9a69b6ec94",
       "input.color.dark.500": "991f32660b5a89f674c8ee73dbc6ef3817b13820",
-      "input.color.dark.750": "63cfa552588fefc10b1c8d4e0c077ff0c52bc263"
+      "input.color.dark.750": "63cfa552588fefc10b1c8d4e0c077ff0c52bc263",
+      "input.color.purple.250": "2006ceb272e2c8ea517e18df97bf753f528b121a",
+      "input.color.purple.500": "1c8d297cba99b79b794055206422beec159b47c2",
+      "input.color.yellow.250": "6e0964d512f8e477b9395adcdad31e2e331fdb95",
+      "input.color.yellow.500": "c8c298f7db45791b3f6f1c37b9100db99b527648"
     },
     "group": "input"
+  },
+  {
+    "id": "ac0d973ba84870b49f202fafb29cd225bb95c678",
+    "name": "blue",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "brand/blue": "enabled"
+    },
+    "group": "brand",
+    "$figmaCollectionId": "VariableCollectionId:191:386",
+    "$figmaModeId": "191:2",
+    "$figmaVariableReferences": {
+      "modify.color.accent.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
+      "modify.color.accent.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
+      "modify.color.accent.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
+    }
+  },
+  {
+    "id": "31e7743437cd557ac959ada7cdbb3ee9d44b92fa",
+    "name": "purple",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "brand/purple": "enabled"
+    },
+    "group": "brand",
+    "$figmaCollectionId": "VariableCollectionId:191:386",
+    "$figmaModeId": "191:3",
+    "$figmaVariableReferences": {
+      "modify.color.accent.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
+      "modify.color.accent.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
+      "modify.color.accent.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
+    }
+  },
+  {
+    "id": "996494c96d1185c1614fafde68207e203268efc1",
+    "name": "yellow",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "brand/yellow": "enabled"
+    },
+    "group": "brand",
+    "$figmaCollectionId": "VariableCollectionId:191:386",
+    "$figmaModeId": "191:4",
+    "$figmaVariableReferences": {
+      "modify.color.accent.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
+      "modify.color.accent.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
+      "modify.color.accent.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
+    }
+  },
+  {
+    "id": "f6003b4bad853d03a4b5333ba114adecc25513f0",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "displaymode/light": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:182:300",
+    "$figmaModeId": "182:0",
+    "$figmaVariableReferences": {
+      "modify.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
+      "modify.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
+      "modify.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
+      "modify.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
+      "modify.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
+      "modify.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
+    },
+    "group": "displaymode"
+  },
+  {
+    "id": "e260c1d81c3df09af050bf29df6d10354afd1004",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "displaymode/dark": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:182:300",
+    "$figmaModeId": "182:1",
+    "$figmaVariableReferences": {
+      "modify.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
+      "modify.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
+      "modify.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
+      "modify.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
+      "modify.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
+      "modify.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
+    },
+    "group": "displaymode"
   },
   {
     "id": "c22ce11ad57a3ae926c07e3bbb45ac2b4a21f3d9",
@@ -84,50 +174,6 @@
     "group": "screen"
   },
   {
-    "id": "f6003b4bad853d03a4b5333ba114adecc25513f0",
-    "name": "light",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "displaymode/light": "enabled"
-    },
-    "group": "displaymode",
-    "$figmaCollectionId": "VariableCollectionId:182:300",
-    "$figmaModeId": "182:0",
-    "$figmaVariableReferences": {
-      "modify.color.accent.primary": "fdf2c7b1269a9072ba7471476e67f8199686564c",
-      "modify.color.accent.lighter": "f38c5e34029fc7b746e0d35520fcf55a70ebb7e3",
-      "modify.color.accent.on-accent": "a6cfbcb202d6ddbcf4b9896991e4f7c4f3839f6b",
-      "modify.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
-      "modify.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
-      "modify.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
-      "modify.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
-      "modify.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
-      "modify.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
-    }
-  },
-  {
-    "id": "e260c1d81c3df09af050bf29df6d10354afd1004",
-    "name": "dark",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "displaymode/dark": "enabled"
-    },
-    "group": "displaymode",
-    "$figmaCollectionId": "VariableCollectionId:182:300",
-    "$figmaModeId": "182:1",
-    "$figmaVariableReferences": {
-      "modify.color.accent.primary": "fdf2c7b1269a9072ba7471476e67f8199686564c",
-      "modify.color.accent.lighter": "f38c5e34029fc7b746e0d35520fcf55a70ebb7e3",
-      "modify.color.accent.on-accent": "a6cfbcb202d6ddbcf4b9896991e4f7c4f3839f6b",
-      "modify.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
-      "modify.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
-      "modify.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
-      "modify.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
-      "modify.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
-      "modify.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
-    }
-  },
-  {
     "id": "8567c10e6b365052538e6b775a493655ae3057b6",
     "name": "output",
     "$figmaStyleReferences": {
@@ -158,10 +204,6 @@
       "output.dimension.fixed-24": "7606b02291d2a5bcfa69e9ab5aba2447d0fa28b6",
       "output.dimension.fixed-40": "b56d3a9181cf61515828fae68a7df28584b4c0d2",
       "output.dimension.fixed-80": "a066be61ffbfdaeb6e7cf8817d13615863f64793",
-      "output.dimension.fluid-sm": "5178a893a6f7d7b674a2b5ae0efe438291d8182b",
-      "output.dimension.fluid-md": "9bf8a82123644fc57f474a64ebb5de553d240904",
-      "output.dimension.fluid-lg": "7d50284766b085261c3835921e14a80f9ed6f4b2",
-      "output.dimension.fluid-xl": "9d45412106b5a53cf72986fc5c5a6098fb4a0ec3",
       "output.border-radius.small": "5d746e419e3f72a34738533c12949ac997322e4d",
       "output.border-radius.default": "1ab89eedb77561cc115eb10d063afc70eb6a8a15"
     },

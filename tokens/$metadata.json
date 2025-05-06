@@ -1,6 +1,9 @@
 {
   "tokenSetOrder": [
     "input",
+    "brand/blue",
+    "brand/purple",
+    "brand/yellow",
     "screen/mobile",
     "screen/table",
     "screen/desktop",
