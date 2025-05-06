@@ -3,7 +3,10 @@ import { register } from "@tokens-studio/sd-transforms";
 import StyleDictionary from "style-dictionary";
 
 // Register the Token Studio transforms properly
-register(StyleDictionary, { excludeParentKeys: true });
+register(StyleDictionary, { 
+  excludeParentKeys: true,
+  'ts/color/modifiers': { format: 'hex' } 
+});
 
 // Export the configuration
 export default {

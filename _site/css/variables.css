@@ -89,7 +89,6 @@
   --output-dimension-fluid-md: var(--modify-dimension-medium);
   --output-dimension-fluid-lg: var(--modify-dimension-large);
   --output-dimension-fluid-xl: var(--modify-dimension-xlarge);
-  --output-border-default-color: var(--modify-color-border-default);
   --comp-section-h-pad-default: var(--output-dimension-fixed-16);
   --comp-section-bg-default: var(--modify-color-bg-middle);
   --comp-section-v-pad-default: var(--output-dimension-fixed-80); /** Use: Body sections  */
@@ -107,15 +106,16 @@
   --comp-tag-b-rad: var(--output-border-radius-small);
   --comp-tag-h-pad: var(--output-dimension-fixed-8);
   --comp-tag-v-pad: var(--output-dimension-fixed-4);
-  --comp-tag-border-default-color: var(--modify-color-border-default);
   --comp-post-preview-bg-default: var(--modify-color-bg-above);
   --comp-post-preview-b-rad: var(--output-border-radius-default);
   --comp-post-preview-pad: var(--output-dimension-fixed-24);
   --comp-post-preview-gap: var(--output-dimension-fixed-16);
-  --comp-post-preview-border-color: var(--modify-color-border-default);
   --comp-post-detail-b-rad: var(--output-border-radius-default);
   --comp-post-detail-pad: var(--output-dimension-fixed-24);
   --comp-post-detail-gap: var(--output-dimension-fixed-24);
   --comp-post-detail-bg-default: var(--modify-color-bg-above);
-  --comp-post-detail-border-color: var(--modify-color-border-default);
+  --output-border-default-color: var(--output-color-border-default);
+  --comp-tag-border-default-color: var(--output-color-border-default);
+  --comp-post-preview-border-color: var(--output-color-border-default);
+  --comp-post-detail-border-color: var(--output-color-border-default);
 }
