@@ -10,7 +10,7 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{modify.display.color.bg.middle}"
+          "$value": "{modify.displaymode.color.bg.middle}"
         }
       },
       "v-pad": {

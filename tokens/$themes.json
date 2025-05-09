@@ -175,12 +175,12 @@
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:0",
     "$figmaVariableReferences": {
-      "modify.display.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
-      "modify.display.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
-      "modify.display.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
-      "modify.display.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
-      "modify.display.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
-      "modify.display.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
+      "modify.displaymode.color.fg.primary": "e47a36e7839e5f59764bccf838c4872e57663c1a",
+      "modify.displaymode.color.fg.secondary": "c34b2291e9cb17ae76c32341be8663c2920f31f6",
+      "modify.displaymode.color.bg.above": "82545db95db007970a5bf08f6f3aa59d07a4acda",
+      "modify.displaymode.color.bg.middle": "128d490ea7648aec3d5703aca84f43bbe31bc0ad",
+      "modify.displaymode.color.bg.below": "ed70c9cc916b5153f500cb6baade8d08561134e8",
+      "modify.displaymode.color.border.default": "e3aa2fa191544fae7df15c855c089be6832a1977"
     },
     "group": "displaymode"
   },
@@ -194,12 +194,12 @@
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:1",
     "$figmaVariableReferences": {
-      "modify.displaymode.fg.primary": "adbac83db18d5df273147bdc8c7e5b16b615b949",
-      "modify.displaymode.fg.secondary": "2c00a0a9d8f005e260c05a8bf43b7a2fa19039a3",
-      "modify.displaymode.bg.above": "7374d0c3414b84566a8575c5034f795b32fad8b1",
-      "modify.displaymode.bg.middle": "30c95d7cd384a76b12dfe5f380387bf7c22851f5",
-      "modify.displaymode.bg.below": "03a231f37543fa524e24e70f2b7672ddfbfed3f6",
-      "modify.displaymode.border.default": "9269d91a303eb5db1e0e514ac18024cdf1242798"
+      "modify.displaymode.color.fg.primary": "e47a36e7839e5f59764bccf838c4872e57663c1a",
+      "modify.displaymode.color.fg.secondary": "c34b2291e9cb17ae76c32341be8663c2920f31f6",
+      "modify.displaymode.color.bg.above": "82545db95db007970a5bf08f6f3aa59d07a4acda",
+      "modify.displaymode.color.bg.middle": "128d490ea7648aec3d5703aca84f43bbe31bc0ad",
+      "modify.displaymode.color.bg.below": "ed70c9cc916b5153f500cb6baade8d08561134e8",
+      "modify.displaymode.color.border.default": "e3aa2fa191544fae7df15c855c089be6832a1977"
     },
     "group": "displaymode"
   },

@@ -57,31 +57,31 @@
       "fg": {
         "primary": {
           "$type": "color",
-          "$value": "{modify.display.color.fg.primary}"
+          "$value": "{modify.displaymode.color.fg.primary}"
         },
         "secondary": {
           "$type": "color",
-          "$value": "{modify.display.color.fg.secondary}"
+          "$value": "{modify.displaymode.color.fg.secondary}"
         }
       },
       "bg": {
         "above": {
           "$type": "color",
-          "$value": "{modify.display.color.bg.above}"
+          "$value": "{modify.displaymode.color.bg.above}"
         },
         "middle": {
           "$type": "color",
-          "$value": "{modify.display.color.bg.middle}"
+          "$value": "{modify.displaymode.color.bg.middle}"
         },
         "below": {
           "$type": "color",
-          "$value": "{modify.display.color.bg.below}"
+          "$value": "{modify.displaymode.color.bg.below}"
         }
       },
       "border": {
         "default": {
           "$type": "color",
-          "$value": "{modify.display.color.border.default}"
+          "$value": "{modify.displaymode.color.border.default}"
         }
       }
     },

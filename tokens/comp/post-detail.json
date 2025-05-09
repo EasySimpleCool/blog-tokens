@@ -16,7 +16,7 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{modify.display.color.bg.above}"
+          "$value": "{modify.displaymode.color.bg.above}"
         }
       },
       "border": {
