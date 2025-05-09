@@ -27,6 +27,7 @@ export default {
           format: "css/variables",
           options: {
             usesDtcg: true,
+            outputReferences: true,
           },
         },
       ],
