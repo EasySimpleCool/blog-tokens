@@ -32,5 +32,5 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "chore: update CSS variables from design tokens"
-          file_pattern: "src/css/variables.css"
+          commit_message: "chore: update themed CSS variables from design tokens"
+          file_pattern: "src/css/_variables-*.css" # Commit all generated theme variable files

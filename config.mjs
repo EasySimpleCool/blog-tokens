@@ -9,7 +9,7 @@ register(StyleDictionary, {
 });
 
 const $themes = JSON.parse(readFileSync('./tokens/$themes.json', 'utf-8'));
-const themes = permutateThemes($themes, { seperator: '_' });
+const themes = permutateThemes($themes, { seperator: '-' }); // Changed separator to hyphen
 const configs = Object.entries(themes).map(([name, tokensets]) => ({
   log: {
     verbosity: 'verbose',

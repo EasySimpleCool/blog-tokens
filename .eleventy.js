@@ -3,6 +3,7 @@ export default function (eleventyConfig) {
   // Copy these directories to the output
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/js");
 
   return {
     dir: {
