@@ -245,18 +245,18 @@ post-detail {
 /* Basic styling for theme controls */
 .theme-controls {
   display: flex;
-  gap: 10px;
-  margin: 1rem 0;
+  gap: 16px;
+  width: 100%;
 }
 
 .color-switches {
   display: flex;
-  gap: 5px;
+  gap: 4px; /* Take up full available width */
 }
 
-.theme-button, .color-button {
-  padding: 8px 12px;
-  border-radius: 4px;
+.color-button {
   cursor: pointer;
-  border: 1px solid #ccc;
+  flex: 1; /* Make each color button take up equal space */
 }
+
+
