@@ -21,18 +21,99 @@
       "input.dimension.64": "3a5d2dcecf36d3d2e6d85aa8526dfd34483a2e36",
       "input.dimension.80": "4d0a6fa49ac185d6f17c27922e3d242e59b204f2",
       "input.dimension.120": "b9f9d93629035ec6ab212b1d352a0d5a356c995c",
-      "input.color.blue.250": "774888ee164f603e5d2ff48f44bfad5c514c5c56",
-      "input.color.blue.500": "ab101fbc1111b627b6e3badee872ce9206c0dc5c",
-      "input.color.light.250": "32391ff02d2360cd6032465eedcee73a70bc3d0d",
-      "input.color.light.500": "2a996ff1348317b046882e58dbdae602e46fadfa",
-      "input.color.light.750": "63210dd832e744e6178484430f6a18a4378c3f55",
-      "input.color.dark.250": "1feebc35f64d4ba98aab3174184a1f9a69b6ec94",
-      "input.color.dark.500": "991f32660b5a89f674c8ee73dbc6ef3817b13820",
-      "input.color.dark.750": "63cfa552588fefc10b1c8d4e0c077ff0c52bc263",
-      "input.color.purple.250": "2006ceb272e2c8ea517e18df97bf753f528b121a",
-      "input.color.purple.500": "1c8d297cba99b79b794055206422beec159b47c2",
-      "input.color.yellow.250": "6e0964d512f8e477b9395adcdad31e2e331fdb95",
-      "input.color.yellow.500": "c8c298f7db45791b3f6f1c37b9100db99b527648"
+      "input.color.lights.100": "db011f658bc5cfbaf429bf04b4e1419314ac6fd2",
+      "input.color.lights.200": "e7edbbecdca1778627547ceb2adba7569c716f87",
+      "input.color.lights.300": "38eb3a9f82fcca8fa222293e08bb3e39bb21fb8a",
+      "input.color.lights.400": "c02ab4cdd6458bf96ea013e31b31be9d463a6a1a",
+      "input.color.lights.500": "dcd6a589517a654a6c0c1705e249d270b1a8d82d",
+      "input.color.lights.600": "2af19403334042c05450da267fd34a63d81a9b5c",
+      "input.color.lights.700": "b3223b1a033af6bacda4226b701eb9b299975d88",
+      "input.color.lights.800": "1a67b8243c7564a1650847ed722831ba19129eeb",
+      "input.color.lights.900": "b2d3c2ad6144b1bc2c43279a8308e08d19652408",
+      "input.color.darks.100": "9141eb7505094468477b64210bade4a24844305a",
+      "input.color.darks.200": "a8f255d2c28f3275529b2dae75cb39439b97aadc",
+      "input.color.darks.300": "cffc774b9db7b91419824853faad836d2696fd22",
+      "input.color.darks.400": "64fd12e0cc673c8946ab4f582d1ba35bd8863528",
+      "input.color.darks.500": "f8480dbe017908f6e6ac0547544b0a1a89e0cac2",
+      "input.color.darks.600": "1c2bffbca636edbe1455b4aea10aeca365bfdaa7",
+      "input.color.darks.700": "a871248342eee8a60303c5300d49d1ab7929b766",
+      "input.color.darks.800": "4f3c39e7e3c910a7dcd4a6d3ba6fa5aedc288902",
+      "input.color.darks.900": "3efe04c692d5acbbd4df842c8255dd4610ab9b58",
+      "input.color.blues.lights.01": "6f0f65e136aca483e3fce45c9cc5db0d90a8f5c1",
+      "input.color.blues.lights.02": "389bd74db1ab4735bf72b37d25663a9cc2c3784c",
+      "input.color.blues.lights.03": "13662a2eb31ac6c0d4495ca9f87507fe22efe63e",
+      "input.color.blues.lights.04": "a57b8b12decbc726db563fcdb5865942a74bf5d2",
+      "input.color.blues.lights.05": "a1a24316b5ca2907d6b9b948543587fdebe3cc1e",
+      "input.color.blues.standard.01": "0b6de50151f22ed87f3e8c4e2115b29e1bd5141c",
+      "input.color.blues.standard.02": "796c75d6ef7c3681c7c960c31f1fff454c9436a0",
+      "input.color.blues.standard.03": "65294bf32d52cf8e48bd1d6416d378861e80b940",
+      "input.color.blues.standard.04": "679a2815fd99ee8290659cfc4f3bdbbed4a235e5",
+      "input.color.blues.standard.05": "fa39e7b78ff08a47da10d1180bb689d5009c9218",
+      "input.color.blues.darks.01": "ccdc19e28f6a7b1f80e3e2d1f1ab142ab14ab6f6",
+      "input.color.blues.darks.02": "ce658d5198e75a7e25a4622ad15980d60e7c9df3",
+      "input.color.blues.darks.03": "5c2ed8ba57f44442ffe7a044515119e39cf187b1",
+      "input.color.blues.darks.04": "4a327be02d0605323058850f83f7bba8aef7ee0d",
+      "input.color.blues.darks.05": "1bfb6b63c04d0e39eff8e8cb487c227d759bf256",
+      "input.color.purples.lights.01": "8e56c8b206c2b308f79067e423b3b946b10e476b",
+      "input.color.purples.lights.02": "89598f4d1c60b2453e3be5807df3f386a4b1752a",
+      "input.color.purples.lights.03": "c35cf15e24c18a574d32a11cf9bda681618c5dfe",
+      "input.color.purples.lights.04": "4e75a5470b134459e071fe7154f3baaa59a666e2",
+      "input.color.purples.lights.05": "a4236960d44651425d4a77eb577a01032302fc51",
+      "input.color.purples.standard.01": "c8dc66d84efe562a3040d0303df1b665236e5fb2",
+      "input.color.purples.standard.02": "12a74206d62c1b6cf6d93089d7b81eb2fcb5681c",
+      "input.color.purples.standard.03": "1a843d5995eea29d541b18b7892af5ab608aa2b2",
+      "input.color.purples.standard.04": "17a5f13ed012d948f1a09ac2a4f284e0109c88b6",
+      "input.color.purples.standard.05": "9347e49e9894ab8c7118ba4a3d9b6a1751f49d46",
+      "input.color.purples.darks.01": "d97a38d89ec24b7496a468356d75635e2941a179",
+      "input.color.purples.darks.02": "225b6f9777255e361fefd154c03e3911b8d06365",
+      "input.color.purples.darks.03": "8446882ad804c70a0e5f700b40c9ea4c0c8252ef",
+      "input.color.purples.darks.04": "8d896d5625fe42e6ca8c6f1eb6d74cb1c40bcc46",
+      "input.color.purples.darks.05": "6ef807d57a6b3936baf7cf303a10e0416bfb0975",
+      "input.color.yellows.lights.01": "4506a778f09d3ad8692a8f8009f86f30fd8de900",
+      "input.color.yellows.lights.02": "8220590a57efb8340db407c0041531de82d14300",
+      "input.color.yellows.lights.03": "52298575226d5f104b218b7c1ccbf1a0b5318b30",
+      "input.color.yellows.lights.04": "efdb7fb498a3f922dcfc9cbf5e7ea920335080b0",
+      "input.color.yellows.lights.05": "91129f7317a81b2fcc6196cbc6602eef1ac00a41",
+      "input.color.yellows.standard.01": "f3fd913f93f66d6750cc075bd04e266d88f98d27",
+      "input.color.yellows.standard.02": "7a68b8ac72511b07f1352522e80166cba08e0c5d",
+      "input.color.yellows.standard.03": "8ba82a1d4c0211eb68c9b055c54d9265f7e6d49e",
+      "input.color.yellows.standard.04": "155e2faa2fb3c5fee2bee4465634bbbcee9955dc",
+      "input.color.yellows.standard.05": "92ed48ff31df5c3341769ff1084eefd00068b05d",
+      "input.color.yellows.darks.01": "e631be269b66f2e1517fa12d02857c1a3b83806c",
+      "input.color.yellows.darks.02": "32bef5ec63699dd614c7687b676cf898b13e737e",
+      "input.color.yellows.darks.03": "3f64bffdf2160aee924e1152efc4177899a6bb85",
+      "input.color.yellows.darks.04": "e521edfd8459723d07f098c124b6725b15b4098b",
+      "input.color.yellows.darks.05": "71487c801e9a07c0318463df4086258219d487bd",
+      "input.color.greens.lights.01": "a77c5be28d30866fed6be01c676ad372072b56b5",
+      "input.color.greens.lights.02": "29a2870ff594b2fad8e774097e610f57b370a2bc",
+      "input.color.greens.lights.03": "fd2a8f6c98d490d3ca8a2f8f43790418d367e492",
+      "input.color.greens.lights.04": "1a4be5e0ac1f5f1d506b1b5b38578d3399fd2b5e",
+      "input.color.greens.lights.05": "92558176d376ee8a404d9a767b7a3557dd68f829",
+      "input.color.greens.standard.01": "babacd2c01c830b5a7dbc668739b93da653152ef",
+      "input.color.greens.standard.02": "b37a75077a00a5a2dc52d248c3eba1db1edc3453",
+      "input.color.greens.standard.03": "65976638d6ff6eef5ad4e2584e7783c9c6298e55",
+      "input.color.greens.standard.04": "b0b8288da2877ab17ebf2a761a3ceec0f9337a3a",
+      "input.color.greens.standard.05": "19b76627650a5efa38aa083891f4bb9e12f3bff3",
+      "input.color.greens.darks.01": "88275274755da8642a120da8a524ae8b2a712ce5",
+      "input.color.greens.darks.02": "6c03803b1c00064737e326311a2dde5f168901e2",
+      "input.color.greens.darks.03": "22324aaedffea9a96a27e2eba295924aead8a623",
+      "input.color.greens.darks.04": "90d6b65ed493878494e34f861c7a615412b8cc05",
+      "input.color.greens.darks.05": "a16524c982d33030d54c0bc15e52006ac66ba8c0",
+      "input.color.reds.lights.01": "0b8f60956b4e9611993c1579581b8928991f4ea6",
+      "input.color.reds.lights.02": "518dee8ddbfec60a5159adf1cba92e0198eeded6",
+      "input.color.reds.lights.03": "a6e726833f81e445e83a5f64535e007c5a89a0e4",
+      "input.color.reds.lights.04": "a72e0a420f9ee8cef82867fb3464eafafd15b8ce",
+      "input.color.reds.lights.05": "33c0680e621cd2c469a83a54537ea321440cf95c",
+      "input.color.reds.standard.01": "a8e0282503153bfa4733fdeb07cfa8aa793dd07f",
+      "input.color.reds.standard.02": "4e6bacf03db8687f569f138d89a2b94bd0959dca",
+      "input.color.reds.standard.03": "bf06792767406bb9f351e79d6285a59b4890dfe4",
+      "input.color.reds.standard.04": "415e2f401bc177f3329135c24f0efc741bd3aec4",
+      "input.color.reds.standard.05": "b10077e5cdeea61cb147a8e9a56af89532aa8e87",
+      "input.color.reds.darks.01": "7487f43244a69cea78293feb0686d55c98e96bbf",
+      "input.color.reds.darks.02": "603e77865d1b4c64d353fd8d2141b822138aa8c3",
+      "input.color.reds.darks.03": "8880a7cbf6014d7747277d8bf5ff6b78182be40a",
+      "input.color.reds.darks.04": "0aae7d859e9eec67d130d276ce9eaf6b80e19208",
+      "input.color.reds.darks.05": "81d657ea3697ced6f395a5944b2803a3d74c52a1"
     },
     "group": "input"
   },
@@ -46,9 +127,9 @@
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:2",
     "$figmaVariableReferences": {
-      "modify.color.accent.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.color.accent.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
-      "modify.color.accent.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
+      "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
+      "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
+      "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
     },
     "group": "brand"
   },
@@ -63,9 +144,9 @@
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:3",
     "$figmaVariableReferences": {
-      "modify.color.accent.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.color.accent.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
-      "modify.color.accent.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
+      "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
+      "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
+      "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
     }
   },
   {
@@ -79,9 +160,9 @@
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:4",
     "$figmaVariableReferences": {
-      "modify.color.accent.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.color.accent.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
-      "modify.color.accent.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
+      "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
+      "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
+      "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24"
     }
   },
   {
@@ -94,12 +175,12 @@
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:0",
     "$figmaVariableReferences": {
-      "modify.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
-      "modify.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
-      "modify.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
-      "modify.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
-      "modify.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
-      "modify.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
+      "modify.display.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
+      "modify.display.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
+      "modify.display.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
+      "modify.display.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
+      "modify.display.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
+      "modify.display.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
     },
     "group": "displaymode"
   },
@@ -113,12 +194,12 @@
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:1",
     "$figmaVariableReferences": {
-      "modify.color.fg.primary": "af3f58236065353665c5a944c374807e98f35e16",
-      "modify.color.fg.secondary": "8522146d340ab48db69dacb73af848f97f6221c4",
-      "modify.color.bg.above": "7da72190014b26edf08a6e7be25a14d1c67f748c",
-      "modify.color.bg.middle": "cabe5f7e585dffab2e43a414e4b736d0909f4ebc",
-      "modify.color.bg.below": "470d45917d0abef29b420fc5df7a2c2cacec9f8b",
-      "modify.color.border.default": "e040acc5ebd887698ef2c0e9cf75b17fed7c0950"
+      "modify.displaymode.fg.primary": "adbac83db18d5df273147bdc8c7e5b16b615b949",
+      "modify.displaymode.fg.secondary": "2c00a0a9d8f005e260c05a8bf43b7a2fa19039a3",
+      "modify.displaymode.bg.above": "7374d0c3414b84566a8575c5034f795b32fad8b1",
+      "modify.displaymode.bg.middle": "30c95d7cd384a76b12dfe5f380387bf7c22851f5",
+      "modify.displaymode.bg.below": "03a231f37543fa524e24e70f2b7672ddfbfed3f6",
+      "modify.displaymode.border.default": "9269d91a303eb5db1e0e514ac18024cdf1242798"
     },
     "group": "displaymode"
   },
@@ -132,10 +213,10 @@
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:0",
     "$figmaVariableReferences": {
-      "modify.dimension.small": "deceffbf40c6e8ca35d4e85c12859595f279366e",
-      "modify.dimension.medium": "0b69703e71b3d3faec4bbbc5a46b9ecd47041eb5",
-      "modify.dimension.large": "9ac5d8403859d5d1104226acba278dd6c92913a2",
-      "modify.dimension.xlarge": "72064031b9b8f41f77fe8aa1aee3f5e2241992bb"
+      "modify.screen.dimension.small": "deceffbf40c6e8ca35d4e85c12859595f279366e",
+      "modify.screen.dimension.medium": "0b69703e71b3d3faec4bbbc5a46b9ecd47041eb5",
+      "modify.screen.dimension.large": "9ac5d8403859d5d1104226acba278dd6c92913a2",
+      "modify.screen.dimension.xlarge": "72064031b9b8f41f77fe8aa1aee3f5e2241992bb"
     },
     "group": "screen"
   },
@@ -149,10 +230,10 @@
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:1",
     "$figmaVariableReferences": {
-      "modify.dimension.small": "deceffbf40c6e8ca35d4e85c12859595f279366e",
-      "modify.dimension.medium": "0b69703e71b3d3faec4bbbc5a46b9ecd47041eb5",
-      "modify.dimension.large": "9ac5d8403859d5d1104226acba278dd6c92913a2",
-      "modify.dimension.xlarge": "72064031b9b8f41f77fe8aa1aee3f5e2241992bb"
+      "modify.screen.dimension.small": "deceffbf40c6e8ca35d4e85c12859595f279366e",
+      "modify.screen.dimension.medium": "0b69703e71b3d3faec4bbbc5a46b9ecd47041eb5",
+      "modify.screen.dimension.large": "9ac5d8403859d5d1104226acba278dd6c92913a2",
+      "modify.screen.dimension.xlarge": "72064031b9b8f41f77fe8aa1aee3f5e2241992bb"
     },
     "group": "screen"
   },
@@ -166,10 +247,10 @@
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:2",
     "$figmaVariableReferences": {
-      "modify.dimension.small": "deceffbf40c6e8ca35d4e85c12859595f279366e",
-      "modify.dimension.medium": "0b69703e71b3d3faec4bbbc5a46b9ecd47041eb5",
-      "modify.dimension.large": "9ac5d8403859d5d1104226acba278dd6c92913a2",
-      "modify.dimension.xlarge": "72064031b9b8f41f77fe8aa1aee3f5e2241992bb"
+      "modify.screen.dimension.small": "deceffbf40c6e8ca35d4e85c12859595f279366e",
+      "modify.screen.dimension.medium": "0b69703e71b3d3faec4bbbc5a46b9ecd47041eb5",
+      "modify.screen.dimension.large": "9ac5d8403859d5d1104226acba278dd6c92913a2",
+      "modify.screen.dimension.xlarge": "72064031b9b8f41f77fe8aa1aee3f5e2241992bb"
     },
     "group": "screen"
   },

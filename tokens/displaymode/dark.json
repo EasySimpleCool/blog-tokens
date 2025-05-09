@@ -1,28 +1,28 @@
 {
   "modify": {
-    "color": {
+    "displaymode": {
       "fg": {
         "primary": {
           "$type": "color",
-          "$value": "{input.color.light.250}"
+          "$value": "{input.color.lights.100}"
         },
         "secondary": {
           "$type": "color",
-          "$value": "{input.color.light.500}"
+          "$value": "{input.color.lights.500}"
         }
       },
       "bg": {
         "above": {
           "$type": "color",
-          "$value": "{input.color.dark.250}"
+          "$value": "{input.color.darks.100}"
         },
         "middle": {
           "$type": "color",
-          "$value": "{input.color.dark.500}"
+          "$value": "{input.color.darks.500}"
         },
         "below": {
           "$type": "color",
-          "$value": "{input.color.dark.750}"
+          "$value": "{input.color.darks.700}"
         }
       },
       "border": {
@@ -37,7 +37,7 @@
             }
           },
           "$type": "color",
-          "$value": "{input.color.light.250}"
+          "$value": "{input.color.lights.500}"
         }
       }
     }

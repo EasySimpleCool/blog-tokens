@@ -4,15 +4,15 @@
       "primary": {
         "bg-default": {
           "$type": "color",
-          "$value": "{modify.color.accent.primary}"
+          "$value": "{modify.accent.color.primary}"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{modify.color.accent.lighter}"
+          "$value": "{modify.accent.color.lighter}"
         },
         "fg": {
           "$type": "color",
-          "$value": "{modify.color.accent.on-accent}"
+          "$value": "{modify.accent.color.on-accent}"
         }
       },
       "min-h": {

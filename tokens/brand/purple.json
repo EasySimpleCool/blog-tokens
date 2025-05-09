@@ -1,18 +1,18 @@
 {
   "modify": {
-    "color": {
-      "accent": {
+    "accent": {
+      "color": {
         "primary": {
           "$type": "color",
-          "$value": "{input.color.purple.500}"
+          "$value": "{input.color.purples.standard.03}"
         },
         "lighter": {
           "$type": "color",
-          "$value": "{input.color.purple.250}"
+          "$value": "{input.color.purples.lights.03}"
         },
         "on-accent": {
           "$type": "color",
-          "$value": "{input.color.light.250}"
+          "$value": "{input.color.lights.100}"
         }
       }
     }

@@ -43,45 +43,45 @@
       "accent": {
         "primary": {
           "$type": "color",
-          "$value": "{modify.color.accent.primary}"
+          "$value": "{modify.accent.color.primary}"
         },
         "lighter": {
           "$type": "color",
-          "$value": "{modify.color.accent.lighter}"
+          "$value": "{modify.accent.color.lighter}"
         },
         "on-accent": {
           "$type": "color",
-          "$value": "{modify.color.accent.on-accent}"
+          "$value": "{modify.accent.color.on-accent}"
         }
       },
       "fg": {
         "primary": {
           "$type": "color",
-          "$value": "{modify.color.fg.primary}"
+          "$value": "{modify.display.color.fg.primary}"
         },
         "secondary": {
           "$type": "color",
-          "$value": "{modify.color.fg.secondary}"
+          "$value": "{modify.display.color.fg.secondary}"
         }
       },
       "bg": {
         "above": {
           "$type": "color",
-          "$value": "{modify.color.bg.above}"
+          "$value": "{modify.display.color.bg.above}"
         },
         "middle": {
           "$type": "color",
-          "$value": "{modify.color.bg.middle}"
+          "$value": "{modify.display.color.bg.middle}"
         },
         "below": {
           "$type": "color",
-          "$value": "{modify.color.bg.below}"
+          "$value": "{modify.display.color.bg.below}"
         }
       },
       "border": {
         "default": {
           "$type": "color",
-          "$value": "{modify.color.border.default}"
+          "$value": "{modify.display.color.border.default}"
         }
       }
     },

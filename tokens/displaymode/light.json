@@ -1,43 +1,45 @@
 {
   "modify": {
-    "color": {
-      "fg": {
-        "primary": {
-          "$type": "color",
-          "$value": "{input.color.dark.500}"
-        },
-        "secondary": {
-          "$type": "color",
-          "$value": "{input.color.dark.250}"
-        }
-      },
-      "bg": {
-        "above": {
-          "$type": "color",
-          "$value": "{input.color.light.250}"
-        },
-        "middle": {
-          "$type": "color",
-          "$value": "{input.color.light.500}"
-        },
-        "below": {
-          "$type": "color",
-          "$value": "{input.color.light.750}"
-        }
-      },
-      "border": {
-        "default": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": ".15",
-                "space": "srgb"
-              }
-            }
+    "display": {
+      "color": {
+        "fg": {
+          "primary": {
+            "$type": "color",
+            "$value": "{input.color.darks.500}"
           },
-          "$type": "color",
-          "$value": "{input.color.dark.250}"
+          "secondary": {
+            "$type": "color",
+            "$value": "{input.color.darks.100}"
+          }
+        },
+        "bg": {
+          "above": {
+            "$type": "color",
+            "$value": "{input.color.lights.100}"
+          },
+          "middle": {
+            "$type": "color",
+            "$value": "{input.color.lights.500}"
+          },
+          "below": {
+            "$type": "color",
+            "$value": "{input.color.lights.700}"
+          }
+        },
+        "border": {
+          "default": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": ".15",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{input.color.darks.500}"
+          }
         }
       }
     }

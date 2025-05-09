@@ -1,21 +1,23 @@
 {
   "modify": {
-    "dimension": {
-      "small": {
-        "$type": "dimension",
-        "$value": "{input.dimension.24}"
-      },
-      "medium": {
-        "$type": "dimension",
-        "$value": "{input.dimension.32}"
-      },
-      "large": {
-        "$type": "dimension",
-        "$value": "{input.dimension.40}"
-      },
-      "xlarge": {
-        "$type": "dimension",
-        "$value": "{input.dimension.64}"
+    "screen": {
+      "dimension": {
+        "small": {
+          "$type": "dimension",
+          "$value": "{input.dimension.24}"
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": "{input.dimension.32}"
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": "{input.dimension.40}"
+        },
+        "xlarge": {
+          "$type": "dimension",
+          "$value": "{input.dimension.64}"
+        }
       }
     }
   }
