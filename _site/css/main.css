@@ -251,10 +251,9 @@ post-detail {
 
 .color-switches {
   display: flex;
+  width: 100%;
   gap: 4px; /* Take up full available width */
 }
-
-
 
 .color-button {
   cursor: pointer;
