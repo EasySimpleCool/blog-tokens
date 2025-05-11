@@ -24,6 +24,25 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
         {
           destination: `_variables-${name}.css`,
           format: 'css/variables',
+          filter: (token) => {
+            // Exclude tokens from input and modify files
+            const filePath = token.filePath;
+            // Add all files you want to exclude to this array
+            const excludedFiles = [
+              'tokens/input.json',
+              'tokens/brand/blue.json',
+              'tokens/brand/purple.json',
+              'tokens/brand/yellow.json',
+              'tokens/screen/desktop.json',
+              'tokens/screen/tablet*.json',
+              'tokens/screen/mobile.json',
+              'tokens/displaymode/dark.json',
+              'tokens/displaymode/light.json'
+              // Add more files as needed
+            ];
+            return !excludedFiles.includes(filePath);
+          },
+          
         },
       ],
       "expand": true

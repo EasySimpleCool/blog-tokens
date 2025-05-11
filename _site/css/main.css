@@ -32,7 +32,7 @@ img {
 }
 
 .logo path {
-  fill: var(--output-color-fg-primary);
+  fill: var(--output-color-accent-primary);
 }
 
 /* -----------------------------

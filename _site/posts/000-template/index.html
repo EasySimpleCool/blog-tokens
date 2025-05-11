@@ -62,8 +62,8 @@
       
         <h1>Finally creating this thing</h1>
       <div class="stack stack-default">
-        <p>I’ve been wanting to build a new personal site/folio for ages, finally got to it 😳😂.</p>
-<p>The goal of this thing is to be able to post small snippets of my work, it could be finished work, explorations, tips, random findings/learnings. Another reason is to learn end-to-end design → build and get a better idea of how to implement my designs in the real world.</p>
+        <p>I’ve been wanting to build a new personal site/folio for ages, finally got to it 😳😂.
+The goal of this thing is to be able to post small snippets of my work, it could be finished work, explorations, tips, random findings/learnings. Another reason is to learn end-to-end design → build and get a better idea of how to implement my designs in the real world.</p>
 <p>For zeece post ima go over the design and build.</p>
 <h2>Design</h2>
 <p>Starting with the design token structure, I went with a 4 tiered approach:</p>
@@ -86,9 +86,10 @@
 <p><img src="/images/1A-design-system.png" alt="Design Tokens Visualization"></p>
 <p>Everything was designed in Figma with the intention of keeping a tight loop between design / translation / build and vice versa.</p>
 <p>I am a complete Figma nerd, so everything was built with all the best that it has to offer, Shift+A (Autolayout), Variables mixed with a layout system that ive refined and used over the last couple years.</p>
-<p>Figma Variables has always felt a bit jank, working with Tokens Studio is has been a way better experience. I set up my design tokens to make them export nicely into Figma Variables, which removed the need to even touch the Figma Variables UI for editing/changing. Simple “export to variables” button and let TS handle the rest.</p>
-<p>Shift+D (Devmode) now allows us to pretty much extract the css from any selected element. This is a massive improvement to the design → build process. The naming from TS is retained when translated to Figma Variables, and even from here in devmode the variables line up with the css variables created (in build)
-Design ✅</p>
+<p>Figma Variables has always felt a bit jank, working with Tokens Studio is has been a way better experience. I set up my design tokens to make them export nicely into Figma Variables, which removed the need to even touch the Figma Variables UI for editing/changing. Simple “export to variables” button and let TS handle the rest.
+Shift+D (Devmode) now allows us to pretty much extract the css from any selected element. This is a massive improvement to the design → build process. The naming from TS is retained when translated to Figma Variables, and even from here in devmode the variables line up with the css variables created (in build)</p>
+<p>Design ✅</p>
+<h2>Build</h2>
 <p>I tried to keep the stack as lightweight as possible, and a free place to store it. Stuff I used:</p>
 <ul>
 <li>Figma + Tokens Studio (Push JSON tokens to git)</li>
@@ -102,9 +103,9 @@ Design ✅</p>
 <p>I chose 11ty because you can create posts with markdown files. So I can use my current notes app (Obsidian) to write a post, and then save it and drag the .md file into posts folder, then let 11ty handle the rest. Gameover mate.</p>
 <p>Theres prolly a markdown plugin in Figma that could streamline the process 🤷‍♂️ but ill look into it later.</p>
 <h2>First post done.</h2>
-<p>Pretty happy with this first version of the site, it lets me post stuff, and all the styling is driven by what I have within Figma + Tokens Studio. Make a change to section h-pad in Figma TS, it triggers an action that rebuilds the css variables, then netlify sees a new push and triggers a new build as well.</p>
-<p>Change in Tokens Studio -&gt; Push to Git -&gt; Rebuilds CSS -&gt; Netlify rebuilds site</p>
-<p>Next steps are:</p>
+<p>Pretty happy with this first version of the site, it lets me post stuff, and all the styling is driven by what I have within Figma + Tokens Studio. Make a change to section h-pad in Figma TS, it triggers an action that rebuilds the css variables, then netlify sees a new push and triggers a new build as well.
+Change in Tokens Studio -&gt; Push to Git -&gt; Rebuilds CSS -&gt; Netlify rebuilds site
+Next steps are:</p>
 <ul>
 <li>Theming (Screen and Displaymode)</li>
 <li>Storybook implementation (current team uses this so learning it wouldnt hurt)</li>
