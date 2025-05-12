@@ -52,7 +52,7 @@
   --comp-box-stack-pad-gap-default: 24px;
   --comp-box-stack-pad-gap-more: 40px;
   --comp-box-stack-pad-gap-even-more: 80px;
-  --comp-post-preview-bg-default: #545f6d;
+  --comp-post-preview-bg-default: lch(35.778 8.7106 258.98);
   --comp-post-preview-b-rad: 8px;
   --comp-post-preview-pad: 24px;
   --comp-post-preview-gap: 16px;
@@ -72,6 +72,7 @@
   --comp-tag-border-default-color: rgb(91.036% 92.907% 95.522% / 0.15);
   --comp-tag-border-default-width: 1px;
   --comp-tag-border-default-style: solid;
+  --comp-tag-bg: lch(97.832 1.2964 259.09);
   --comp-post-detail-b-rad: 8px;
   --comp-post-detail-pad: 24px;
   --comp-post-detail-gap: 24px;
