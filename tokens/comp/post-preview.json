@@ -4,7 +4,7 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{modify.displaymode.color.bg.above}"
+          "$value": "{modify.displaymode.color.bg.above.default}"
         }
       },
       "b-rad": {

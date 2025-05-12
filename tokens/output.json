@@ -67,15 +67,15 @@
       "bg": {
         "above": {
           "$type": "color",
-          "$value": "{modify.displaymode.color.bg.above}"
+          "$value": "{modify.displaymode.color.bg.above.lighter}"
         },
         "middle": {
           "$type": "color",
-          "$value": "{modify.displaymode.color.bg.middle}"
+          "$value": "{modify.displaymode.color.bg.middle.default}"
         },
         "below": {
           "$type": "color",
-          "$value": "{modify.displaymode.color.bg.below}"
+          "$value": "{modify.displaymode.color.bg.below.lighter}"
         }
       },
       "border": {

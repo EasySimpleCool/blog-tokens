@@ -177,9 +177,15 @@
     "$figmaVariableReferences": {
       "modify.displaymode.color.fg.primary": "e47a36e7839e5f59764bccf838c4872e57663c1a",
       "modify.displaymode.color.fg.secondary": "c34b2291e9cb17ae76c32341be8663c2920f31f6",
-      "modify.displaymode.color.bg.above": "82545db95db007970a5bf08f6f3aa59d07a4acda",
-      "modify.displaymode.color.bg.middle": "128d490ea7648aec3d5703aca84f43bbe31bc0ad",
-      "modify.displaymode.color.bg.below": "ed70c9cc916b5153f500cb6baade8d08561134e8",
+      "modify.displaymode.color.bg.above.lighter": "82545db95db007970a5bf08f6f3aa59d07a4acda",
+      "modify.displaymode.color.bg.above.default": "539e0bac36d5f4811d138b08ed2410ee3f257fbd",
+      "modify.displaymode.color.bg.above.darker": "1ee583c31852bc3e4bbb863c41d7a32e0410d799",
+      "modify.displaymode.color.bg.middle.lighter": "cb58fe7d39354881c6bce4361b450e661d9272ba",
+      "modify.displaymode.color.bg.middle.default": "128d490ea7648aec3d5703aca84f43bbe31bc0ad",
+      "modify.displaymode.color.bg.middle.darker": "9f43c5ebe089cf44021e5e5e89d2daa27270bb18",
+      "modify.displaymode.color.bg.below.lighter": "ed70c9cc916b5153f500cb6baade8d08561134e8",
+      "modify.displaymode.color.bg.below.default": "704bc192d9e3040051af35e75aebb995788d5700",
+      "modify.displaymode.color.bg.below.darker": "7d9f4688836eac309444599cdb55aefdcf07ddc0",
       "modify.displaymode.color.border.default": "e3aa2fa191544fae7df15c855c089be6832a1977"
     },
     "group": "displaymode"
@@ -196,9 +202,15 @@
     "$figmaVariableReferences": {
       "modify.displaymode.color.fg.primary": "e47a36e7839e5f59764bccf838c4872e57663c1a",
       "modify.displaymode.color.fg.secondary": "c34b2291e9cb17ae76c32341be8663c2920f31f6",
-      "modify.displaymode.color.bg.above": "82545db95db007970a5bf08f6f3aa59d07a4acda",
-      "modify.displaymode.color.bg.middle": "128d490ea7648aec3d5703aca84f43bbe31bc0ad",
-      "modify.displaymode.color.bg.below": "ed70c9cc916b5153f500cb6baade8d08561134e8",
+      "modify.displaymode.color.bg.above.lighter": "82545db95db007970a5bf08f6f3aa59d07a4acda",
+      "modify.displaymode.color.bg.above.default": "539e0bac36d5f4811d138b08ed2410ee3f257fbd",
+      "modify.displaymode.color.bg.above.darker": "1ee583c31852bc3e4bbb863c41d7a32e0410d799",
+      "modify.displaymode.color.bg.middle.lighter": "cb58fe7d39354881c6bce4361b450e661d9272ba",
+      "modify.displaymode.color.bg.middle.default": "128d490ea7648aec3d5703aca84f43bbe31bc0ad",
+      "modify.displaymode.color.bg.middle.darker": "9f43c5ebe089cf44021e5e5e89d2daa27270bb18",
+      "modify.displaymode.color.bg.below.lighter": "ed70c9cc916b5153f500cb6baade8d08561134e8",
+      "modify.displaymode.color.bg.below.default": "704bc192d9e3040051af35e75aebb995788d5700",
+      "modify.displaymode.color.bg.below.darker": "7d9f4688836eac309444599cdb55aefdcf07ddc0",
       "modify.displaymode.color.border.default": "e3aa2fa191544fae7df15c855c089be6832a1977"
     },
     "group": "displaymode"
@@ -328,6 +340,7 @@
       "comp.tag.b-rad": "68c5f835805201c9e2d654ec887f1987d3303f86",
       "comp.tag.h-pad": "8114ed5e0978d51e3285a7166a5b0b2f8f6cf183",
       "comp.tag.v-pad": "a8976a2a7d480fc06202151aa56c78336d9032a6",
+      "comp.tag.bg": "fdb1775d14a0c418e75c86660f91764444b1c120",
       "comp.post-preview.bg.default": "f32d0b4d087cd6788cfc3bdb02763850e1fe2541",
       "comp.post-preview.b-rad": "088c10a9d9de63d554700ac2f546af0aa2b0f48e",
       "comp.post-preview.pad": "c3bfda760e6593853cf6b23302b7ba3c6c506b81",

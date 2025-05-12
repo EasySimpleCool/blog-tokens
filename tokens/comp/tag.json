@@ -18,6 +18,10 @@
           "$type": "border",
           "$value": "{output.border.default}"
         }
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{input.color.lights.100}"
       }
     }
   }
