@@ -48,6 +48,10 @@
       "120": {
         "$type": "dimension",
         "$value": "120px"
+      },
+      "9999": {
+        "$type": "dimension",
+        "$value": "9999px"
       }
     },
     "color": {
@@ -743,7 +747,7 @@
         "darks": {
           "01": {
             "$type": "color",
-            "$value": "#926C27"
+            "$value": "#C96E00"
           },
           "02": {
             "$extensions": {

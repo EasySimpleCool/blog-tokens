@@ -21,7 +21,7 @@
       },
       "bg": {
         "$type": "color",
-        "$value": "{input.color.lights.100}"
+        "$value": "{output.color.bg.above.lighter}"
       }
     }
   }

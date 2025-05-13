@@ -13,7 +13,7 @@
       },
       "pad": {
         "$type": "dimension",
-        "$value": "{output.dimension.fixed-24}"
+        "$value": "{output.dimension.fluid-md}"
       },
       "gap": {
         "$type": "dimension",

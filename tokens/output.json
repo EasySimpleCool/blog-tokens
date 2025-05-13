@@ -66,16 +66,46 @@
       },
       "bg": {
         "above": {
-          "$type": "color",
-          "$value": "{modify.displaymode.color.bg.above.lighter}"
+          "lighter": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.lighter}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.default}"
+          },
+          "darker": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.darker}"
+          }
         },
         "middle": {
-          "$type": "color",
-          "$value": "{modify.displaymode.color.bg.middle.default}"
+          "lighter": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.middle.lighter}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.middle.default}"
+          },
+          "darker": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.middle.darker}"
+          }
         },
         "below": {
-          "$type": "color",
-          "$value": "{modify.displaymode.color.bg.below.lighter}"
+          "lighter": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.below.lighter}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.below.default}"
+          },
+          "darker": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.below.darker}"
+          }
         }
       },
       "border": {
@@ -113,6 +143,22 @@
       "fixed-80": {
         "$type": "dimension",
         "$value": "{input.dimension.80}"
+      },
+      "fluid-sm": {
+        "$type": "dimension",
+        "$value": "{modify.screen.dimension.small}"
+      },
+      "fluid-md": {
+        "$type": "dimension",
+        "$value": "{modify.screen.dimension.medium}"
+      },
+      "fluid-lg": {
+        "$type": "dimension",
+        "$value": "{modify.screen.dimension.large}"
+      },
+      "fluid-xl": {
+        "$type": "dimension",
+        "$value": "{modify.screen.dimension.xlarge}"
       }
     },
     "border-radius": {
@@ -123,6 +169,10 @@
       "default": {
         "$type": "borderRadius",
         "$value": "{input.dimension.8}"
+      },
+      "round": {
+        "$type": "borderRadius",
+        "$value": "{input.dimension.9999}"
       }
     },
     "border": {

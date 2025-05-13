@@ -8,7 +8,7 @@
         },
         "lighter": {
           "$type": "color",
-          "$value": "{input.color.blues.lights.03}"
+          "$value": "{input.color.blues.standard.01}"
         },
         "on-accent": {
           "$type": "color",
