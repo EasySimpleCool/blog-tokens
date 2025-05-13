@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "i",
+    "input",
     "brand/blue",
     "brand/purple",
     "brand/yellow",
@@ -9,7 +9,7 @@
     "screen/mobile",
     "displaymode/light",
     "displaymode/dark",
-    "o",
+    "output",
     "comp/section",
     "comp/container",
     "comp/box-stack",
