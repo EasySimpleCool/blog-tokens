@@ -22,7 +22,7 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
       buildPath: 'src/css/',
       files: [
         {
-          destination: `_variables-${name}.css`,
+          destination: `_var-${name}.css`,
           format: 'css/variables',
           filter: (token) => {
             // Exclude tokens from input and modify files
@@ -34,7 +34,7 @@ const configs = Object.entries(themes).map(([name, tokensets]) => ({
               'tokens/brand/purple.json',
               'tokens/brand/yellow.json',
               'tokens/screen/desktop.json',
-              'tokens/screen/tablet*.json',
+              'tokens/screen/tablet.json',
               'tokens/screen/mobile.json',
               'tokens/displaymode/dark.json',
               'tokens/displaymode/light.json'

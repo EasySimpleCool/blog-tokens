@@ -42,10 +42,10 @@
   --output-dimension-fixed-24: 24px;
   --output-dimension-fixed-40: 40px;
   --output-dimension-fixed-80: 80px;
-  --output-dimension-fluid-sm: 16px;
-  --output-dimension-fluid-md: 24px;
-  --output-dimension-fluid-lg: 32px;
-  --output-dimension-fluid-xl: 40px;
+  --output-dimension-fluid-sm: 24px;
+  --output-dimension-fluid-md: 32px;
+  --output-dimension-fluid-lg: 40px;
+  --output-dimension-fluid-xl: 64px;
   --output-border-radius-small: 4px;
   --output-border-radius-default: 8px;
   --output-border-radius-round: 9999px;
@@ -65,7 +65,7 @@
   --comp-box-stack-pad-gap-even-more: 80px;
   --comp-post-preview-bg-default: lch(96.748 1.9446 259.09);
   --comp-post-preview-b-rad: 8px;
-  --comp-post-preview-pad: 24px;
+  --comp-post-preview-pad: 32px;
   --comp-post-preview-gap: 16px;
   --comp-post-preview-border-color: rgb(20.207% 22.543% 25.571% / 0.1);
   --comp-post-preview-border-width: 1px;
@@ -85,7 +85,7 @@
   --comp-tag-border-default-style: solid;
   --comp-tag-bg: lch(97.832 1.2964 259.09);
   --comp-post-detail-b-rad: 8px;
-  --comp-post-detail-pad: 32px;
+  --comp-post-detail-pad: 40px;
   --comp-post-detail-gap: 24px;
   --comp-post-detail-bg-default: lch(97.832 1.2964 259.09);
   --comp-post-detail-border-color: rgb(20.207% 22.543% 25.571% / 0.1);
