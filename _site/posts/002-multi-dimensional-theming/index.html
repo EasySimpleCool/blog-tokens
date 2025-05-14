@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-dimensional theming - Blog Tokens</title>
+  
+  <!-- Theme stylesheet (will be switched dynamically) -->
+  <link id="theme-stylesheet" rel="stylesheet" href="/css/_variables-input-blue-light-desktop-output-comp.css">
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- Add the theme switcher JavaScript to HEAD to apply themes ASAP -->
+  <script src="/js/theme-switcher.js"></script>
+</head>
+<body class=""> <!-- classes will be added by theme-switcher.js -->
+  
+  <section class="section-less"> 
+    <container>
+      <a href="/">
+        <svg class="logo" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 6C27.9411 6 36 14.0589 36 24V40C36 41.1046 35.1046 42 34 42H18C8.05887 42 0 33.9411 0 24C0 14.0589 8.05887 6 18 6ZM43.5 33C45.9853 33 48 35.0147 48 37.5C48 39.9853 45.9853 42 43.5 42C41.0147 42 39 39.9853 39 37.5C39 35.0147 41.0147 33 43.5 33ZM18 15C13.0294 15 9 19.0294 9 24C9 28.9706 13.0294 33 18 33V26C18 24.8954 18.8954 24 20 24H27C27 19.0294 22.9706 15 18 15Z" fill="#343A41"/>
+        </svg>
+      </a>
+      
+      <!-- Theme controls -->
+      <div class="theme-controls">
+        <button id="theme-toggle" class="theme-button">☀️/🌙</button>
+        
+        <div class="color-switches">
+          <button data-color="blue" class="color-button blue">Blue</button>
+          <button data-color="purple" class="color-button purple">Purple</button>
+          <button data-color="yellow" class="color-button yellow">Yellow</button>
+        </div>
+      </div>
+    </container>
+  </section>
+
+  <main>
+    
+<section class="section">
+  <container>
+    <post-detail>
+      
+        <tags-container>
+           
+            
+           
+            
+              <tag>✏️ Design</tag>
+            
+           
+            
+              <tag>🎨 Design tokens</tag>
+            
+           
+            
+              <tag>🤖 Code</tag>
+            
+          
+        </tags-container>
+      
+        <h1>Multi-dimensional theming</h1>
+      <div class="stack stack-default">
+        <h2>Theming</h2>
+<p>Short one this time around. I've been working on theming this week, which is all driven by the multidimensional token system I have set up in Figma.</p>
+<p>The approach is trying to separate any aspect of your design out into small isolated sets. I use my modify layer to create all the smaller, switchable sets. I have:</p>
+<ul>
+<li>Displaymode x 2 (Backgrounds/surfaces and foreground/text)</li>
+<li>Accent x 3 (Accent color for all interactive elements)</li>
+<li>Screen x 3 (Mainly used to create responsive dimension tokens)</li>
+<li><s>Density x 3 WIP (How breathing space eg spacious/tight)</s></li>
+</ul>
+<p><img src="/images/2A-new-switches.png" alt="Design Tokens Visualization"></p>
+<p>All working in Figma with &quot;set variable mode&quot; very tidy.</p>
+<p><img src="/images/2B-mode-switching.gif" alt="Design Tokens Visualization"></p>
+<p>When it came to the styledictionary settings, because it needs to print out every combination of sets eg (1) input x (3) displaymodes  x (3) accents x (3) screens x (1) output I was ending up with 18 different variables files hahaha.</p>
+<p><img src="/images/2C-first-export.png" alt="Design Tokens Visualization"></p>
+<p>The names were getting super long too so to keep em readable I changed the name of each set to be heaps shorter.</p>
+<p><img src="/images/2D-shortening-names.png" alt="Design Tokens Visualization"></p>
+<p>I know the UI is terrible rn so thats the next focus.</p>
+<p>Next steps</p>
+<ul>
+<li>Build switches</li>
+</ul>
+<p>Stretch</p>
+<ul>
+<li>Look into rive? or an animation app that I can plug in?</li>
+</ul>
+<p>Chur.</p>
+
+      </div>
+        
+      <button class="button" onclick="window.location.href='/'" aria-label="Back to home">Back to home</button>
+      
+    </post-detail>
+  </container>
+</section>
+
+
+  </main>
+  
+</body>
+</html>
