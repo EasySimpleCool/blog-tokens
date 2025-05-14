@@ -29,16 +29,13 @@ When it came to the styledictionary settings, because it needs to print out ever
 
 ![Design Tokens Visualization](/images/2C-first-export.png)
 
-The names were getting super long too so to keep em readable I changed the name of each set to be heaps shorter.
+The names were getting super long too so to keep em readable I changed the name of each set to a bit easier to work with.
 
 ![Design Tokens Visualization](/images/2D-shortening-names.png)
 
 I know the UI is terrible rn so thats the next focus.
 
-Next steps
+Next step
 - Build switches
-
-Stretch
-- Look into rive? or an animation app that I can plug in? 
 
 Chur.
