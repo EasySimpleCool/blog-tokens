@@ -1,5 +1,5 @@
 {
-  "name": "blog-tokens",
+  "name": "q-blog",
   "version": "1.0.0",
   "description": "A minimal blog with design tokens integration",
   "main": "index.js",
