@@ -4,8 +4,7 @@
     "name": "inp",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "input": "enabled",
-      "output": "disabled"
+      "input": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:29",
     "$figmaModeId": "77:0",
@@ -124,9 +123,7 @@
     "name": "blu",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/blue": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "brand/blue": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:2",
@@ -142,9 +139,7 @@
     "name": "pur",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/purple": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "brand/purple": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:3",
@@ -160,9 +155,7 @@
     "name": "yel",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/yellow": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "brand/yellow": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:4",
@@ -178,9 +171,7 @@
     "name": "lig",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/light": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "displaymode/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:0",
@@ -205,9 +196,7 @@
     "name": "dar",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/dark": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "displaymode/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:1",
@@ -232,9 +221,7 @@
     "name": "mob",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/mobile": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "screen/mobile": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:0",
@@ -251,9 +238,7 @@
     "name": "tab",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/tablet": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "screen/tablet": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:1",
@@ -270,9 +255,7 @@
     "name": "des",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/desktop": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "screen/desktop": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:2",
@@ -294,7 +277,6 @@
       "output.typography.large": "S:fb95398344a2be7fbdbd7117823d135adc8f5668,"
     },
     "selectedTokenSets": {
-      "input": "disabled",
       "output": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:31",
@@ -344,9 +326,7 @@
       "comp/image": "enabled",
       "comp/button": "enabled",
       "comp/tag": "enabled",
-      "comp/post-detail": "enabled",
-      "input": "disabled",
-      "output": "disabled"
+      "comp/post-detail": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:78",
     "$figmaModeId": "77:14",

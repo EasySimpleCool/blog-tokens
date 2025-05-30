@@ -21,7 +21,7 @@
       },
       "b-rad": {
         "$type": "dimension",
-        "$value": "{output.border-radius.small}"
+        "$value": "0px"
       },
       "pad": {
         "$type": "dimension",
