@@ -115,3 +115,41 @@ blog-tokens/
 ## License
 
 MIT
+
+## Storybook Integration
+
+This project includes Storybook for component development and documentation. The Storybook is configured to work with the project's design token system and theming.
+
+### Features
+
+- **Theme Switching**: Use the theme selector in the Storybook toolbar to switch between light and dark themes
+- **Color Schemes**: Use the color selector to switch between blue, purple, and yellow color schemes  
+- **Design Tokens**: All components use the same design tokens as the main application
+- **Button Showcase**: Comprehensive button stories showing standard buttons and switch-button elements
+
+### Running Storybook
+
+```bash
+npm run storybook
+```
+
+This will start Storybook on `http://localhost:6006`.
+
+### Theme Controls
+
+In Storybook, you'll find two controls in the toolbar:
+- **Theme**: Switch between Light and Dark themes
+- **Color**: Switch between Blue, Purple, and Yellow color schemes
+
+The theming system dynamically loads the appropriate CSS variables to match your selection, ensuring that components render exactly as they would in the main application.
+
+### Button Components
+
+The Button stories showcase:
+- **Default Button**: Standard button with full width
+- **Disabled Button**: Shows disabled state styling
+- **Auto Width Button**: Button that sizes to content
+- **Long Text Button**: Tests text wrapping behavior
+- **Theme Switcher**: Shows the light/dark theme toggle buttons
+- **Color Switcher**: Shows the color scheme selection buttons
+- **Complete Theme Controls**: Combined layout showing both control types
