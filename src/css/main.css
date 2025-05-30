@@ -144,7 +144,7 @@ tiny {
   font-size: var(--output-typography-tiny-font-size);
   font-weight: 400;
   line-height: var(--output-typography-tiny-line-height);
-  color: var(--output-color-fg-secondary);
+  /* color: var(--output-color-fg-secondary); */
 }
 
 pre {
@@ -249,10 +249,42 @@ post-detail {
   width: 100%;
 }
 
-.color-switches {
-  display: flex;
-  width: 100%;
-  gap: 4px; /* Take up full available width */
+.switch-box {
+  display: inline-flex;
+  padding: var(--output-dimension-fixed-4, 4px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--output-dimension-fixed-4, 4px);
+  border-radius: var(--output-border-radius-default, 8px);
+  border: 1px solid var(--output-color-border-default, rgba(52, 58, 65, 0.10));
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+}
+
+switch-button {
+  /* Base styling for switch-button elements */
+  display: inline-flex;
+  min-height: 32px;
+  width: 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  user-select: none; /* Prevent text selection */
+}
+
+switch-button.button-active {
+  border-radius: var(--output-border-radius-small, 4px);
+  background: var(--output-color-accent-primary, #0A91CC);
+  color: var(--output-color-accent-on-accent);
+}
+
+switch-button.button-inactive {
+  background: transparent;
+  color: var(--output-color-fg-primary);
 }
 
 .color-button {
