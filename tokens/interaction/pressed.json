@@ -1,0 +1,131 @@
+{
+  "modify": {
+    "interaction": {
+      "color": {
+        "accent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{modify.accent.color.darker}"
+          },
+          "stroke": {
+            "$type": "color",
+            "$value": "{modify.accent.color.darker}"
+          }
+        },
+        "fg": {
+          "text": {
+            "$type": "color",
+            "$value": "{modify.accent.color.on-accent}"
+          }
+        },
+        "bg": {
+          "fill": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.darker}"
+          },
+          "stroke": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.stroke.default}"
+          }
+        }
+      },
+      "shadow": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "{modify.interaction.number.shadow.1.x}",
+            "y": "{modify.interaction.number.shadow.1.x}",
+            "blur": "{modify.interaction.number.shadow.1.x}",
+            "spread": "{modify.interaction.number.shadow.1.x}",
+            "color": "{input.color.shadow.small.1}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{modify.interaction.number.shadow.2.x}",
+            "y": "{modify.interaction.number.shadow.2.x}",
+            "blur": "{modify.interaction.number.shadow.2.x}",
+            "spread": "{modify.interaction.number.shadow.2.x}",
+            "color": "",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{modify.interaction.number.shadow.3.x}",
+            "y": "{modify.interaction.number.shadow.3.x}",
+            "blur": "{modify.interaction.number.shadow.3.x}",
+            "spread": "{modify.interaction.number.shadow.3.x}",
+            "color": "",
+            "type": "innerShadow"
+          }
+        ]
+      },
+      "dimension": {
+        "stroke": {
+          "$type": "dimension",
+          "$value": "1px"
+        }
+      },
+      "number": {
+        "shadow": {
+          "1": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.spread}"
+            }
+          },
+          "2": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.2.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.2.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.2.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.2.spread}"
+            }
+          },
+          "3": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.3.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.3.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.3.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.3.spread}"
+            }
+          }
+        }
+      },
+      "text": {
+        "$type": "text",
+        "$value": "Pressed"
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "modify": {
+    "interaction": {
+      "color": {
+        "accent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{modify.accent.color.lighter}"
+          },
+          "stroke": {
+            "$type": "color",
+            "$value": "{input.color.reds.standard.03}"
+          }
+        },
+        "fg": {
+          "text": {
+            "$type": "color",
+            "$value": "{modify.accent.color.on-accent}"
+          }
+        },
+        "bg": {
+          "fill": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.lighter}"
+          },
+          "stroke": {
+            "$type": "color",
+            "$value": "{input.color.reds.standard.03}"
+          }
+        }
+      },
+      "dimension": {
+        "stroke": {
+          "$type": "dimension",
+          "$value": "2px"
+        }
+      },
+      "number": {
+        "shadow": {
+          "1": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.1.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.1.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.1.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.1.spread}"
+            }
+          },
+          "2": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.2.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.2.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.2.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.2.spread}"
+            }
+          },
+          "3": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.3.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.3.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.3.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.large.3.spread}"
+            }
+          }
+        }
+      },
+      "shadow": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "{modify.interaction.number.shadow.1.x}",
+            "y": "{modify.interaction.number.shadow.1.y}",
+            "blur": "{modify.interaction.number.shadow.1.blur}",
+            "spread": "{modify.interaction.number.shadow.1.spread}",
+            "color": "{input.color.shadow.large.1}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{modify.interaction.number.shadow.2.x}",
+            "y": "{modify.interaction.number.shadow.2.y}",
+            "blur": "{modify.interaction.number.shadow.2.blur}",
+            "spread": "{modify.interaction.number.shadow.2.spread}",
+            "color": "{input.color.shadow.large.2}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{modify.interaction.number.shadow.3.x}",
+            "y": "{modify.interaction.number.shadow.3.y}",
+            "blur": "{modify.interaction.number.shadow.3.blur}",
+            "spread": "{modify.interaction.number.shadow.3.spread}",
+            "color": "{input.color.shadow.large.3}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "text": {
+        "$type": "text",
+        "$value": "Focus"
+      }
+    }
+  }
+}

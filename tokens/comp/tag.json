@@ -13,7 +13,7 @@
         "$type": "dimension",
         "$value": "{output.dimension.fixed-4}"
       },
-      "border": {
+      "stroke": {
         "default": {
           "$type": "border",
           "$value": "{output.border.default}"

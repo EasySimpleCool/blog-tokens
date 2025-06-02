@@ -2,17 +2,17 @@
   "comp": {
     "button": {
       "primary": {
-        "bg-default": {
+        "bg": {
           "$type": "color",
           "$value": "{output.color.accent.primary}"
         },
-        "bg-hover": {
-          "$type": "color",
-          "$value": "{output.color.accent.lighter}"
-        },
         "fg": {
           "$type": "color",
-          "$value": "{output.color.accent.on-accent}"
+          "$value": "{modify.interaction.color.fg.text}"
+        },
+        "stroke": {
+          "$type": "color",
+          "$value": "{output.color.accent.stroke}"
         }
       },
       "min-h": {
@@ -26,6 +26,10 @@
       "pad": {
         "$type": "dimension",
         "$value": "{output.dimension.fixed-16}"
+      },
+      "stroke": {
+        "$type": "dimension",
+        "$value": "{modify.interaction.dimension.stroke}"
       }
     }
   }

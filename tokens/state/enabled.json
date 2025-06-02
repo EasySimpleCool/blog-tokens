@@ -1,0 +1,10 @@
+{
+  "modify": {
+    "state": {
+      "opacity": {
+        "$type": "opacity",
+        "$value": "1"
+      }
+    }
+  }
+}

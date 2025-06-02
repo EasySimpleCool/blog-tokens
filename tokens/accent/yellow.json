@@ -2,13 +2,17 @@
   "modify": {
     "accent": {
       "color": {
+        "lighter": {
+          "$type": "color",
+          "$value": "{input.color.yellows.lights.05}"
+        },
         "primary": {
           "$type": "color",
           "$value": "{input.color.yellows.standard.03}"
         },
-        "lighter": {
+        "darker": {
           "$type": "color",
-          "$value": "{input.color.yellows.lights.05}"
+          "$value": "{input.color.yellows.standard.05}"
         },
         "on-accent": {
           "$type": "color",

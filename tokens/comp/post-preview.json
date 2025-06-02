@@ -2,9 +2,13 @@
   "comp": {
     "post-preview": {
       "bg": {
-        "default": {
+        "fill": {
           "$type": "color",
-          "$value": "{modify.displaymode.color.bg.above.default}"
+          "$value": "{modify.interaction.color.bg.fill}"
+        },
+        "stroke": {
+          "$type": "color",
+          "$value": "{modify.interaction.color.bg.stroke}"
         }
       },
       "b-rad": {
@@ -19,9 +23,13 @@
         "$type": "dimension",
         "$value": "{output.dimension.fixed-16}"
       },
-      "border": {
-        "$type": "border",
-        "$value": "{output.border.default}"
+      "stroke": {
+        "$type": "dimension",
+        "$value": "{modify.interaction.dimension.stroke}"
+      },
+      "shadow": {
+        "$type": "boxShadow",
+        "$value": "{modify.interaction.shadow}"
       }
     }
   }

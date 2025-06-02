@@ -43,15 +43,15 @@
       "accent": {
         "primary": {
           "$type": "color",
-          "$value": "{modify.accent.color.primary}"
-        },
-        "lighter": {
-          "$type": "color",
-          "$value": "{modify.accent.color.lighter}"
+          "$value": "{modify.interaction.color.accent.fill}"
         },
         "on-accent": {
           "$type": "color",
-          "$value": "{modify.accent.color.on-accent}"
+          "$value": "{modify.interaction.color.fg.text}"
+        },
+        "stroke": {
+          "$type": "color",
+          "$value": "{modify.interaction.color.accent.stroke}"
         }
       },
       "fg": {
@@ -108,10 +108,10 @@
           }
         }
       },
-      "border": {
+      "stroke": {
         "default": {
           "$type": "color",
-          "$value": "{modify.displaymode.color.border.default}"
+          "$value": "{modify.displaymode.color.stroke.default}"
         }
       }
     },
@@ -179,11 +179,15 @@
       "default": {
         "$type": "border",
         "$value": {
-          "color": "{output.color.border.default}",
-          "width": "1px",
+          "color": "{output.color.stroke.default}",
+          "width": "{modify.interaction.dimension.stroke}",
           "style": "solid"
         }
       }
+    },
+    "shadow": {
+      "$type": "boxShadow",
+      "$value": "{modify.interaction.shadow}"
     }
   }
 }
