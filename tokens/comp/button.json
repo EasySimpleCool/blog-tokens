@@ -1,19 +1,17 @@
 {
   "comp": {
     "button": {
-      "primary": {
-        "bg": {
-          "$type": "color",
-          "$value": "{output.color.accent.primary}"
-        },
-        "fg": {
-          "$type": "color",
-          "$value": "{modify.interaction.color.fg.text}"
-        },
-        "stroke": {
-          "$type": "color",
-          "$value": "{output.color.accent.stroke}"
-        }
+      "bg": {
+        "$type": "color",
+        "$value": "{output.color.accent.primary}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{modify.interaction.color.fg.text}"
+      },
+      "stroke": {
+        "$type": "color",
+        "$value": "{output.color.accent.stroke}"
       },
       "min-h": {
         "$type": "dimension",
@@ -21,7 +19,7 @@
       },
       "b-rad": {
         "$type": "dimension",
-        "$value": "0px"
+        "$value": "{output.border-radius.default}"
       },
       "pad": {
         "$type": "dimension",

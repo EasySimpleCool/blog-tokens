@@ -14,10 +14,8 @@
         "$value": "{output.dimension.fixed-24}"
       },
       "bg": {
-        "default": {
-          "$type": "color",
-          "$value": "{modify.displaymode.color.bg.above.lighter}"
-        }
+        "$type": "color",
+        "$value": "{modify.displaymode.color.bg.above.lighter}"
       },
       "border": {
         "$type": "border",

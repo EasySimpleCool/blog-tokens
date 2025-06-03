@@ -15,7 +15,7 @@
       },
       "b-rad": {
         "$type": "dimension",
-        "$value": "{output.dimension.fixed-8}"
+        "$value": "{output.border-radius.default}"
       },
       "gap": {
         "$type": "dimension",

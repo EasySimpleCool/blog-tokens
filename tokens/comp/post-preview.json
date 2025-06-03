@@ -2,14 +2,12 @@
   "comp": {
     "post-preview": {
       "bg": {
-        "fill": {
-          "$type": "color",
-          "$value": "{modify.interaction.color.bg.fill}"
-        },
-        "stroke": {
-          "$type": "color",
-          "$value": "{modify.interaction.color.bg.stroke}"
-        }
+        "$type": "color",
+        "$value": "{modify.interaction.color.bg.fill}"
+      },
+      "stroke": {
+        "$type": "color",
+        "$value": "{modify.interaction.color.bg.stroke}"
       },
       "b-rad": {
         "$type": "dimension",

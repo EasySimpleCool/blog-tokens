@@ -9,7 +9,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{input.color.lights.500}"
+            "$value": "{input.color.lights.900}"
           }
         },
         "bg": {

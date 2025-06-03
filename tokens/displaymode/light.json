@@ -8,6 +8,15 @@
             "$value": "{input.color.darks.500}"
           },
           "secondary": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.2",
+                  "space": "lch"
+                }
+              }
+            },
             "$type": "color",
             "$value": "{input.color.darks.100}"
           }

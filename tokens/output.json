@@ -7,7 +7,7 @@
           "fontFamily": "Inter",
           "fontSize": "{input.dimension.12}",
           "fontWeight": "Regular",
-          "lineHeight": "{input.line-height.body}"
+          "lineHeight": "{input.dimension.16}"
         }
       },
       "small": {
