@@ -1,15 +1,17 @@
 {
   "comp": {
-    "button": {
-      "primary": {
-        "bg": {
-          "$type": "color",
-          "$value": "{output.color.accent.primary}"
-        },
-        "fg": {
-          "$type": "color",
-          "$value": "{modify.interaction.color.fg.text}"
-        }
+    "switch": {
+      "bg": {
+        "$type": "color",
+        "$value": "{output.color.accent.primary}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{modify.interaction.color.fg.text}"
+      },
+      "stroke": {
+        "$type": "color",
+        "$value": "{output.color.accent.stroke}"
       },
       "b-rad": {
         "$type": "dimension",
@@ -23,7 +25,7 @@
         "$type": "dimension",
         "$value": "{output.dimension.fixed-4}"
       },
-      "stroke": {
+      "stroke-w": {
         "$type": "dimension",
         "$value": "{modify.interaction.dimension.stroke}"
       }

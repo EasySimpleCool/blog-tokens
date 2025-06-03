@@ -24,7 +24,7 @@
         },
         "even-more": {
           "$type": "dimension",
-          "$value": "{output.dimension.fixed-80}"
+          "$value": "{output.dimension.fluid-xl}"
         }
       }
     }

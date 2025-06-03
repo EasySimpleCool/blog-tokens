@@ -23,7 +23,7 @@
         "$type": "dimension",
         "$value": "{output.dimension.fixed-16}"
       },
-      "stroke": {
+      "stroke-w": {
         "$type": "dimension",
         "$value": "{modify.interaction.dimension.stroke}"
       },
