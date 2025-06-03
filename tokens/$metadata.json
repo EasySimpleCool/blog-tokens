@@ -9,6 +9,8 @@
     "accent/yellow",
     "displaymode/light",
     "displaymode/dark",
+    "size/large",
+    "size/small",
     "interaction/default",
     "interaction/hover",
     "interaction/pressed",

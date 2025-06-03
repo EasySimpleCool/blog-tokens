@@ -1,0 +1,18 @@
+{
+  "modify": {
+    "size": {
+      "dimension": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "4px"
+      },
+      "typography": {
+        "$type": "typography",
+        "$value": "{output.typography.tiny}"
+      }
+    }
+  }
+}

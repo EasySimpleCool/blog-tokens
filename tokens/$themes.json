@@ -9,7 +9,9 @@
       "input.shadow.large": "S:9d22da00d800081f4f156f77013a20e8bcf69bd0,"
     },
     "selectedTokenSets": {
-      "input": "enabled"
+      "input": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:29",
     "$figmaModeId": "77:0",
@@ -170,7 +172,9 @@
     "name": "mob",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/mobile": "enabled"
+      "screen/mobile": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:0",
@@ -189,7 +193,9 @@
     "name": "tab",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/tablet": "enabled"
+      "screen/tablet": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:1",
@@ -208,7 +214,9 @@
     "name": "des",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/desktop": "enabled"
+      "screen/desktop": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:2",
@@ -227,7 +235,9 @@
     "name": "blu",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "accent/blue": "enabled"
+      "accent/blue": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:2",
@@ -244,7 +254,9 @@
     "name": "pur",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "accent/purple": "enabled"
+      "accent/purple": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:3",
@@ -261,7 +273,9 @@
     "name": "yel",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "accent/yellow": "enabled"
+      "accent/yellow": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:4",
@@ -274,13 +288,49 @@
     "group": "accent"
   },
   {
+    "id": "1c95bc72ae2fd4605667f77dbcceb42a395862ae",
+    "name": "large",
+    "$figmaStyleReferences": {
+      "modify.size.typography": "S:3ff218cab6c94212ec241092ffe59b01cf8623d5,"
+    },
+    "selectedTokenSets": {
+      "size/large": "enabled"
+    },
+    "group": "size",
+    "$figmaCollectionId": "VariableCollectionId:635:1493",
+    "$figmaModeId": "635:1",
+    "$figmaVariableReferences": {
+      "modify.size.dimension": "568257650fdd69849ce579312bed3416f0a2643c",
+      "modify.size.b-rad": "5c249f82bbd629eb8c9edbbf2601eb80b3747cd6"
+    }
+  },
+  {
+    "id": "11a89ae65f70615da318cb3da01d8a749d33664a",
+    "name": "small",
+    "$figmaStyleReferences": {
+      "modify.size.typography": "S:3ff218cab6c94212ec241092ffe59b01cf8623d5,"
+    },
+    "selectedTokenSets": {
+      "size/small": "enabled"
+    },
+    "group": "size",
+    "$figmaCollectionId": "VariableCollectionId:635:1493",
+    "$figmaModeId": "635:2",
+    "$figmaVariableReferences": {
+      "modify.size.dimension": "568257650fdd69849ce579312bed3416f0a2643c",
+      "modify.size.b-rad": "5c249f82bbd629eb8c9edbbf2601eb80b3747cd6"
+    }
+  },
+  {
     "id": "4004ca834020f9fbaa9b5bcfde9356649053e502",
     "name": "hover",
     "$figmaStyleReferences": {
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/hover": "enabled"
+      "interaction/hover": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:3",
@@ -314,7 +364,9 @@
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/focus": "enabled"
+      "interaction/focus": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:5",
@@ -348,7 +400,9 @@
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/default": "enabled"
+      "interaction/default": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:2",
@@ -382,7 +436,9 @@
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/pressed": "enabled"
+      "interaction/pressed": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:4",
@@ -414,7 +470,9 @@
     "name": "lig",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/light": "enabled"
+      "displaymode/light": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:0",
@@ -439,7 +497,9 @@
     "name": "dar",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/dark": "enabled"
+      "displaymode/dark": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:1",
@@ -464,7 +524,9 @@
     "name": "ena",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "state/enabled": "enabled"
+      "state/enabled": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:489:676",
     "$figmaModeId": "489:0",
@@ -478,7 +540,9 @@
     "name": "dis",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "state/disabled": "enabled"
+      "state/disabled": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:489:676",
     "$figmaModeId": "489:1",
@@ -501,7 +565,9 @@
       "output.shadow": "S:560166fca278c6388957a3086967d0ef7dc947a3,"
     },
     "selectedTokenSets": {
-      "output": "enabled"
+      "output": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:31",
     "$figmaModeId": "77:2",
@@ -555,7 +621,9 @@
       "comp/button": "enabled",
       "comp/tag": "enabled",
       "comp/post-detail": "enabled",
-      "comp/switch": "enabled"
+      "comp/switch": "enabled",
+      "size/large": "disabled",
+      "size/small": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:78",
     "$figmaModeId": "77:14",
@@ -577,6 +645,7 @@
       "comp.button.min-h": "31e3c80c71127238259a2fe838bb92c600768aa6",
       "comp.button.b-rad": "c6bc1feb5a212f87f24ac1b2e221351cf7dcd5cc",
       "comp.button.pad": "4ec3be44ae8797da897ecab5a8f297cf3b3eea83",
+      "comp.button.gap": "0efb2edda5f447b01cdd257c6483e9808bc0c9fa",
       "comp.button.stroke-w": "04ee29ddefb12e69d7999083559d8d31be9bf65b",
       "comp.switch.bg": "58ab848d7e70c8bade76552be28c0598ce340081",
       "comp.switch.fg": "dc9032ee73de54c8189bd22367508bb94bf47c34",

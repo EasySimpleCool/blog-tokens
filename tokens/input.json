@@ -1195,7 +1195,7 @@
       },
       "body": {
         "$type": "lineHeights",
-        "$value": "150%"
+        "$value": "140%"
       }
     },
     "number": {

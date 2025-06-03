@@ -19,11 +19,15 @@
       },
       "b-rad": {
         "$type": "dimension",
-        "$value": "{output.border-radius.default}"
+        "$value": "{modify.size.b-rad}"
       },
       "pad": {
         "$type": "dimension",
-        "$value": "{output.dimension.fixed-16}"
+        "$value": "{modify.size.dimension}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-8}"
       },
       "stroke-w": {
         "$type": "dimension",
