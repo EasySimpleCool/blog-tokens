@@ -18,6 +18,16 @@
           "$type": "dimension",
           "$value": "{input.dimension.80}"
         }
+      },
+      "sizing": {
+        "screen-w": {
+          "$type": "dimension",
+          "$value": "1200px"
+        },
+        "container-w": {
+          "$type": "dimension",
+          "$value": "640px"
+        }
       }
     }
   }

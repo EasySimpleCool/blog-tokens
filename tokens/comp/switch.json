@@ -1,0 +1,32 @@
+{
+  "comp": {
+    "button": {
+      "primary": {
+        "bg": {
+          "$type": "color",
+          "$value": "{output.color.accent.primary}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{modify.interaction.color.fg.text}"
+        }
+      },
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-8}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-4}"
+      },
+      "pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed-4}"
+      },
+      "stroke": {
+        "$type": "dimension",
+        "$value": "{modify.interaction.dimension.stroke}"
+      }
+    }
+  }
+}

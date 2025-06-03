@@ -20,6 +20,7 @@
     "comp/container",
     "comp/box-stack",
     "comp/button",
+    "comp/switch",
     "comp/image",
     "comp/tag",
     "comp/post-preview",
