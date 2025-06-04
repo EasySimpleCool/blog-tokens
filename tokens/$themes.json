@@ -234,7 +234,8 @@
     "$figmaVariableReferences": {
       "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
       "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.accent.color.primary-50": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-05": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-25": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
       "modify.accent.color.darker": "ae26b6d13d82262c09bd80e08666eb7111e4af28",
       "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24",
       "modify.accent.color.on-accent-alt": "e9cdc0736b8eeefef4db144fad4624c67093b502"
@@ -253,7 +254,8 @@
     "$figmaVariableReferences": {
       "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
       "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.accent.color.primary-50": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-05": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-25": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
       "modify.accent.color.darker": "ae26b6d13d82262c09bd80e08666eb7111e4af28",
       "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24",
       "modify.accent.color.on-accent-alt": "e9cdc0736b8eeefef4db144fad4624c67093b502"
@@ -272,7 +274,8 @@
     "$figmaVariableReferences": {
       "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
       "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.accent.color.primary-50": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-05": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-25": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
       "modify.accent.color.darker": "ae26b6d13d82262c09bd80e08666eb7111e4af28",
       "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24",
       "modify.accent.color.on-accent-alt": "e9cdc0736b8eeefef4db144fad4624c67093b502"
@@ -342,7 +345,7 @@
     "$figmaModeId": "510:3",
     "$figmaVariableReferences": {
       "modify.interaction.color.accent.fill": "def2214cc5871a19e06145f703003211c101dedb",
-      "modify.interaction.color.accent.fill-50": "2389754f24c0511436e1a55e298ab30c87a20704",
+      "modify.interaction.color.accent.fill-05": "2389754f24c0511436e1a55e298ab30c87a20704",
       "modify.interaction.color.accent.stroke": "060f95d61116c5489e682fd846b1375dd38a43e8",
       "modify.interaction.color.fg.text": "b12ceab18185751c2053377e2577df6157625460",
       "modify.interaction.color.fg.text-alt": "ba96b57d85b5e7a4304530f6c903ee7e449debf8",
@@ -378,7 +381,7 @@
     "$figmaModeId": "510:5",
     "$figmaVariableReferences": {
       "modify.interaction.color.accent.fill": "def2214cc5871a19e06145f703003211c101dedb",
-      "modify.interaction.color.accent.fill-50": "2389754f24c0511436e1a55e298ab30c87a20704",
+      "modify.interaction.color.accent.fill-05": "2389754f24c0511436e1a55e298ab30c87a20704",
       "modify.interaction.color.accent.stroke": "060f95d61116c5489e682fd846b1375dd38a43e8",
       "modify.interaction.color.fg.text": "b12ceab18185751c2053377e2577df6157625460",
       "modify.interaction.color.fg.text-alt": "ba96b57d85b5e7a4304530f6c903ee7e449debf8",
@@ -414,6 +417,7 @@
     "$figmaModeId": "510:2",
     "$figmaVariableReferences": {
       "modify.interaction.color.accent.fill": "def2214cc5871a19e06145f703003211c101dedb",
+      "modify.interaction.color.accent.fill-05": "2389754f24c0511436e1a55e298ab30c87a20704",
       "modify.interaction.color.accent.stroke": "060f95d61116c5489e682fd846b1375dd38a43e8",
       "modify.interaction.color.fg.text": "b12ceab18185751c2053377e2577df6157625460",
       "modify.interaction.color.fg.text-alt": "ba96b57d85b5e7a4304530f6c903ee7e449debf8",
@@ -432,8 +436,7 @@
       "modify.interaction.number.shadow.3.y": "4255083b90ee41b17c6fadb17bf6498cb3eec87a",
       "modify.interaction.number.shadow.3.blur": "fd4f2a48ea502ec31215d89c082a6652edc27dc2",
       "modify.interaction.number.shadow.3.spread": "c1eec71d258771bd1af6c139bf7b26bc5a768548",
-      "modify.interaction.text": "40e48b8704875328f656de3c9459530588bb9a69",
-      "modify.interaction.color.accent.fill-50": "2389754f24c0511436e1a55e298ab30c87a20704"
+      "modify.interaction.text": "40e48b8704875328f656de3c9459530588bb9a69"
     },
     "group": "interaction"
   },
@@ -450,7 +453,7 @@
     "$figmaModeId": "510:4",
     "$figmaVariableReferences": {
       "modify.interaction.color.accent.fill": "def2214cc5871a19e06145f703003211c101dedb",
-      "modify.interaction.color.accent.fill-50": "2389754f24c0511436e1a55e298ab30c87a20704",
+      "modify.interaction.color.accent.fill-05": "2389754f24c0511436e1a55e298ab30c87a20704",
       "modify.interaction.color.accent.stroke": "060f95d61116c5489e682fd846b1375dd38a43e8",
       "modify.interaction.color.fg.text": "b12ceab18185751c2053377e2577df6157625460",
       "modify.interaction.color.fg.text-alt": "ba96b57d85b5e7a4304530f6c903ee7e449debf8",

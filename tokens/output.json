@@ -47,7 +47,7 @@
         },
         "primary-alt": {
           "$type": "color",
-          "$value": "{modify.interaction.color.accent.fill-50}"
+          "$value": "{modify.interaction.color.accent.fill-05}"
         },
         "on-accent": {
           "$type": "color",
