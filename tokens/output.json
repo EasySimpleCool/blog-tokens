@@ -49,6 +49,10 @@
           "$type": "color",
           "$value": "{modify.interaction.color.fg.text}"
         },
+        "on-accent-alt": {
+          "$type": "color",
+          "$value": "{modify.interaction.color.fg.text-alt}"
+        },
         "stroke": {
           "$type": "color",
           "$value": "{modify.interaction.color.accent.stroke}"

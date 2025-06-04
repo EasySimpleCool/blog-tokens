@@ -17,6 +17,10 @@
         "on-accent": {
           "$type": "color",
           "$value": "{input.color.lights.100}"
+        },
+        "on-accent-alt": {
+          "$type": "color",
+          "$value": "{input.color.purples.darks.01}"
         }
       }
     }

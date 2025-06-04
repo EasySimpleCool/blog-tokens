@@ -8,7 +8,7 @@
         },
         "fg": {
           "$type": "color",
-          "$value": "{output.color.accent.primary}"
+          "$value": "{output.color.fg.primary}"
         },
         "stroke": {
           "$type": "color",

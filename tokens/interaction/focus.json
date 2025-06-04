@@ -16,6 +16,10 @@
           "text": {
             "$type": "color",
             "$value": "{modify.accent.color.on-accent}"
+          },
+          "text-alt": {
+            "$type": "color",
+            "$value": "{modify.accent.color.on-accent-alt}"
           }
         },
         "bg": {
