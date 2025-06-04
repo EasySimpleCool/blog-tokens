@@ -9,12 +9,7 @@
       "input.shadow.large": "S:9d22da00d800081f4f156f77013a20e8bcf69bd0,"
     },
     "selectedTokenSets": {
-      "input": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "input": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:29",
     "$figmaModeId": "77:0",
@@ -175,12 +170,7 @@
     "name": "mob",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/mobile": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "screen/mobile": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:0",
@@ -199,12 +189,7 @@
     "name": "tab",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/tablet": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "screen/tablet": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:1",
@@ -223,12 +208,7 @@
     "name": "des",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "screen/desktop": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "screen/desktop": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:2",
@@ -247,12 +227,7 @@
     "name": "blu",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "accent/blue": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "accent/blue": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:2",
@@ -269,12 +244,7 @@
     "name": "pur",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "accent/purple": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "accent/purple": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:3",
@@ -291,12 +261,7 @@
     "name": "yel",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "accent/yellow": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "accent/yellow": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:4",
@@ -315,11 +280,7 @@
       "modify.button.size.typography": "S:3ff218cab6c94212ec241092ffe59b01cf8623d5,"
     },
     "selectedTokenSets": {
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "enabled",
-      "button/size/small": "disabled"
+      "button/size/large": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:635:1493",
     "$figmaModeId": "635:1",
@@ -336,10 +297,6 @@
       "modify.button.size.typography": "S:3ff218cab6c94212ec241092ffe59b01cf8623d5,"
     },
     "selectedTokenSets": {
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
       "button/size/small": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:635:1493",
@@ -355,9 +312,7 @@
     "name": "solid",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "button/variant/solid": "enabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "button/variant/solid": "enabled"
     },
     "group": "button/variant",
     "$figmaCollectionId": "VariableCollectionId:664:6532",
@@ -375,12 +330,7 @@
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/hover": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "interaction/hover": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:3",
@@ -414,12 +364,7 @@
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/focus": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "interaction/focus": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:5",
@@ -453,12 +398,7 @@
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/default": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "interaction/default": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:2",
@@ -492,12 +432,7 @@
       "modify.interaction.shadow": "S:470bbcc3359a4d9e6c086d4cb381e5659953c12e,"
     },
     "selectedTokenSets": {
-      "interaction/pressed": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "interaction/pressed": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
     "$figmaModeId": "510:4",
@@ -529,12 +464,7 @@
     "name": "lig",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/light": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "displaymode/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:0",
@@ -559,12 +489,7 @@
     "name": "dar",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "displaymode/dark": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "displaymode/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:182:300",
     "$figmaModeId": "182:1",
@@ -589,12 +514,7 @@
     "name": "ena",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "state/enabled": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "state/enabled": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:489:676",
     "$figmaModeId": "489:0",
@@ -608,12 +528,7 @@
     "name": "dis",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "state/disabled": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "state/disabled": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:489:676",
     "$figmaModeId": "489:1",
@@ -636,12 +551,7 @@
       "output.shadow": "S:560166fca278c6388957a3086967d0ef7dc947a3,"
     },
     "selectedTokenSets": {
-      "output": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "output": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:31",
     "$figmaModeId": "77:2",
@@ -695,12 +605,7 @@
       "comp/button": "enabled",
       "comp/tag": "enabled",
       "comp/post-detail": "enabled",
-      "comp/switch": "enabled",
-      "button/variant/solid": "disabled",
-      "button/variant/outline": "disabled",
-      "button/variant/ghost": "disabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "comp/switch": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:78",
     "$figmaModeId": "77:14",
@@ -754,9 +659,7 @@
     "name": "outline",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "button/variant/outline": "enabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "button/variant/outline": "enabled"
     },
     "group": "button/variant",
     "$figmaCollectionId": "VariableCollectionId:664:6532",
@@ -772,9 +675,7 @@
     "name": "ghost",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "button/variant/ghost": "enabled",
-      "button/size/large": "disabled",
-      "button/size/small": "disabled"
+      "button/variant/ghost": "enabled"
     },
     "group": "button/variant",
     "$figmaCollectionId": "VariableCollectionId:664:6532",

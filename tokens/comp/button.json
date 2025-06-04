@@ -23,7 +23,7 @@
       },
       "pad": {
         "$type": "dimension",
-        "$value": "{output.dimension.fixed-16}"
+        "$value": "{modify.button.size.dimension}"
       },
       "gap": {
         "$type": "dimension",

@@ -12,7 +12,7 @@
         },
         "stroke": {
           "$type": "color",
-          "$value": "{output.color.accent.primary}"
+          "$value": "{output.color.accent.stroke}"
         }
       }
     }
