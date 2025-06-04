@@ -3,15 +3,15 @@
     "button": {
       "bg": {
         "$type": "color",
-        "$value": "{output.color.accent.primary}"
+        "$value": "{modify.button.variant.bg}"
       },
       "fg": {
         "$type": "color",
-        "$value": "{modify.interaction.color.fg.text}"
+        "$value": "{modify.button.variant.fg}"
       },
       "stroke": {
         "$type": "color",
-        "$value": "{output.color.accent.stroke}"
+        "$value": "{modify.button.variant.stroke}"
       },
       "min-h": {
         "$type": "dimension",
@@ -19,11 +19,11 @@
       },
       "b-rad": {
         "$type": "dimension",
-        "$value": "{modify.size.b-rad}"
+        "$value": "{modify.button.size.b-rad}"
       },
       "pad": {
         "$type": "dimension",
-        "$value": "{modify.size.dimension}"
+        "$value": "{output.dimension.fixed-16}"
       },
       "gap": {
         "$type": "dimension",

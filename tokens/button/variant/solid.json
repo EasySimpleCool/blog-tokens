@@ -1,0 +1,20 @@
+{
+  "modify": {
+    "button": {
+      "variant": {
+        "bg": {
+          "$type": "color",
+          "$value": "{output.color.accent.primary}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{output.color.accent.on-accent}"
+        },
+        "stroke": {
+          "$type": "color",
+          "$value": "{output.color.accent.stroke}"
+        }
+      }
+    }
+  }
+}
