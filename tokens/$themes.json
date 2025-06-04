@@ -113,6 +113,7 @@
       "input.color.reds.standard.01": "a8e0282503153bfa4733fdeb07cfa8aa793dd07f",
       "input.color.reds.standard.02": "4e6bacf03db8687f569f138d89a2b94bd0959dca",
       "input.color.reds.standard.03": "bf06792767406bb9f351e79d6285a59b4890dfe4",
+      "input.color.oranges.standard.03": "569deaf00fa5fc8bcc46fa3227575a95f56bba61",
       "input.color.reds.standard.04": "415e2f401bc177f3329135c24f0efc741bd3aec4",
       "input.color.reds.standard.05": "b10077e5cdeea61cb147a8e9a56af89532aa8e87",
       "input.color.reds.darks.01": "7487f43244a69cea78293feb0686d55c98e96bbf",
@@ -234,8 +235,8 @@
     "$figmaVariableReferences": {
       "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
       "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.accent.color.primary-05": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
-      "modify.accent.color.primary-25": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
+      "modify.accent.color.primary-02": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-10": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
       "modify.accent.color.darker": "ae26b6d13d82262c09bd80e08666eb7111e4af28",
       "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24",
       "modify.accent.color.on-accent-alt": "e9cdc0736b8eeefef4db144fad4624c67093b502"
@@ -254,8 +255,8 @@
     "$figmaVariableReferences": {
       "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
       "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.accent.color.primary-05": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
-      "modify.accent.color.primary-25": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
+      "modify.accent.color.primary-02": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-10": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
       "modify.accent.color.darker": "ae26b6d13d82262c09bd80e08666eb7111e4af28",
       "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24",
       "modify.accent.color.on-accent-alt": "e9cdc0736b8eeefef4db144fad4624c67093b502"
@@ -274,8 +275,8 @@
     "$figmaVariableReferences": {
       "modify.accent.color.lighter": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
       "modify.accent.color.primary": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.accent.color.primary-05": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
-      "modify.accent.color.primary-25": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
+      "modify.accent.color.primary-02": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
+      "modify.accent.color.primary-10": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
       "modify.accent.color.darker": "ae26b6d13d82262c09bd80e08666eb7111e4af28",
       "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24",
       "modify.accent.color.on-accent-alt": "e9cdc0736b8eeefef4db144fad4624c67093b502"

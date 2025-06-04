@@ -9,11 +9,11 @@
           },
           "fill-05": {
             "$type": "color",
-            "$value": "{modify.accent.color.primary-25}"
+            "$value": "{modify.accent.color.primary-10}"
           },
           "stroke": {
             "$type": "color",
-            "$value": "{input.color.reds.standard.03}"
+            "$value": "{input.color.oranges.standard.03}"
           }
         },
         "fg": {
@@ -33,7 +33,7 @@
           },
           "stroke": {
             "$type": "color",
-            "$value": "{input.color.reds.standard.03}"
+            "$value": "{input.color.oranges.standard.03}"
           }
         }
       },

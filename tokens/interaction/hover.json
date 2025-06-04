@@ -9,7 +9,7 @@
           },
           "fill-05": {
             "$type": "color",
-            "$value": "{modify.accent.color.primary-25}"
+            "$value": "{modify.accent.color.primary-10}"
           },
           "stroke": {
             "$type": "color",

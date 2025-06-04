@@ -4,18 +4,18 @@
       "color": {
         "lighter": {
           "$type": "color",
-          "$value": "{input.color.purples.standard.01}"
+          "$value": "{input.color.purples.standard.02}"
         },
         "primary": {
           "$type": "color",
           "$value": "{input.color.purples.standard.03}"
         },
-        "primary-05": {
+        "primary-02": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": ".05",
+                "value": ".02",
                 "space": "lch"
               }
             }
@@ -23,12 +23,12 @@
           "$type": "color",
           "$value": "{input.color.purples.standard.03}"
         },
-        "primary-25": {
+        "primary-10": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": ".25",
+                "value": ".1",
                 "space": "lch"
               }
             }

@@ -1155,6 +1155,14 @@
           }
         }
       },
+      "oranges": {
+        "standard": {
+          "03": {
+            "$type": "color",
+            "$value": "#FF7D35"
+          }
+        }
+      },
       "shadow": {
         "small": {
           "1": {
