@@ -10,6 +10,10 @@
           "stroke": {
             "$type": "color",
             "$value": "{modify.accent.color.darker}"
+          },
+          "fill-50": {
+            "$type": "color",
+            "$value": "{modify.accent.color.primary-50}"
           }
         },
         "fg": {

@@ -10,6 +10,19 @@
           "$type": "color",
           "$value": "{input.color.purples.standard.03}"
         },
+        "primary-50": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".2",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.purples.standard.03}"
+        },
         "darker": {
           "$type": "color",
           "$value": "{input.color.purples.standard.05}"

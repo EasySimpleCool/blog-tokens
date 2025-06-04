@@ -45,6 +45,10 @@
           "$type": "color",
           "$value": "{modify.interaction.color.accent.fill}"
         },
+        "primary-alt": {
+          "$type": "color",
+          "$value": "{modify.interaction.color.accent.fill-50}"
+        },
         "on-accent": {
           "$type": "color",
           "$value": "{modify.interaction.color.fg.text}"

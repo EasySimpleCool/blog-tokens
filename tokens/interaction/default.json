@@ -7,6 +7,10 @@
             "$type": "color",
             "$value": "{modify.accent.color.primary}"
           },
+          "fill-50": {
+            "$type": "color",
+            "$value": "{modify.accent.color.primary-50}"
+          },
           "stroke": {
             "$type": "color",
             "$value": "{modify.accent.color.primary}"

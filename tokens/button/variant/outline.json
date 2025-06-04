@@ -4,7 +4,7 @@
       "variant": {
         "bg": {
           "$type": "color",
-          "$value": "rgba(0,0,0,0)"
+          "$value": "{output.color.accent.primary-alt}"
         },
         "fg": {
           "$type": "color",
