@@ -1,0 +1,46 @@
+{
+  "modify": {
+    "emphasis": {
+      "surface": {
+        "fill": {
+          "$type": "color",
+          "$value": "{modify.accent.color.primary}"
+        },
+        "opacity": {
+          "$type": "opacity",
+          "$value": "{input.opacity.100}"
+        }
+      },
+      "content": {
+        "fill": {
+          "$type": "color",
+          "$value": "{modify.accent.color.on-accent}"
+        }
+      },
+      "border": {
+        "color": {
+          "$type": "color",
+          "$value": "{modify.accent.color.primary}"
+        },
+        "opacity": {
+          "$type": "opacity",
+          "$value": "{input.opacity.100}"
+        }
+      },
+      "interaction": {
+        "has-shadow": {
+          "$type": "boolean",
+          "$value": "true"
+        },
+        "hover-fill": {
+          "$type": "color",
+          "$value": "{modify.accent.color.lighter}"
+        },
+        "pressed-fill": {
+          "$type": "color",
+          "$value": "{modify.accent.color.darker}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "modify": {
+    "interaction": {
+      "state": {
+        "name": {
+          "$type": "string",
+          "$value": "default"
+        },
+        "shadow-size": {
+          "$type": "string",
+          "$value": "medium"
+        },
+        "border-width": {
+          "$type": "dimension",
+          "$value": "{input.dimension.1}"
+        }
+      },
+      "transform": {
+        "surface": {
+          "$type": "color",
+          "$value": "{modify.displaymode.color.bg.above.default}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{modify.displaymode.color.stroke.default}"
+        }
+      },
+      "shadow": {
+        "numbers": {
+          "1": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.spread}"
+            }
+          },
+          "2": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.spread}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

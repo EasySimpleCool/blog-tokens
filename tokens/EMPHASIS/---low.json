@@ -1,0 +1,46 @@
+{
+  "modify": {
+    "emphasis": {
+      "surface": {
+        "fill": {
+          "$type": "color",
+          "$value": "transparent"
+        },
+        "opacity": {
+          "$type": "opacity",
+          "$value": "{input.opacity.0}"
+        }
+      },
+      "content": {
+        "fill": {
+          "$type": "color",
+          "$value": "{modify.displaymode.color.fg.primary}"
+        }
+      },
+      "border": {
+        "color": {
+          "$type": "color",
+          "$value": "transparent"
+        },
+        "opacity": {
+          "$type": "opacity",
+          "$value": "{input.opacity.0}"
+        }
+      },
+      "interaction": {
+        "has-shadow": {
+          "$type": "boolean",
+          "$value": "false"
+        },
+        "hover-fill": {
+          "$type": "color",
+          "$value": "{modify.accent.color.primary-10}"
+        },
+        "pressed-fill": {
+          "$type": "color",
+          "$value": "{modify.accent.color.primary-02}"
+        }
+      }
+    }
+  }
+}

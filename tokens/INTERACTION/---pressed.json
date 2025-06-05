@@ -1,0 +1,92 @@
+{
+  "modify": {
+    "interaction": {
+      "state": {
+        "name": {
+          "$type": "string",
+          "$value": "pressed"
+        },
+        "shadow-size": {
+          "$type": "string",
+          "$value": "small"
+        },
+        "border-width": {
+          "$type": "dimension",
+          "$value": "1px"
+        }
+      },
+      "transform": {
+        "surface": {
+          "$type": "color",
+          "$value": "{modify.displaymode.color.bg.above.darker}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{modify.displaymode.color.stroke.default}"
+        },
+        "emphasis-override": {
+          "$type": "boolean",
+          "$value": "true"
+        }
+      },
+      "shadow": {
+        "numbers": {
+          "1": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.small.1.spread}"
+            }
+          },
+          "2": {
+            "x": {
+              "$type": "number",
+              "$value": "0"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "0"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "0"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "0"
+            }
+          },
+          "3": {
+            "x": {
+              "$type": "number",
+              "$value": "0"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "0"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "0"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "0"
+            }
+          }
+        }
+      }
+    }
+  }
+}

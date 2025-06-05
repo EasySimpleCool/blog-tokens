@@ -1,0 +1,70 @@
+{
+  "comp": {
+    "button": {
+      "bg": {
+        "$type": "color",
+        "$value": "{output.interactive.emphasis.surface.bg}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{output.interactive.emphasis.content.fg}"
+      },
+      "border-color": {
+        "$type": "color",
+        "$value": "{output.interactive.emphasis.border.stroke}"
+      },
+      "border-width": {
+        "$type": "dimension",
+        "$value": "{output.dimension.interactive.state.border.width}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "{output.dimension.button.size.padding}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{output.dimension.button.size.radius}"
+      },
+      "min-height": {
+        "$type": "dimension",
+        "$value": "{output.dimension.button.size.min-height}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "{output.dimension.button.size.gap}"
+      },
+      "font-size": {
+        "$type": "fontSizes",
+        "$value": "{output.button.typography.size}"
+      },
+      "font-weight": {
+        "$type": "fontWeights",
+        "$value": "{output.button.typography.weight}"
+      },
+      "line-height": {
+        "$type": "lineHeights",
+        "$value": "{output.button.typography.line-height}"
+      },
+      "opacity": {
+        "$type": "opacity",
+        "$value": "{output.state.opacity}"
+      },
+      "shadow-1-x": {
+        "$type": "number",
+        "$value": "{output.interactive.state.shadow.1.x}"
+      },
+      "shadow-1-y": {
+        "$type": "number",
+        "$value": "{output.interactive.state.shadow.1.y}"
+      },
+      "shadow-1-blur": {
+        "$type": "number",
+        "$value": "{output.interactive.state.shadow.1.blur}"
+      },
+      "shadow-1-spread": {
+        "$type": "number",
+        "$value": "{output.interactive.state.shadow.1.spread}"
+      }
+    }
+  }
+}

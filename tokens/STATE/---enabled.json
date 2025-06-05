@@ -3,7 +3,7 @@
     "state": {
       "opacity": {
         "$type": "opacity",
-        "$value": ".5"
+        "$value": "{input.opacity.100}"
       }
     }
   }

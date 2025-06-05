@@ -3,23 +3,19 @@
     "post-detail": {
       "b-rad": {
         "$type": "dimension",
-        "$value": "{output.border-radius.default}"
+        "$value": "{output.static.radius.md}"
       },
       "pad": {
         "$type": "dimension",
-        "$value": "{output.dimension.fluid-lg}"
+        "$value": "{output.dimension.fixed.spacing.32}"
       },
       "gap": {
         "$type": "dimension",
-        "$value": "{output.dimension.fixed-24}"
+        "$value": "{output.dimension.fixed.spacing.24}"
       },
       "bg": {
         "$type": "color",
         "$value": "{modify.displaymode.color.bg.above.lighter}"
-      },
-      "border": {
-        "$type": "border",
-        "$value": "{output.border.default}"
       }
     }
   }

@@ -1,0 +1,42 @@
+{
+  "comp": {
+    "post-preview": {
+      "bg": {
+        "$type": "color",
+        "$value": "{output.interactive.state.surface.bg}"
+      },
+      "fg-primary": {
+        "$type": "color",
+        "$value": "{output.static.color.text.primary}"
+      },
+      "fg-secondary": {
+        "$type": "color",
+        "$value": "{output.static.color.text.secondary}"
+      },
+      "stroke": {
+        "$type": "color",
+        "$value": "{output.interactive.state.surface.border}"
+      },
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.static.radius.md}"
+      },
+      "pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed.spacing.24}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed.spacing.16}"
+      },
+      "stroke-w": {
+        "$type": "dimension",
+        "$value": "{output.dimension.interactive.state.border.width}"
+      },
+      "shadow": {
+        "$type": "boxShadow",
+        "$value": "{output.static.color.border.default}"
+      }
+    }
+  }
+}

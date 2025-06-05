@@ -1,0 +1,234 @@
+{
+  "output": {
+    "interactive": {
+      "emphasis": {
+        "surface": {
+          "bg": {
+            "$type": "color",
+            "$value": "{modify.emphasis.surface.fill}"
+          },
+          "opacity": {
+            "$type": "opacity",
+            "$value": "{modify.emphasis.surface.opacity}"
+          }
+        },
+        "content": {
+          "fg": {
+            "$type": "color",
+            "$value": "{modify.emphasis.content.fill}"
+          }
+        },
+        "border": {
+          "stroke": {
+            "$type": "color",
+            "$value": "{modify.emphasis.border.color}"
+          },
+          "opacity": {
+            "$type": "opacity",
+            "$value": "{modify.emphasis.border.opacity}"
+          }
+        }
+      },
+      "state": {
+        "surface": {
+          "bg": {
+            "$type": "color",
+            "$value": "{modify.interaction.transform.surface}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{modify.interaction.transform.border}"
+          }
+        },
+        "shadow": {
+          "1": {
+            "x": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.spread}"
+            }
+          },
+          "2": {
+            "x": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.spread}"
+            }
+          }
+        }
+      }
+    },
+    "dimension": {
+      "interactive": {
+        "state": {
+          "border": {
+            "width": {
+              "$type": "dimension",
+              "$value": "{modify.interaction.state.border-width}"
+            }
+          }
+        }
+      },
+      "fixed": {
+        "spacing": {
+          "4": {
+            "$type": "dimension",
+            "$value": "{input.dimension.4}"
+          },
+          "8": {
+            "$type": "dimension",
+            "$value": "{input.dimension.8}"
+          },
+          "16": {
+            "$type": "dimension",
+            "$value": "{input.dimension.16}"
+          },
+          "24": {
+            "$type": "dimension",
+            "$value": "{input.dimension.24}"
+          },
+          "32": {
+            "$type": "dimension",
+            "$value": "{input.dimension.32}"
+          },
+          "40": {
+            "$type": "dimension",
+            "$value": "{input.dimension.40}"
+          },
+          "80": {
+            "$type": "dimension",
+            "$value": "{input.dimension.80}"
+          }
+        }
+      },
+      "button": {
+        "size": {
+          "padding": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.padding}"
+          },
+          "radius": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.radius}"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.min-height}"
+          },
+          "gap": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.gap}"
+          }
+        }
+      },
+      "screen": {
+        "dimension": {
+          "sm": {
+            "$type": "dimension",
+            "$value": "{modify.screen.dimension.small}"
+          },
+          "md": {
+            "$type": "dimension",
+            "$value": "{modify.screen.dimension.medium}"
+          },
+          "lg": {
+            "$type": "dimension",
+            "$value": "{modify.screen.dimension.large}"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "{modify.screen.dimension.xlarge}"
+          }
+        }
+      }
+    },
+    "static": {
+      "color": {
+        "surface": {
+          "primary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.middle.default}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.default}"
+          }
+        },
+        "text": {
+          "primary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.fg.primary}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.fg.secondary}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.stroke.default}"
+          }
+        }
+      },
+      "radius": {
+        "sm": {
+          "$type": "borderRadius",
+          "$value": "{input.dimension.4}"
+        },
+        "md": {
+          "$type": "borderRadius",
+          "$value": "{input.dimension.8}"
+        },
+        "full": {
+          "$type": "borderRadius",
+          "$value": "{input.dimension.9999}"
+        }
+      }
+    },
+    "button": {
+      "typography": {
+        "size": {
+          "$type": "fontSizes",
+          "$value": "{modify.button.size.typography.size}"
+        },
+        "weight": {
+          "$type": "fontWeights",
+          "$value": "{modify.button.size.typography.weight}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{modify.button.size.typography.line-height}"
+        }
+      }
+    },
+    "state": {
+      "opacity": {
+        "$type": "opacity",
+        "$value": "{modify.state.opacity}"
+      }
+    }
+  }
+}

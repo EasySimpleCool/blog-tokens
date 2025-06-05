@@ -1,0 +1,38 @@
+{
+  "modify": {
+    "button": {
+      "size": {
+        "padding": {
+          "$type": "dimension",
+          "$value": "{input.dimension.16}"
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{input.dimension.8}"
+        },
+        "min-height": {
+          "$type": "dimension",
+          "$value": "{input.dimension.64}"
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": "{input.dimension.8}"
+        },
+        "typography": {
+          "size": {
+            "$type": "fontSizes",
+            "$value": "{input.typography.font-size.md}"
+          },
+          "weight": {
+            "$type": "fontWeights",
+            "$value": "{input.typography.font-weight.semibold}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{input.typography.line-height.tight}"
+          }
+        }
+      }
+    }
+  }
+}
