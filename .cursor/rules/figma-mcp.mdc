@@ -1,0 +1,333 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Figma MCP Server Rules for Token-Based Design System
+
+## Core Principles
+
+### 1. Token-Only Approach
+- **NEVER use static values** (no hardcoded colors, sizes, spacing, etc.)
+- **ALWAYS reference design tokens/variables** from the Figma file
+- Map Figma variables to CSS custom properties using the same naming convention
+- Maintain the Input → Modify → Output → Components token hierarchy
+
+### 2. Naming Convention Consistency
+- Use **exact same naming** as defined in Tokens Studio/Figma variables
+- Preserve token naming structure in CSS custom properties
+- Component names in code must match Figma component names exactly
+- Maintain semantic naming throughout (e.g., `--color-semantic-primary` not `--blue-500`)
+
+### 3. Component Architecture
+- If it exists as a **Figma component**, recreate it as a **code component**
+- Use **parametric properties** approach - single component with variants controlled by CSS
+- Leverage CSS custom properties and data attributes for component variations
+- Mirror Figma's component structure and organization
+
+## Technical Implementation Rules
+
+### 4. HTML & CSS Priority
+- **Prefer HTML & CSS** over JavaScript for styling and layout
+- Use CSS custom properties for all design tokens
+- Implement component variants using CSS classes and data attributes
+- Reserve JavaScript **only for theme switching** and interactive demos
+
+### 5. Variable Mapping Strategy
+```css
+/* Map Figma variables to CSS custom properties */
+:root {
+  /* Input Tokens (🔵) */
+  --input-color-blue: #0A91CC;
+  --input-dimension-8: 8px;
+  --input-dimension-16: 16px;
+  --input-opacity-100: 1;
+  
+  /* Modify Tokens (🟠) - Accent */
+  --modify-accent-color-default: var(--input-color-blue);
+  --modify-accent-color-hover: color-mix(in lch, var(--input-color-blue) 90%, white);
+  
+  /* Modify Tokens (🟠) - Display Mode */
+  --modify-displaymode-color-bg-above-default: #E7EDBB;
+  --modify-displaymode-color-fg-primary: #3A454F;
+  
+  /* Output Tokens (🟢) */
+  --output-interactive-emphasis-surface-bg: var(--modify-emphasis-interaction-surface-fill);
+  --output-interactive-emphasis-content-fg: var(--modify-emphasis-interaction-content-fill);
+  --output-dimension-button-size-pad: var(--modify-button-size-pad);
+  
+  /* Component Tokens (🟣) */
+  --comp-button-color-bg: var(--output-interactive-emphasis-surface-bg);
+  --comp-button-color-fg: var(--output-interactive-emphasis-content-fg);
+  --comp-button-dimension-pad: var(--output-dimension-button-size-pad);
+}
+```
+
+### 6. Component Variant Implementation
+- Use **single component class** with **variant modifiers**
+- Implement Figma modes as CSS classes or data attributes
+- Example structure using your actual button tokens:
+```css
+.button {
+  /* Base styles using component tokens */
+  background: var(--comp-button-color-bg);
+  color: var(--comp-button-color-fg);
+  padding: var(--comp-button-dimension-pad);
+  border-radius: var(--comp-button-dimension-b-rad);
+  border: var(--comp-button-dimension-stroke-width) solid var(--comp-button-color-stroke-color);
+  gap: var(--comp-button-dimension-gap);
+  opacity: var(--comp-button-opacity);
+}
+
+/* Size variants */
+.button[data-size="large"] {
+  --modify-button-size-pad: var(--input-dimension-16);
+  --modify-button-size-b-rad: var(--input-dimension-8);
+  --modify-button-size-gap: var(--input-dimension-8);
+}
+
+.button[data-size="small"] {
+  --modify-button-size-pad: var(--input-dimension-8);
+  --modify-button-size-b-rad: var(--input-dimension-4);
+  --modify-button-size-gap: var(--input-dimension-8);
+}
+
+/* Emphasis variants */
+.button[data-emphasis="high"] {
+  --modify-emphasis-interaction-surface-fill: var(--modify-accent-color-default);
+  --modify-emphasis-interaction-content-fill: var(--modify-accent-color-on-accent);
+}
+
+.button[data-emphasis="medium"] {
+  --modify-emphasis-interaction-surface-fill: var(--modify-accent-color-opacity-default);
+  --modify-emphasis-interaction-content-fill: var(--modify-displaymode-color-fg-primary);
+}
+```
+
+## Figma MCP Server Specific Rules
+
+### 7. Variable Extraction
+- Extract **all Figma variables** and create corresponding CSS custom properties
+- Maintain the **exact variable collection structure** from Figma
+- Include **all modes** for each variable (light/dark themes, etc.)
+- Document variable hierarchy and relationships
+
+### 8. Component Analysis
+- **Inspect component properties** thoroughly before recreating
+- Map **all component variants** to corresponding CSS implementations
+- Extract **boolean properties** as data attributes
+- Extract **instance swap properties** as variant classes
+
+### 9. Token Hierarchy Respect
+- Follow the **🔵 Input → 🟠 Modify → 🟢 Output → 🟣 Components** structure
+- Don't skip levels in the token hierarchy
+- Ensure **semantic token layer** exists between primitives and components
+- Document token relationships and dependencies:
+```css
+/* ❌ WRONG - Skipping hierarchy levels */
+.button {
+  background: var(--input-color-blue); /* Skip modify/output layers */
+}
+
+/* ✅ CORRECT - Following token hierarchy */
+.button {
+  background: var(--comp-button-color-bg); /* Component token */
+}
+
+/* Token flow example:
+🔵 input.color.blue → 
+🟠 modify.accent.color.default → 
+🟠 modify.emphasis.interaction.surface.fill → 
+🟢 output.interactive.emphasis.surface.bg → 
+🟣 comp.button.color.bg
+*/
+```
+
+### 10. Mode-Based Styling
+- Implement **Figma modes** as CSS custom property overrides
+- Use CSS custom properties that change based on theme/mode
+- Structure for easy theme switching using your actual tokens:
+```css
+/* Accent Color Modes */
+[data-accent="blue"] {
+  --modify-accent-color-default: var(--input-color-blue);
+  --modify-accent-color-hover: color-mix(in lch, var(--input-color-blue) 90%, white);
+  --modify-accent-color-pressed: color-mix(in lch, var(--input-color-blue) 110%, black);
+  --modify-accent-color-on-accent: var(--input-color-lights-100);
+}
+
+[data-accent="purple"] {
+  --modify-accent-color-default: var(--input-color-purple);
+  --modify-accent-color-hover: color-mix(in lch, var(--input-color-purple) 90%, white);
+  --modify-accent-color-pressed: color-mix(in lch, var(--input-color-purple) 110%, black);
+  --modify-accent-color-on-accent: var(--input-color-lights-100);
+}
+
+[data-accent="yellow"] {
+  --modify-accent-color-default: var(--input-color-yellow);
+  --modify-accent-color-hover: color-mix(in lch, var(--input-color-yellow) 90%, white);
+  --modify-accent-color-pressed: color-mix(in lch, var(--input-color-yellow) 110%, black);
+  --modify-accent-color-on-accent: var(--input-color-darks-500);
+}
+
+/* Display Mode Themes */
+[data-theme="light"] {
+  --modify-displaymode-color-fg-primary: var(--input-color-darks-500);
+  --modify-displaymode-color-bg-above-default: var(--input-color-lights-200);
+  --modify-displaymode-color-bg-middle-default: var(--input-color-lights-500);
+}
+
+[data-theme="dark"] {
+  --modify-displaymode-color-fg-primary: var(--input-color-lights-100);
+  --modify-displaymode-color-bg-above-default: var(--input-color-darks-200);
+  --modify-displaymode-color-bg-middle-default: var(--input-color-darks-500);
+}
+
+/* Interaction State Modes */
+.button:hover {
+  --modify-interaction-color-surface-bg: var(--modify-displaymode-color-bg-above-lighter);
+  --modify-interaction-color-accent-color: var(--modify-accent-color-hover);
+  --modify-interaction-shadow-numbers-1-blur: var(--input-number-shadow-large-1-blur);
+}
+
+.button:active {
+  --modify-interaction-color-surface-bg: var(--modify-displaymode-color-bg-above-darker);
+  --modify-interaction-color-accent-color: var(--modify-accent-color-pressed);
+  --modify-interaction-shadow-numbers-1-blur: var(--input-number-shadow-small-1-blur);
+}
+
+.button:focus-visible {
+  outline: var(--comp-button-dimension-stroke-width) solid var(--comp-button-color-focus);
+  outline-offset: 2px;
+}
+```
+
+## Quality Assurance Rules
+
+### 11. Validation Requirements
+- **Verify all values** come from Figma variables, not computed styles
+- **Cross-reference** component naming with Figma exactly
+- **Test all component variants** exist and function correctly
+- **Validate token hierarchy** is properly maintained
+
+### 12. Documentation Standards
+- **Document token relationships** and inheritance
+- **Explain component variant logic** and usage
+- **Include theme switching implementation** details
+- **Provide examples** of proper token usage
+
+### 13. Consistency Checks
+- **Audit for hardcoded values** - flag any static CSS values
+- **Verify semantic naming** follows established patterns
+- **Check component completeness** - all Figma variants implemented
+- **Validate token references** are correct and functional
+
+## Output Structure Requirements
+
+### 14. File Organization
+```
+/tokens
+  ├── input.css           /* 🔵 Input tokens (primitives) */
+  ├── modify/             /* 🟠 Modify tokens (semantic) */
+  │   ├── accent.css      /* Accent color variations */
+  │   ├── display.css     /* Light/dark mode tokens */
+  │   ├── interaction.css /* Hover/focus/pressed states */
+  │   ├── emphasis.css    /* High/medium/low emphasis */
+  │   ├── screen.css      /* Mobile/tablet/desktop breakpoints */
+  │   ├── size.css        /* Large/small size variants */
+  │   └── status.css      /* Enabled/disabled states */
+  ├── output.css          /* 🟢 Output tokens */
+  └── components/         /* 🟣 Component tokens */
+      ├── button.css      /* Button component tokens */
+      ├── switch.css      /* Switch component tokens */
+      ├── tag.css         /* Tag component tokens */
+      ├── post-preview.css/* Post preview component tokens */
+      ├── container.css   /* Container component tokens */
+      ├── section.css     /* Section component tokens */
+      ├── image.css       /* Image component tokens */
+      └── post-detail.css /* Post detail component tokens */
+
+/components
+  ├── button.css          /* Button component implementation */
+  ├── switch.css          /* Switch component implementation */
+  ├── tag.css             /* Tag component implementation */
+  ├── post-preview.css    /* Post preview component implementation */
+  └── [component-name].css
+```
+
+### 15. Code Generation Format
+- Generate **clean, semantic HTML**
+- Use **CSS custom properties exclusively** for styling
+- Include **comprehensive CSS comments** explaining token usage
+- Provide **usage examples** for each component variant
+
+### 16. Theme Integration
+- Implement **JavaScript theme switcher** for demonstrations
+- Use **CSS-only** theme application (no JS for styling)
+- Support **system preference detection**
+- Maintain **theme persistence** across sessions
+```javascript
+// Theme switcher implementation
+class ThemeSwitcher {
+  constructor() {
+    this.themes = {
+      display: ['light', 'dark'],
+      accent: ['blue', 'purple', 'yellow'],
+      size: ['small', 'large']
+    };
+    this.init();
+  }
+  
+  init() {
+    // Set initial theme from localStorage or system preference
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedAccent = localStorage.getItem('accent') || 'blue';
+    const savedSize = localStorage.getItem('size') || 'large';
+    
+    this.setTheme('display', savedTheme);
+    this.setTheme('accent', savedAccent);
+    this.setTheme('size', savedSize);
+  }
+  
+  setTheme(type, value) {
+    document.documentElement.setAttribute(`data-${type}`, value);
+    localStorage.setItem(type, value);
+  }
+  
+  cycleTheme(type) {
+    const current = document.documentElement.getAttribute(`data-${type}`);
+    const themes = this.themes[type];
+    const currentIndex = themes.indexOf(current);
+    const nextIndex = (currentIndex + 1) % themes.length;
+    this.setTheme(type, themes[nextIndex]);
+  }
+}
+
+// Usage
+const themeSwitcher = new ThemeSwitcher();
+
+// Theme toggle buttons
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  themeSwitcher.cycleTheme('display');
+});
+
+document.getElementById('accent-toggle').addEventListener('click', () => {
+  themeSwitcher.cycleTheme('accent');
+});
+```
+
+## Error Handling & Fallbacks
+
+### 17. Missing Token Handling
+- **Flag missing variables** immediately
+- **Suggest token creation** following naming conventions
+- **Don't proceed** with hardcoded fallbacks
+- **Document gaps** in token system
+
+### 18. Component Mismatch Detection
+- **Alert when Figma components** don't have code equivalents
+- **Identify unused tokens** that aren't referenced
+- **Flag naming inconsistencies** between Figma and code
+- **Report component variant coverage** gaps
+
+These rules ensure that your Figma MCP server integration maintains the integrity of your token-based design system while generating clean, maintainable code that accurately reflects your Figma designs.
