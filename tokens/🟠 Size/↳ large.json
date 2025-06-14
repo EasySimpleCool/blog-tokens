@@ -1,22 +1,22 @@
 {
   "modify": {
-    "screen": {
-      "dimension": {
-        "small": {
+    "button": {
+      "size": {
+        "pad": {
           "$type": "dimension",
           "$value": "{input.dimension.16}"
         },
-        "medium": {
+        "b-rad": {
           "$type": "dimension",
-          "$value": "{input.dimension.24}"
+          "$value": "{input.dimension.8}"
         },
-        "large": {
+        "focus-b-rad": {
           "$type": "dimension",
-          "$value": "{input.dimension.32}"
+          "$value": "{input.dimension.10}"
         },
-        "xlarge": {
+        "gap": {
           "$type": "dimension",
-          "$value": "{input.dimension.40}"
+          "$value": "{input.dimension.8}"
         }
       }
     }

@@ -1,0 +1,26 @@
+{
+  "modify": {
+    "emphasis": {
+      "interaction": {
+        "surface": {
+          "fill": {
+            "$type": "color",
+            "$value": "{modify.interaction.color.accent.color-opacity}"
+          }
+        },
+        "content": {
+          "fill": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.fg.primary}"
+          }
+        },
+        "stroke": {
+          "color": {
+            "$type": "color",
+            "$value": "{modify.interaction.color.accent.color}"
+          }
+        }
+      }
+    }
+  }
+}

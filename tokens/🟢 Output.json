@@ -1,0 +1,323 @@
+{
+  "output": {
+    "interactive": {
+      "emphasis": {
+        "surface": {
+          "bg": {
+            "$type": "color",
+            "$value": "{modify.emphasis.interaction.surface.fill}"
+          }
+        },
+        "content": {
+          "fg": {
+            "$type": "color",
+            "$value": "{modify.emphasis.interaction.content.fill}"
+          }
+        },
+        "stroke": {
+          "color": {
+            "$type": "color",
+            "$value": "{modify.emphasis.interaction.stroke.color}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{modify.interaction.color.accent.focus}"
+          }
+        }
+      },
+      "state": {
+        "surface": {
+          "bg": {
+            "$type": "color",
+            "$value": "{modify.interaction.color.surface.bg}"
+          },
+          "stroke": {
+            "$type": "color",
+            "$value": "{modify.interaction.color.surface.stroke}"
+          }
+        },
+        "shadow": {
+          "1": {
+            "x": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.1.spread}"
+            }
+          },
+          "2": {
+            "x": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.2.spread}"
+            }
+          },
+          "3": {
+            "x": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.3.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.3.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.3.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{modify.interaction.shadow.numbers.3.spread}"
+            }
+          }
+        }
+      },
+      "shadow": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "{output.interactive.state.shadow.1.x}",
+            "y": "{output.interactive.state.shadow.1.y}",
+            "blur": "{output.interactive.state.shadow.1.blur}",
+            "spread": "{output.interactive.state.shadow.1.spread}",
+            "color": "{input.color.shadow.large.1}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{output.interactive.state.shadow.2.x}",
+            "y": "{output.interactive.state.shadow.2.y}",
+            "blur": "{output.interactive.state.shadow.2.blur}",
+            "spread": "{output.interactive.state.shadow.2.spread}",
+            "color": "{input.color.shadow.large.1}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "{output.interactive.state.shadow.3.x}",
+            "y": "{output.interactive.state.shadow.3.y}",
+            "blur": "{output.interactive.state.shadow.3.blur}",
+            "spread": "{output.interactive.state.shadow.3.spread}",
+            "color": "{input.color.shadow.large.1}",
+            "type": "dropShadow"
+          }
+        ]
+      }
+    },
+    "dimension": {
+      "interactive": {
+        "state": {
+          "stroke": {
+            "width": {
+              "$type": "dimension",
+              "$value": "{modify.interaction.state.stroke-width}"
+            }
+          }
+        }
+      },
+      "fixed": {
+        "1": {
+          "$type": "dimension",
+          "$value": "{input.dimension.1}"
+        },
+        "2": {
+          "$type": "dimension",
+          "$value": "{input.dimension.2}"
+        },
+        "4": {
+          "$type": "dimension",
+          "$value": "{input.dimension.4}"
+        },
+        "8": {
+          "$type": "dimension",
+          "$value": "{input.dimension.8}"
+        },
+        "16": {
+          "$type": "dimension",
+          "$value": "{input.dimension.16}"
+        },
+        "24": {
+          "$type": "dimension",
+          "$value": "{input.dimension.24}"
+        },
+        "32": {
+          "$type": "dimension",
+          "$value": "{input.dimension.32}"
+        },
+        "40": {
+          "$type": "dimension",
+          "$value": "{input.dimension.40}"
+        },
+        "80": {
+          "$type": "dimension",
+          "$value": "{input.dimension.80}"
+        }
+      },
+      "button": {
+        "size": {
+          "pad": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.pad}"
+          },
+          "b-rad": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.b-rad}"
+          },
+          "focus-b-rad": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.focus-b-rad}"
+          },
+          "gap": {
+            "$type": "dimension",
+            "$value": "{modify.button.size.gap}"
+          }
+        }
+      },
+      "fluid": {
+        "small": {
+          "$type": "dimension",
+          "$value": "{modify.screen.dimension.small}"
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": "{modify.screen.dimension.medium}"
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": "{modify.screen.dimension.large}"
+        },
+        "xlarge": {
+          "$type": "dimension",
+          "$value": "{modify.screen.dimension.xlarge}"
+        }
+      }
+    },
+    "static": {
+      "color": {
+        "surface": {
+          "primary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.middle.default}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.default}"
+          }
+        },
+        "text": {
+          "primary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.fg.primary}"
+          },
+          "secondary": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.fg.secondary}"
+          }
+        },
+        "stroke": {
+          "default": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.stroke.default}"
+          }
+        }
+      },
+      "b-rad": {
+        "small": {
+          "$type": "borderRadius",
+          "$value": "{input.dimension.4}"
+        },
+        "medium": {
+          "$type": "borderRadius",
+          "$value": "{input.dimension.8}"
+        },
+        "full": {
+          "$type": "borderRadius",
+          "$value": "{input.dimension.9999}"
+        }
+      }
+    },
+    "status": {
+      "opacity": {
+        "$type": "opacity",
+        "$value": "{modify.status.opacity}"
+      }
+    },
+    "typography": {
+      "tiny": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{input.font-family.base}",
+          "fontWeight": "{input.font-weight.regular}",
+          "fontSize": "{input.font-size.xs}",
+          "lineHeight": "{input.line-height.normal}"
+        }
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{input.font-family.base}",
+          "fontWeight": "{input.font-weight.regular}",
+          "fontSize": "{input.font-size.sm}",
+          "lineHeight": "{input.line-height.normal}"
+        }
+      },
+      "medium": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{input.font-family.base}",
+          "fontWeight": "{input.font-weight.semibold}",
+          "fontSize": "{input.font-size.md}",
+          "lineHeight": "{input.line-height.tight}"
+        }
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{input.font-family.base}",
+          "fontWeight": "{input.font-weight.black}",
+          "fontSize": "{input.font-size.lg}",
+          "lineHeight": "{input.line-height.tight}"
+        }
+      }
+    },
+    "number": {
+      "clamp": {
+        "small": {
+          "$type": "number",
+          "$value": "clamped(16 + (1200 - 375) / (1200 - 375) * (32 - 16), 16, 32)"
+        },
+        "medium": {
+          "$type": "number",
+          "$value": "clamped(24 + (1200 - 375) / (1200 - 375) * (40 - 24), 24, 40)"
+        },
+        "large": {
+          "$type": "number",
+          "$value": "clamped(32 + (1200 - 375) / (1200 - 375) * (64 - 32), 32, 64)"
+        },
+        "xlarge": {
+          "$type": "number",
+          "$value": "clamped(40 + (1200 - 375) / (1200 - 375) * (80 - 40), 40, 80)"
+        }
+      }
+    }
+  }
+}

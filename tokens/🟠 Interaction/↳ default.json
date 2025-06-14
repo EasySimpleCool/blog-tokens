@@ -1,0 +1,102 @@
+{
+  "modify": {
+    "interaction": {
+      "string": {
+        "name": {
+          "$type": "string",
+          "$value": "default"
+        }
+      },
+      "state": {
+        "stroke-width": {
+          "$type": "dimension",
+          "$value": "{input.dimension.1}"
+        }
+      },
+      "color": {
+        "surface": {
+          "bg": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.bg.above.default}"
+          },
+          "stroke": {
+            "$type": "color",
+            "$value": "{modify.displaymode.color.stroke.default}"
+          }
+        },
+        "accent": {
+          "color": {
+            "$type": "color",
+            "$value": "{modify.accent.color.default}"
+          },
+          "color-opacity": {
+            "$type": "color",
+            "$value": "{modify.accent.color.opacity-default}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "null"
+          }
+        }
+      },
+      "shadow": {
+        "numbers": {
+          "1": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.1.spread}"
+            }
+          },
+          "2": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.2.spread}"
+            }
+          },
+          "3": {
+            "x": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.3.x}"
+            },
+            "y": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.3.y}"
+            },
+            "blur": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.3.blur}"
+            },
+            "spread": {
+              "$type": "number",
+              "$value": "{input.number.shadow.medium.3.spread}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

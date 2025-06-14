@@ -3,7 +3,7 @@
     "image": {
       "b-rad": {
         "$type": "dimension",
-        "$value": "{output.border-radius.default}"
+        "$value": "{output.dimension.button.size.b-rad}"
       }
     }
   }

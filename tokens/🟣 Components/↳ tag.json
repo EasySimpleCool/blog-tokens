@@ -1,0 +1,34 @@
+{
+  "comp": {
+    "tag": {
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.static.b-rad.small}"
+      },
+      "h-pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed.8}"
+      },
+      "v-pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed.4}"
+      },
+      "stroke-w": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed.1}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{output.static.color.surface.secondary}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{output.static.color.text.secondary}"
+      },
+      "stroke": {
+        "$type": "color",
+        "$value": "{output.static.color.stroke.default}"
+      }
+    }
+  }
+}

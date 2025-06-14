@@ -8,6 +8,15 @@
             "$value": "{input.color.darks.500}"
           },
           "secondary": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.2",
+                  "space": "lch"
+                }
+              }
+            },
             "$type": "color",
             "$value": "{input.color.darks.100}"
           }
@@ -56,13 +65,13 @@
             }
           }
         },
-        "border": {
+        "stroke": {
           "default": {
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": ".10",
+                  "value": "0.10",
                   "space": "srgb"
                 }
               }

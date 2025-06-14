@@ -4,24 +4,24 @@
       "h-pad": {
         "default": {
           "$type": "dimension",
-          "$value": "{output.dimension.fixed-16}"
+          "$value": "{output.dimension.fixed.16}"
         }
       },
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{modify.displaymode.color.bg.middle.default}"
+          "$value": "{output.static.color.surface.primary}"
         }
       },
       "v-pad": {
         "default": {
           "$type": "dimension",
-          "$value": "{output.dimension.fixed-80}",
+          "$value": "{output.dimension.fixed.80}",
           "$description": "Use: Body sections "
         },
         "less": {
           "$type": "dimension",
-          "$value": "{output.dimension.fixed-24}",
+          "$value": "{output.dimension.fixed.24}",
           "$description": "Use: Header, Footer"
         }
       }

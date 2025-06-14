@@ -1,0 +1,94 @@
+{
+  "modify": {
+    "accent": {
+      "color": {
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.purple}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{input.color.purple}"
+        },
+        "pressed": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.purple}"
+        },
+        "opacity-hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.purple}"
+        },
+        "opacity-default": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.purple}"
+        },
+        "opacity-pressed": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.02",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.purple}"
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{input.color.lights.100}"
+        },
+        "on-accent-alt": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.purple}"
+        }
+      }
+    }
+  }
+}

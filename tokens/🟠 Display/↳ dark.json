@@ -9,7 +9,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{input.color.lights.500}"
+            "$value": "{input.color.lights.900}"
           }
         },
         "bg": {
@@ -56,7 +56,7 @@
             }
           }
         },
-        "border": {
+        "stroke": {
           "default": {
             "$extensions": {
               "studio.tokens": {
