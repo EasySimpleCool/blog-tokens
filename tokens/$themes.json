@@ -569,9 +569,9 @@
       "output.interactive.state.shadow.3.blur": "d4192974d9e0db0cdf102e6aff225c92aae80500",
       "output.interactive.state.shadow.3.spread": "7857d644754ca1c7ca6331dc160d689230fc680f",
       "output.dimension.interactive.state.stroke.width": "6d162e2b71b86602c7f0f94702e478565a942888",
-      "output.dimension.fixed.4": "4ebcbfd006b74275706ba28bc18b96bc24642ad4",
       "output.dimension.fixed.1": "917ebc73f9856e521360bf1deb5d3b7f3ca1221e",
       "output.dimension.fixed.2": "ac024ae7b0e353996e5a4a7fd3931c9adeb36d90",
+      "output.dimension.fixed.4": "4ebcbfd006b74275706ba28bc18b96bc24642ad4",
       "output.dimension.fixed.8": "b18aa1fe072a5f0c8932ccbd8d28192a9dba0e0d",
       "output.dimension.fixed.16": "e7cd8bd90a1c9f0a627b46db117c095152c37fce",
       "output.dimension.fixed.24": "b6ef30b65caead453cc6f898b387e99fb5c7933e",
@@ -667,122 +667,5 @@
       "comp.post-detail.bg": "3b7eeb5101002cf4d284ef2eebaa360b9b0d99e8"
     },
     "group": "🟣 Components"
-  },
-  {
-    "id": "77be78243475c4d4d98a540775768f10c073ae0c",
-    "name": "_",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🔵 Input": "source",
-      "🟢 Output": "source",
-      "🟣 Components/↳ section": "source",
-      "🟣 Components/↳ container": "source",
-      "🟣 Components/↳ button": "source",
-      "🟣 Components/↳ switch": "source",
-      "🟣 Components/↳ image": "source",
-      "🟣 Components/↳ tag": "source",
-      "🟣 Components/↳ post-preview": "source",
-      "🟣 Components/↳ post-detail": "source"
-    },
-    "group": "_"
-  },
-  {
-    "id": "1807e6cfbc8db2e82e3e50ea2e0c614767f09e36",
-    "name": "Light",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Display/↳ light": "enabled",
-      "🟢 Output": "source",
-      "🟣 Components/↳ section": "source",
-      "🟣 Components/↳ container": "source",
-      "🟣 Components/↳ button": "source",
-      "🟣 Components/↳ switch": "source",
-      "🟣 Components/↳ image": "source",
-      "🟣 Components/↳ tag": "source",
-      "🟣 Components/↳ post-preview": "source",
-      "🟣 Components/↳ post-detail": "source"
-    },
-    "group": "display"
-  },
-  {
-    "id": "d30c817a3da4fe5a3a657b312d7ba7410d4e43d4",
-    "name": "Dark",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Display/↳ dark": "enabled"
-    },
-    "group": "display"
-  },
-  {
-    "id": "116db158b19ecfa2598350f410c07e6fe7433855",
-    "name": "Blue",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Accent/↳ blue": "enabled"
-    },
-    "group": "accent"
-  },
-  {
-    "id": "125152533b37331bff96c9da22b9616616c44226",
-    "name": "Purple",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Accent/↳ purple": "enabled"
-    },
-    "group": "accent"
-  },
-  {
-    "id": "f2f7d42bf49a7e437fb692ac3702afc5fe584448",
-    "name": "Yellow",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Accent/↳ yellow": "enabled"
-    },
-    "group": "accent"
-  },
-  {
-    "id": "154de51c06e18dc433ae65707c46a2c7187cfeba",
-    "name": "Large",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Size/↳ large": "enabled"
-    },
-    "group": "size"
-  },
-  {
-    "id": "44f5d65060a092911335fff566f8d51a055d7264",
-    "name": "Small",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Size/↳ small": "enabled"
-    },
-    "group": "size"
-  },
-  {
-    "id": "d534c414686e78918fa5e79a50bea7029a07e309",
-    "name": "High",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Emphasis/↳ high": "enabled"
-    },
-    "group": "emphasis"
-  },
-  {
-    "id": "2dcf68012304554b670785b5fbd1bc4a48b6d97b",
-    "name": "Medium",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Emphasis/↳ medium": "enabled"
-    },
-    "group": "emphasis"
-  },
-  {
-    "id": "f85c89a5d04281b8af9353188b18dcef09b956a4",
-    "name": "Low",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🟠 Emphasis/↳ low": "enabled"
-    },
-    "group": "emphasis"
   }
 ]
