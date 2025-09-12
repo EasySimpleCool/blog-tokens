@@ -1,39 +1,55 @@
-/* Generated Component Styles */
-/* Components that use parametric variables */
+/* -----------------------------
+ * Button - connected to tokens
+ * ----------------------------- */
 
-/* === BUTTON COMPONENT === */
-.btn, button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  transition: all 150ms ease-out;
-  outline: none;
-  text-decoration: none;
+ button {
+    padding: var(--comp-button-pad);
+    border-radius: var(--comp-button-b-rad);
+    min-height: var(--comp-button-min-h);
+    background-color: var(--comp-button-primary-bg-default);
+    color: var(--comp-button-primary-fg);
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: var(--output-typography-medium-font-size);
+  }
+  button:hover {
+    background-color: var(--output-color-accent-lighter);
+  }
 
-  background-color: var(--emphasis-interaction-surface-fill);
-  color: var(--emphasis-interaction-content-fill);
-  border: var(--interaction-state-stroke-width) solid var(--emphasis-interaction-stroke-color);
-  padding: var(--button-size-pad);
-  border-radius: var(--button-size-b-rad);
-  gap: var(--button-size-gap);
-  opacity: var(--status-opacity);
-}
+button[data-size="sm"] {
+    padding-x: 6px;
+    padding-y: 6px;
+    font-size: 13px;
+    border-radius: 4px;
+  }
+  
+button[data-accent="blue"] {
+    background: var(--modify-color-accent-primary);
+    color: #ffffff;
+    border: #3b82f6;
+  }
+  
+button[data-accent="blue"]:hover {
+    background: #2563eb;
+  }
 
-.btn:hover, button:hover {
-  background-color: var(--accent-color-hover);
-  transform: translateY(-1px);
-}
+  button[data-accent="purple"] {
+    background: #3b82f6;
+    color: #ffffff;
+    border: #3b82f6;
+  }
+  
+button[data-accent="purple"]:hover {
+    background: #2563eb;
+  }
 
-.btn:active, button:active {
-  background-color: var(--accent-color-pressed);
-  transform: translateY(0);
-}
-
-.btn:focus, button:focus {
-  border-radius: var(--button-size-focus-b-rad);
-  box-shadow: 0 0 0 2px var(--interaction-color-accent-focus);
-}
-
+  button[data-accent="yellow"] {
+    background: #3b82f6;
+    color: #ffffff;
+    border: #3b82f6;
+  }
+  
+button[data-accent="yellow"]:hover {
+    background: #2563eb;
+  }
