@@ -1,0 +1,39 @@
+/* Generated Component Styles */
+/* Components that use parametric variables */
+
+/* === BUTTON COMPONENT === */
+.btn, button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 150ms ease-out;
+  outline: none;
+  text-decoration: none;
+
+  background-color: var(--emphasis-interaction-surface-fill);
+  color: var(--emphasis-interaction-content-fill);
+  border: var(--interaction-state-stroke-width) solid var(--emphasis-interaction-stroke-color);
+  padding: var(--button-size-pad);
+  border-radius: var(--button-size-b-rad);
+  gap: var(--button-size-gap);
+  opacity: var(--status-opacity);
+}
+
+.btn:hover, button:hover {
+  background-color: var(--accent-color-hover);
+  transform: translateY(-1px);
+}
+
+.btn:active, button:active {
+  background-color: var(--accent-color-pressed);
+  transform: translateY(0);
+}
+
+.btn:focus, button:focus {
+  border-radius: var(--button-size-focus-b-rad);
+  box-shadow: 0 0 0 2px var(--interaction-color-accent-focus);
+}
+

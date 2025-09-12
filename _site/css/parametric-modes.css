@@ -1,0 +1,95 @@
+/* Generated Parametric Styles from Tokens Studio */
+/* Based on your modify.* token structure */
+
+/* === ACCENT SWITCHING === */
+/* Global accent mode - affects entire design system */
+
+[data-accent="blue"] {
+}
+
+[data-accent="purple"] {
+}
+
+[data-accent="yellow"] {
+  --accent-color-hover-$extensions-studio.tokens-modify: 0.1;
+  --accent-color-pressed-$extensions-studio.tokens-modify: 0.1;
+  --accent-color-opacity-hover-$extensions-studio.tokens-modify: .1;
+  --accent-color-opacity-default-$extensions-studio.tokens-modify: 0;
+  --accent-color-opacity-pressed-$extensions-studio.tokens-modify: 0.02;
+  --accent-color-on-accent-alt-$extensions-studio.tokens-modify: 0.5;
+  --accent-color-opacity-pressed-$extensions-studio.tokens-modify: 0.02;
+  --accent-color-pressed-$extensions-studio.tokens-modify: 0.1;
+  --accent-color-pressed-$extensions-studio.tokens-modify: 0.1;
+  --accent-color-opacity-pressed-$extensions-studio.tokens-modify: 0.02;
+  --accent-color-opacity-pressed-$extensions-studio.tokens-modify: 0.02;
+  --accent-color-pressed-$extensions-studio.tokens-modify: 0.1;
+  --accent-color-opacity-pressed-$extensions-studio.tokens-modify: 0.02;
+  --accent-color-pressed-$extensions-studio.tokens-modify: 0.1;
+  --accent-color-opacity-pressed-$extensions-studio.tokens-modify: 0.02;
+}
+
+/* === DISPLAY MODE SWITCHING === */
+/* Light/Dark theme switching */
+
+[data-display="light"] {
+  --displaymode-color-fg-secondary-$extensions-studio.tokens-modify: 0.2;
+  --displaymode-color-stroke-default-$extensions-studio.tokens-modify: 0.10;
+  --displaymode-color-stroke-default-$extensions-studio.tokens-modify: 0.10;
+  --displaymode-color-stroke-default-$extensions-studio.tokens-modify: 0.10;
+  --displaymode-color-fg-secondary-$extensions-studio.tokens-modify: 0.2;
+  --displaymode-color-stroke-default-$extensions-studio.tokens-modify: 0.10;
+  --displaymode-color-fg-secondary-$extensions-studio.tokens-modify: 0.2;
+  --displaymode-color-stroke-default-$extensions-studio.tokens-modify: 0.10;
+  --displaymode-color-stroke-default-$extensions-studio.tokens-modify: 0.10;
+  --displaymode-color-fg-secondary-$extensions-studio.tokens-modify: 0.2;
+  --displaymode-color-stroke-default-$extensions-studio.tokens-modify: 0.10;
+}
+
+[data-display="dark"] {
+}
+
+/* === SIZE SWITCHING === */
+/* Component size variants */
+
+[data-size="small"] {
+}
+
+[data-size="large"] {
+}
+
+/* === EMPHASIS SWITCHING === */
+/* Component emphasis levels */
+
+[data-emphasis="low"] {
+}
+
+[data-emphasis="medium"] {
+}
+
+[data-emphasis="high"] {
+}
+
+/* === STATUS SWITCHING === */
+/* Component status states */
+
+[data-status="enabled"] {
+}
+
+[data-status="disabled"] {
+}
+
+/* === INTERACTION STATES === */
+/* Hover, pressed, focus states */
+
+:root {
+}
+
+[data-interaction="hover"], .interaction-hover {
+}
+
+[data-interaction="pressed"], .interaction-pressed {
+}
+
+[data-interaction="focus"], .interaction-focus {
+}
+

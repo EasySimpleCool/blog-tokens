@@ -1,0 +1,24 @@
+{
+  "modify": {
+    "button": {
+      "size": {
+        "pad": {
+          "$type": "dimension",
+          "$value": "{input.dimension.16}"
+        },
+        "b-rad": {
+          "$type": "dimension",
+          "$value": "{input.dimension.8}"
+        },
+        "focus-b-rad": {
+          "$type": "dimension",
+          "$value": "{input.dimension.10}"
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": "{input.dimension.8}"
+        }
+      }
+    }
+  }
+}

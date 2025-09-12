@@ -1,0 +1,33 @@
+/* Generated Parametric Styles from Tokens Studio */
+/* Based on your modify.* token structure */
+
+/* === ACCENT SWITCHING === */
+/* Global accent mode - affects entire design system */
+
+/* debug accent modes: yellow */
+[data-accent="yellow"] {
+}
+
+/* === DISPLAY MODE SWITCHING === */
+/* Light/Dark theme switching */
+
+/* debug display modes: light */
+[data-display="light"] {
+}
+
+/* === SIZE SWITCHING === */
+/* Component size variants */
+
+/* debug size modes:  */
+/* === EMPHASIS SWITCHING === */
+/* Component emphasis levels */
+
+/* debug emphasis modes:  */
+/* === STATUS SWITCHING === */
+/* Component status states */
+
+/* debug status modes:  */
+/* === INTERACTION STATES === */
+/* Hover, pressed, focus states */
+
+/* debug interaction modes:  */

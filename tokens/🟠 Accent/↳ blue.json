@@ -1,0 +1,94 @@
+{
+  "modify": {
+    "accent": {
+      "color": {
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.blue}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{input.color.blue}"
+        },
+        "pressed": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.blue}"
+        },
+        "opacity-hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.blue}"
+        },
+        "opacity-default": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.blue}"
+        },
+        "opacity-pressed": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.02",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.blue}"
+        },
+        "on-accent": {
+          "$type": "color",
+          "$value": "{input.color.lights.100}"
+        },
+        "on-accent-alt": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.5",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{input.color.blue}"
+        }
+      }
+    }
+  }
+}

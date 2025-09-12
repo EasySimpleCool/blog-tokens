@@ -1,0 +1,30 @@
+{
+  "comp": {
+    "section": {
+      "h-pad": {
+        "default": {
+          "$type": "dimension",
+          "$value": "{output.dimension.fixed.16}"
+        }
+      },
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "{output.static.color.surface.primary}"
+        }
+      },
+      "v-pad": {
+        "default": {
+          "$type": "dimension",
+          "$value": "{output.dimension.fixed.80}",
+          "$description": "Use: Body sections "
+        },
+        "less": {
+          "$type": "dimension",
+          "$value": "{output.dimension.fixed.24}",
+          "$description": "Use: Header, Footer"
+        }
+      }
+    }
+  }
+}

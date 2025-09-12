@@ -1,0 +1,12 @@
+{
+  "comp": {
+    "container": {
+      "max-w": {
+        "default": {
+          "$type": "dimension",
+          "$value": "640px"
+        }
+      }
+    }
+  }
+}

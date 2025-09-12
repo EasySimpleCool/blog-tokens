@@ -1,0 +1,10 @@
+{
+  "comp": {
+    "image": {
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.button.size.b-rad}"
+      }
+    }
+  }
+}

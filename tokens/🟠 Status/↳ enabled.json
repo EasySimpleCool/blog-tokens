@@ -1,0 +1,10 @@
+{
+  "modify": {
+    "status": {
+      "opacity": {
+        "$type": "opacity",
+        "$value": "{input.opacity.100}"
+      }
+    }
+  }
+}

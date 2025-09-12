@@ -1,0 +1,37 @@
+/* -----------------------------
+ * Button - connected to tokens
+ * ----------------------------- */
+
+ button {
+    padding: var(--comp-button-pad);
+    border-radius: var(--comp-button-b-rad);
+    min-height: var(--comp-button-min-h);
+    background-color: var(--comp-button-primary-bg-default);
+    color: var(--comp-button-primary-fg);
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: var(--output-typography-medium-font-size);
+  }
+  button:hover {
+    background-color: var(--output-color-accent-lighter);
+  }
+
+/* parametric-components.css */
+button[data-size="sm"] {
+    padding-x: 6px;
+    padding-y: 6px;
+    font-size: 13px;
+    border-radius: 4px;
+  }
+  
+button[data-accent="blue"] {
+    background: #3b82f6;
+    color: #ffffff;
+    border: #3b82f6;
+  }
+  
+/* parametric-interactions.css */
+button[data-accent="blue"]:hover {
+    background: #2563eb;
+  }

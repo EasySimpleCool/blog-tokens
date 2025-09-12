@@ -1,0 +1,86 @@
+{
+  "modify": {
+    "displaymode": {
+      "color": {
+        "fg": {
+          "primary": {
+            "$type": "color",
+            "$value": "{input.color.darks.500}"
+          },
+          "secondary": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.2",
+                  "space": "lch"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{input.color.darks.100}"
+          }
+        },
+        "bg": {
+          "above": {
+            "lighter": {
+              "$type": "color",
+              "$value": "{input.color.lights.100}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{input.color.lights.200}"
+            },
+            "darker": {
+              "$type": "color",
+              "$value": "{input.color.lights.300}"
+            }
+          },
+          "middle": {
+            "lighter": {
+              "$type": "color",
+              "$value": "{input.color.lights.400}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{input.color.lights.500}"
+            },
+            "darker": {
+              "$type": "color",
+              "$value": "{input.color.lights.600}"
+            }
+          },
+          "below": {
+            "lighter": {
+              "$type": "color",
+              "$value": "{input.color.lights.700}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{input.color.lights.800}"
+            },
+            "darker": {
+              "$type": "color",
+              "$value": "{input.color.lights.900}"
+            }
+          }
+        },
+        "stroke": {
+          "default": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.10",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{input.color.darks.500}"
+          }
+        }
+      }
+    }
+  }
+}

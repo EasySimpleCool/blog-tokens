@@ -1,0 +1,22 @@
+{
+  "comp": {
+    "post-detail": {
+      "b-rad": {
+        "$type": "dimension",
+        "$value": "{output.static.b-rad.medium}"
+      },
+      "pad": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed.32}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "{output.dimension.fixed.24}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{output.static.color.surface.secondary}"
+      }
+    }
+  }
+}

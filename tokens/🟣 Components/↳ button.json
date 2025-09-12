@@ -1,0 +1,50 @@
+{
+  "comp": {
+    "button": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{output.interactive.emphasis.surface.bg}"
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{output.interactive.emphasis.content.fg}"
+        },
+        "stroke-color": {
+          "$type": "color",
+          "$value": "{output.interactive.emphasis.stroke.color}"
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{output.interactive.emphasis.stroke.focus}"
+        }
+      },
+      "dimension": {
+        "stroke-width": {
+          "$type": "dimension",
+          "$value": "{output.dimension.interactive.state.stroke.width}"
+        },
+        "pad": {
+          "$type": "dimension",
+          "$value": "{output.dimension.button.size.pad}"
+        },
+        "b-rad": {
+          "$type": "dimension",
+          "$value": "{output.dimension.button.size.b-rad}"
+        },
+        "focus-b-rad": {
+          "$type": "dimension",
+          "$value": "{output.dimension.button.size.focus-b-rad}"
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": "{output.dimension.button.size.gap}"
+        }
+      },
+      "opacity": {
+        "$type": "opacity",
+        "$value": "{output.status.opacity}"
+      }
+    }
+  }
+}
