@@ -139,7 +139,6 @@
     "name": "Tablet",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "🟠 Screen/↳ tablet": "enabled",
       "🔵 Input": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:77:30",
@@ -223,7 +222,6 @@
     "name": "Yellow",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "🟠 Accent/↳ yellow": "enabled",
       "🔵 Input": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:191:386",
@@ -304,7 +302,6 @@
       "🟠 Display/↳ dark": "source",
       "🟠 Accent/↳ blue": "source",
       "🟠 Accent/↳ purple": "source",
-      "🟠 Accent/↳ yellow": "source",
       "🔵 Input": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:510:853",
@@ -342,7 +339,6 @@
       "🔵 Input": "source",
       "🟠 Accent/↳ blue": "source",
       "🟠 Accent/↳ purple": "source",
-      "🟠 Accent/↳ yellow": "source",
       "🟠 Display/↳ light": "source",
       "🟠 Display/↳ dark": "source"
     },
@@ -381,7 +377,6 @@
       "🔵 Input": "source",
       "🟠 Accent/↳ blue": "source",
       "🟠 Accent/↳ purple": "source",
-      "🟠 Accent/↳ yellow": "source",
       "🟠 Display/↳ light": "source",
       "🟠 Display/↳ dark": "source"
     },
@@ -420,7 +415,6 @@
       "🔵 Input": "source",
       "🟠 Accent/↳ blue": "source",
       "🟠 Accent/↳ purple": "source",
-      "🟠 Accent/↳ yellow": "source",
       "🟠 Display/↳ light": "source",
       "🟠 Display/↳ dark": "source"
     },
@@ -456,7 +450,6 @@
       "🟠 Emphasis/↳ high": "enabled",
       "🟠 Accent/↳ blue": "source",
       "🟠 Accent/↳ purple": "source",
-      "🟠 Accent/↳ yellow": "source",
       "🟠 Interaction/↳ default": "source",
       "🟠 Interaction/↳ hover": "source",
       "🟠 Interaction/↳ pressed": "source",
@@ -480,7 +473,6 @@
       "🟠 Emphasis/↳ medium": "enabled",
       "🟠 Accent/↳ blue": "source",
       "🟠 Accent/↳ purple": "source",
-      "🟠 Accent/↳ yellow": "source",
       "🟠 Interaction/↳ default": "source",
       "🟠 Interaction/↳ hover": "source",
       "🟠 Interaction/↳ pressed": "source",
@@ -504,7 +496,6 @@
       "🟠 Emphasis/↳ low": "enabled",
       "🟠 Accent/↳ blue": "source",
       "🟠 Accent/↳ purple": "source",
-      "🟠 Accent/↳ yellow": "source",
       "🔵 Input": "source",
       "🟠 Interaction/↳ default": "source",
       "🟠 Interaction/↳ hover": "source",
