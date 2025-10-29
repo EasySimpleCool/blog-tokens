@@ -83,12 +83,12 @@
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:0",
     "$figmaVariableReferences": {
-      "modify.screen.dimension.small": "9d450c8b4d6245ffb7690b85527357e561994fac",
-      "modify.screen.dimension.medium": "72e32163db1ebc28f484e14cb006c4d4ea11271b",
-      "modify.screen.dimension.large": "178dfede98a83f1cc974db405e7770c79a358def",
-      "modify.screen.dimension.xlarge": "a1c742f9465cd8d56b44761434737b69482523ba",
-      "modify.screen.sizing.screen-w": "7ebc960ecec8e1ffd2651ac608607fab23b57856",
-      "modify.screen.sizing.container-w": "e35b5a76ae06ca36cbfbc867f18b4f8403d91b7f"
+      "modify.screen.dimension.small": "fceec0214e5fa670e353dc1d03d5219cb61c7680",
+      "modify.screen.dimension.medium": "b8db76643bb3ffcc66c67da0362f9cf8a7522c91",
+      "modify.screen.dimension.large": "5d49bb3fe1473c58e8379a8a89a4dca692aaf52f",
+      "modify.screen.dimension.xlarge": "9a110a9957e5c5d35bd348e9f0b296f91671a5cd",
+      "modify.screen.sizing.screen-w": "14d741b910f967ffb69f755200037bcd5dc036fb",
+      "modify.screen.sizing.container-w": "cd4ba1ad7f85097c5caed17b0749cfd8b9722947"
     },
     "group": "🟠 Screen"
   },
@@ -122,12 +122,12 @@
     "$figmaCollectionId": "VariableCollectionId:77:30",
     "$figmaModeId": "170:2",
     "$figmaVariableReferences": {
-      "modify.screen.dimension.small": "9d450c8b4d6245ffb7690b85527357e561994fac",
-      "modify.screen.dimension.medium": "72e32163db1ebc28f484e14cb006c4d4ea11271b",
-      "modify.screen.dimension.large": "178dfede98a83f1cc974db405e7770c79a358def",
-      "modify.screen.dimension.xlarge": "a1c742f9465cd8d56b44761434737b69482523ba",
-      "modify.screen.sizing.screen-w": "7ebc960ecec8e1ffd2651ac608607fab23b57856",
-      "modify.screen.sizing.container-w": "e35b5a76ae06ca36cbfbc867f18b4f8403d91b7f"
+      "modify.screen.dimension.small": "fceec0214e5fa670e353dc1d03d5219cb61c7680",
+      "modify.screen.dimension.medium": "b8db76643bb3ffcc66c67da0362f9cf8a7522c91",
+      "modify.screen.dimension.large": "5d49bb3fe1473c58e8379a8a89a4dca692aaf52f",
+      "modify.screen.dimension.xlarge": "9a110a9957e5c5d35bd348e9f0b296f91671a5cd",
+      "modify.screen.sizing.screen-w": "14d741b910f967ffb69f755200037bcd5dc036fb",
+      "modify.screen.sizing.container-w": "cd4ba1ad7f85097c5caed17b0749cfd8b9722947"
     },
     "group": "🟠 Screen"
   },
@@ -142,14 +142,14 @@
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:2",
     "$figmaVariableReferences": {
-      "modify.accent.color.hover": "ad2d9eb9cdc578ab2063d2ff895621cfb9b27e22",
-      "modify.accent.color.default": "a67062a6bc962a0b8230d39a41e6cfe1b477bc1f",
-      "modify.accent.color.pressed": "c2a83884ed18e30e36d7ec02ef991f573ced8a81",
-      "modify.accent.color.opacity-hover": "f369b4e60374b981b13122f202c290f499c0de33",
-      "modify.accent.color.opacity-default": "88b1f529ffb48cf26f143eb4f01c78df15e8f793",
-      "modify.accent.color.opacity-pressed": "796d7dcb12c18badcb7eb8037bf60e1f2ba86281",
-      "modify.accent.color.on-accent": "d0849bedace69766c86820f786c4c92ccc64572f",
-      "modify.accent.color.on-accent-alt": "26e0b76aa5276f33b3478f8a5d37465abba4c846"
+      "modify.accent.color.hover": "47151783cadf4707be007973b0595211fd38a3f7",
+      "modify.accent.color.default": "f636dc7b6c99499e2db306242348b74744f3e858",
+      "modify.accent.color.pressed": "8b8f2b5342ac155d2fbe0b01fb9184fa76c0d906",
+      "modify.accent.color.opacity-hover": "5f99c13ae45544d7d1b1f227861364dcb92ac439",
+      "modify.accent.color.opacity-default": "9f381ec46fe991abe55271daa9f623fc8c059177",
+      "modify.accent.color.opacity-pressed": "2cc960fff8fc07f2a43bf4272867a8f223309fcb",
+      "modify.accent.color.on-accent": "ff15014c169eca52ba6b481ddbfda3c74d93199d",
+      "modify.accent.color.on-accent-alt": "d3bf052dec795970122c24e2a9254278479da66b"
     },
     "group": "🟠 Accent"
   },
@@ -164,35 +164,14 @@
     "$figmaCollectionId": "VariableCollectionId:191:386",
     "$figmaModeId": "191:3",
     "$figmaVariableReferences": {
-      "modify.accent.color.hover": "ad2d9eb9cdc578ab2063d2ff895621cfb9b27e22",
-      "modify.accent.color.default": "a67062a6bc962a0b8230d39a41e6cfe1b477bc1f",
-      "modify.accent.color.pressed": "c2a83884ed18e30e36d7ec02ef991f573ced8a81",
-      "modify.accent.color.opacity-hover": "f369b4e60374b981b13122f202c290f499c0de33",
-      "modify.accent.color.opacity-default": "88b1f529ffb48cf26f143eb4f01c78df15e8f793",
-      "modify.accent.color.opacity-pressed": "796d7dcb12c18badcb7eb8037bf60e1f2ba86281",
-      "modify.accent.color.on-accent": "d0849bedace69766c86820f786c4c92ccc64572f",
-      "modify.accent.color.on-accent-alt": "26e0b76aa5276f33b3478f8a5d37465abba4c846"
-    },
-    "group": "🟠 Accent"
-  },
-  {
-    "id": "996494c96d1185c1614fafde68207e203268efc1",
-    "name": "Yellow",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "🔵 Input": "source"
-    },
-    "$figmaCollectionId": "VariableCollectionId:191:386",
-    "$figmaModeId": "191:4",
-    "$figmaVariableReferences": {
-      "modify.accent.color.hover": "5ec1adffb6fdacf72cd5bb3d0c4531bf2912ffc3",
-      "modify.accent.color.default": "70731795f013741c90d5b712b34bef9bbfa3c9fd",
-      "modify.accent.color.pressed": "ae26b6d13d82262c09bd80e08666eb7111e4af28",
-      "modify.accent.color.opacity-hover": "4935af0d2bd9d3e19e698cf5a8ad0b8b50a284a3",
-      "modify.accent.color.opacity-default": "a8b6d73fe4123245f986d0128dc7f923aeefe7aa",
-      "modify.accent.color.opacity-pressed": "0b7e9f521f97c9247f77aba2bc8f186f0f8e2f28",
-      "modify.accent.color.on-accent": "ee5d5a89c5b1d738bc8cb486cad8aba8052a4d24",
-      "modify.accent.color.on-accent-alt": "e9cdc0736b8eeefef4db144fad4624c67093b502"
+      "modify.accent.color.hover": "47151783cadf4707be007973b0595211fd38a3f7",
+      "modify.accent.color.default": "f636dc7b6c99499e2db306242348b74744f3e858",
+      "modify.accent.color.pressed": "8b8f2b5342ac155d2fbe0b01fb9184fa76c0d906",
+      "modify.accent.color.opacity-hover": "5f99c13ae45544d7d1b1f227861364dcb92ac439",
+      "modify.accent.color.opacity-default": "9f381ec46fe991abe55271daa9f623fc8c059177",
+      "modify.accent.color.opacity-pressed": "2cc960fff8fc07f2a43bf4272867a8f223309fcb",
+      "modify.accent.color.on-accent": "ff15014c169eca52ba6b481ddbfda3c74d93199d",
+      "modify.accent.color.on-accent-alt": "d3bf052dec795970122c24e2a9254278479da66b"
     },
     "group": "🟠 Accent"
   },
